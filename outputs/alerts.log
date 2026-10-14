@@ -1,0 +1,604 @@
+2026-10-14 18:22:51,454 [CRITICAL] ALERT-00001 DataExfiltration src=203.0.113.41 dst=10.0.1.31 conf=1.00 | 0.69 MB sent out over 86s (hour 0)
+2026-10-14 18:22:51,455 [HIGH] ALERT-00002 DoS src=203.0.113.13 dst=10.0.3.3 conf=1.00 | request rate 314/s, SYN-error rate 0.83, 147 connections
+2026-10-14 18:22:51,455 [HIGH] ALERT-00003 DoS src=203.0.113.10 dst=10.0.3.6 conf=1.00 | request rate 468/s, SYN-error rate 0.71, 152 connections
+2026-10-14 18:22:51,455 [CRITICAL] ALERT-00004 DataExfiltration src=203.0.113.40 dst=10.0.2.56 conf=1.00 | 0.51 MB sent out over 38s (hour 1)
+2026-10-14 18:22:51,455 [HIGH] ALERT-00005 BruteForce src=203.0.113.21 dst=10.0.0.1 conf=1.00 | 11 failed logins on ftp
+2026-10-14 18:22:51,455 [LOW] ALERT-00006 UnknownAnomaly src=192.168.6.13 dst=10.0.3.50 conf=0.59 | behaviour far from normal baseline (anomaly score 0.556)
+2026-10-14 18:22:51,456 [HIGH] ALERT-00007 DoS src=203.0.113.12 dst=10.0.0.38 conf=1.00 | request rate 385/s, SYN-error rate 0.92, 145 connections
+2026-10-14 18:22:51,456 [CRITICAL] ALERT-00008 DataExfiltration src=203.0.113.40 dst=10.0.3.38 conf=1.00 | 0.29 MB sent out over 106s (hour 2)
+2026-10-14 18:22:51,456 [CRITICAL] ALERT-00009 DataExfiltration src=203.0.113.40 dst=10.0.1.49 conf=0.99 | 0.11 MB sent out over 93s (hour 2)
+2026-10-14 18:22:51,456 [HIGH] ALERT-00010 BruteForce src=203.0.113.22 dst=10.0.2.32 conf=1.00 | 6 failed logins on http
+2026-10-14 18:22:51,456 [CRITICAL] ALERT-00011 DataExfiltration src=203.0.113.42 dst=10.0.2.42 conf=1.00 | 0.45 MB sent out over 56s (hour 3)
+2026-10-14 18:22:51,456 [CRITICAL] ALERT-00012 DataExfiltration src=203.0.113.43 dst=10.0.2.55 conf=1.00 | 0.99 MB sent out over 113s (hour 3)
+2026-10-14 18:22:51,456 [CRITICAL] ALERT-00013 DataExfiltration src=203.0.113.40 dst=10.0.3.36 conf=1.00 | 0.37 MB sent out over 96s (hour 3)
+2026-10-14 18:22:51,456 [HIGH] ALERT-00014 BruteForce src=203.0.113.20 dst=10.0.0.17 conf=0.99 | 4 failed logins on ftp
+2026-10-14 18:22:51,456 [HIGH] ALERT-00015 BruteForce src=203.0.113.21 dst=10.0.3.20 conf=1.00 | 7 failed logins on http
+2026-10-14 18:22:51,457 [MEDIUM] ALERT-00016 BruteForce src=192.168.6.86 dst=10.0.2.34 conf=0.37 | 0 failed logins on telnet
+2026-10-14 18:22:51,457 [HIGH] ALERT-00017 BruteForce src=203.0.113.21 dst=10.0.3.44 conf=0.99 | 5 failed logins on http
+2026-10-14 18:22:51,457 [CRITICAL] ALERT-00018 DataExfiltration src=203.0.113.41 dst=10.0.0.16 conf=1.00 | 0.66 MB sent out over 95s (hour 4)
+2026-10-14 18:22:51,457 [HIGH] ALERT-00019 DoS src=203.0.113.11 dst=10.0.0.50 conf=1.00 | request rate 395/s, SYN-error rate 0.76, 153 connections
+2026-10-14 18:22:51,457 [HIGH] ALERT-00020 DoS src=203.0.113.11 dst=10.0.1.59 conf=0.99 | request rate 334/s, SYN-error rate 0.91, 161 connections
+2026-10-14 18:22:51,457 [HIGH] ALERT-00021 BruteForce src=203.0.113.22 dst=10.0.3.22 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,457 [HIGH] ALERT-00022 BruteForce src=203.0.113.23 dst=10.0.3.16 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,458 [MEDIUM] ALERT-00023 BruteForce src=192.168.2.237 dst=10.0.1.17 conf=0.48 | 0 failed logins on ssh
+2026-10-14 18:22:51,458 [HIGH] ALERT-00024 DoS src=203.0.113.13 dst=10.0.0.1 conf=1.00 | request rate 345/s, SYN-error rate 0.84, 152 connections
+2026-10-14 18:22:51,458 [HIGH] ALERT-00025 DoS src=203.0.113.13 dst=10.0.2.58 conf=1.00 | request rate 383/s, SYN-error rate 0.81, 133 connections
+2026-10-14 18:22:51,458 [HIGH] ALERT-00026 DoS src=203.0.113.10 dst=10.0.3.37 conf=1.00 | request rate 369/s, SYN-error rate 1.00, 142 connections
+2026-10-14 18:22:51,458 [HIGH] ALERT-00027 DoS src=203.0.113.13 dst=10.0.3.3 conf=0.99 | request rate 425/s, SYN-error rate 0.91, 141 connections
+2026-10-14 18:22:51,458 [MEDIUM] ALERT-00028 PortScan src=203.0.113.31 dst=10.0.0.22 conf=1.00 | 392 different ports probed, reject rate 0.87
+2026-10-14 18:22:51,459 [HIGH] ALERT-00029 DoS src=203.0.113.10 dst=10.0.1.50 conf=1.00 | request rate 82/s, SYN-error rate 0.96, 185 connections
+2026-10-14 18:22:51,459 [HIGH] ALERT-00030 BruteForce src=203.0.113.20 dst=10.0.1.33 conf=1.00 | 10 failed logins on ftp
+2026-10-14 18:22:51,460 [HIGH] ALERT-00031 DoS src=203.0.113.13 dst=10.0.0.37 conf=1.00 | request rate 428/s, SYN-error rate 0.91, 174 connections
+2026-10-14 18:22:51,460 [HIGH] ALERT-00032 DoS src=203.0.113.12 dst=10.0.3.11 conf=1.00 | request rate 262/s, SYN-error rate 0.95, 139 connections
+2026-10-14 18:22:51,460 [MEDIUM] ALERT-00033 PortScan src=203.0.113.32 dst=10.0.1.34 conf=1.00 | 315 different ports probed, reject rate 0.70
+2026-10-14 18:22:51,460 [HIGH] ALERT-00034 DoS src=203.0.113.11 dst=10.0.3.15 conf=1.00 | request rate 747/s, SYN-error rate 0.89, 124 connections
+2026-10-14 18:22:51,461 [HIGH] ALERT-00035 DoS src=203.0.113.13 dst=10.0.3.22 conf=1.00 | request rate 211/s, SYN-error rate 0.92, 175 connections
+2026-10-14 18:22:51,461 [MEDIUM] ALERT-00036 PortScan src=203.0.113.30 dst=10.0.0.8 conf=1.00 | 153 different ports probed, reject rate 0.92
+2026-10-14 18:22:51,461 [HIGH] ALERT-00037 BruteForce src=203.0.113.21 dst=10.0.2.48 conf=1.00 | 6 failed logins on ftp
+2026-10-14 18:22:51,461 [MEDIUM] ALERT-00038 BruteForce src=192.168.0.72 dst=10.0.3.43 conf=0.49 | 0 failed logins on ssh
+2026-10-14 18:22:51,462 [MEDIUM] ALERT-00039 UnknownAnomaly src=192.168.1.182 dst=10.0.2.50 conf=0.64 | behaviour far from normal baseline (anomaly score 0.550)
+2026-10-14 18:22:51,462 [HIGH] ALERT-00040 DoS src=203.0.113.10 dst=10.0.0.27 conf=1.00 | request rate 407/s, SYN-error rate 0.70, 141 connections
+2026-10-14 18:22:51,462 [HIGH] ALERT-00041 BruteForce src=203.0.113.21 dst=10.0.2.11 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,462 [HIGH] ALERT-00042 BruteForce src=203.0.113.21 dst=10.0.1.24 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,462 [HIGH] ALERT-00043 BruteForce src=203.0.113.22 dst=10.0.0.1 conf=1.00 | 12 failed logins on ssh
+2026-10-14 18:22:51,463 [HIGH] ALERT-00044 BruteForce src=203.0.113.21 dst=10.0.2.23 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,463 [HIGH] ALERT-00045 BruteForce src=203.0.113.23 dst=10.0.3.57 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,463 [HIGH] ALERT-00046 DoS src=203.0.113.11 dst=10.0.1.46 conf=1.00 | request rate 706/s, SYN-error rate 0.76, 141 connections
+2026-10-14 18:22:51,463 [HIGH] ALERT-00047 BruteForce src=203.0.113.23 dst=10.0.0.17 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,464 [MEDIUM] ALERT-00048 PortScan src=203.0.113.32 dst=10.0.2.13 conf=1.00 | 290 different ports probed, reject rate 0.76
+2026-10-14 18:22:51,464 [MEDIUM] ALERT-00049 UnknownAnomaly src=192.168.3.118 dst=10.0.1.3 conf=0.63 | behaviour far from normal baseline (anomaly score 0.580)
+2026-10-14 18:22:51,464 [MEDIUM] ALERT-00050 PortScan src=203.0.113.31 dst=10.0.2.35 conf=1.00 | 225 different ports probed, reject rate 0.42
+2026-10-14 18:22:51,464 [HIGH] ALERT-00051 DoS src=203.0.113.12 dst=10.0.3.25 conf=1.00 | request rate 348/s, SYN-error rate 0.88, 154 connections
+2026-10-14 18:22:51,464 [HIGH] ALERT-00052 DoS src=203.0.113.10 dst=10.0.2.33 conf=1.00 | request rate 644/s, SYN-error rate 0.97, 156 connections
+2026-10-14 18:22:51,465 [HIGH] ALERT-00053 DoS src=203.0.113.13 dst=10.0.2.49 conf=1.00 | request rate 445/s, SYN-error rate 0.91, 174 connections
+2026-10-14 18:22:51,465 [HIGH] ALERT-00054 DoS src=203.0.113.13 dst=10.0.1.10 conf=1.00 | request rate 510/s, SYN-error rate 0.96, 165 connections
+2026-10-14 18:22:51,465 [HIGH] ALERT-00055 DoS src=203.0.113.12 dst=10.0.2.38 conf=1.00 | request rate 361/s, SYN-error rate 0.81, 142 connections
+2026-10-14 18:22:51,465 [HIGH] ALERT-00056 BruteForce src=203.0.113.22 dst=10.0.1.54 conf=1.00 | 4 failed logins on ssh
+2026-10-14 18:22:51,465 [HIGH] ALERT-00057 DoS src=203.0.113.12 dst=10.0.1.41 conf=1.00 | request rate 271/s, SYN-error rate 0.91, 158 connections
+2026-10-14 18:22:51,466 [HIGH] ALERT-00058 DoS src=203.0.113.12 dst=10.0.0.29 conf=1.00 | request rate 398/s, SYN-error rate 0.91, 150 connections
+2026-10-14 18:22:51,466 [HIGH] ALERT-00059 DoS src=203.0.113.13 dst=10.0.1.21 conf=1.00 | request rate 324/s, SYN-error rate 0.97, 140 connections
+2026-10-14 18:22:51,466 [HIGH] ALERT-00060 DoS src=203.0.113.10 dst=10.0.3.13 conf=1.00 | request rate 423/s, SYN-error rate 0.96, 169 connections
+2026-10-14 18:22:51,466 [HIGH] ALERT-00061 DoS src=203.0.113.10 dst=10.0.0.37 conf=1.00 | request rate 458/s, SYN-error rate 0.74, 147 connections
+2026-10-14 18:22:51,467 [MEDIUM] ALERT-00062 PortScan src=203.0.113.30 dst=10.0.2.10 conf=1.00 | 138 different ports probed, reject rate 0.88
+2026-10-14 18:22:51,467 [MEDIUM] ALERT-00063 PortScan src=203.0.113.33 dst=10.0.0.6 conf=0.99 | 461 different ports probed, reject rate 0.62
+2026-10-14 18:22:51,467 [HIGH] ALERT-00064 DoS src=203.0.113.10 dst=10.0.2.17 conf=1.00 | request rate 307/s, SYN-error rate 0.87, 145 connections
+2026-10-14 18:22:51,467 [CRITICAL] ALERT-00065 DataExfiltration src=203.0.113.41 dst=10.0.2.32 conf=0.97 | 0.04 MB sent out over 347s (hour 15)
+2026-10-14 18:22:51,467 [HIGH] ALERT-00066 DoS src=203.0.113.10 dst=10.0.0.28 conf=1.00 | request rate 497/s, SYN-error rate 0.77, 173 connections
+2026-10-14 18:22:51,468 [MEDIUM] ALERT-00067 PortScan src=203.0.113.30 dst=10.0.2.3 conf=1.00 | 153 different ports probed, reject rate 0.84
+2026-10-14 18:22:51,468 [MEDIUM] ALERT-00068 PortScan src=203.0.113.31 dst=10.0.0.45 conf=0.98 | 47 different ports probed, reject rate 0.87
+2026-10-14 18:22:51,468 [MEDIUM] ALERT-00069 PortScan src=203.0.113.32 dst=10.0.3.9 conf=1.00 | 455 different ports probed, reject rate 0.64
+2026-10-14 18:22:51,468 [HIGH] ALERT-00070 DoS src=203.0.113.12 dst=10.0.1.46 conf=1.00 | request rate 250/s, SYN-error rate 0.88, 154 connections
+2026-10-14 18:22:51,469 [HIGH] ALERT-00071 BruteForce src=203.0.113.20 dst=10.0.2.5 conf=1.00 | 9 failed logins on ssh
+2026-10-14 18:22:51,469 [MEDIUM] ALERT-00072 PortScan src=203.0.113.33 dst=10.0.0.8 conf=1.00 | 390 different ports probed, reject rate 0.76
+2026-10-14 18:22:51,469 [CRITICAL] ALERT-00073 DataExfiltration src=203.0.113.40 dst=10.0.1.13 conf=0.93 | 0.04 MB sent out over 29s (hour 17)
+2026-10-14 18:22:51,469 [MEDIUM] ALERT-00074 PortScan src=203.0.113.33 dst=10.0.3.25 conf=1.00 | 234 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,470 [HIGH] ALERT-00075 DoS src=203.0.113.13 dst=10.0.2.23 conf=1.00 | request rate 291/s, SYN-error rate 0.81, 151 connections
+2026-10-14 18:22:51,470 [HIGH] ALERT-00076 DoS src=203.0.113.13 dst=10.0.1.17 conf=1.00 | request rate 373/s, SYN-error rate 0.96, 140 connections
+2026-10-14 18:22:51,470 [MEDIUM] ALERT-00077 PortScan src=203.0.113.32 dst=10.0.1.2 conf=1.00 | 192 different ports probed, reject rate 0.67
+2026-10-14 18:22:51,470 [MEDIUM] ALERT-00078 UnknownAnomaly src=192.168.3.175 dst=10.0.2.38 conf=0.61 | behaviour far from normal baseline (anomaly score 0.582)
+2026-10-14 18:22:51,470 [HIGH] ALERT-00079 DoS src=203.0.113.12 dst=10.0.2.7 conf=1.00 | request rate 678/s, SYN-error rate 0.89, 158 connections
+2026-10-14 18:22:51,471 [MEDIUM] ALERT-00080 PortScan src=203.0.113.30 dst=10.0.0.50 conf=1.00 | 85 different ports probed, reject rate 0.79
+2026-10-14 18:22:51,471 [MEDIUM] ALERT-00081 UnknownAnomaly src=192.168.9.161 dst=10.0.2.45 conf=0.67 | behaviour far from normal baseline (anomaly score 0.568)
+2026-10-14 18:22:51,471 [HIGH] ALERT-00082 BruteForce src=203.0.113.23 dst=10.0.0.38 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,471 [HIGH] ALERT-00083 DoS src=203.0.113.11 dst=10.0.1.23 conf=1.00 | request rate 355/s, SYN-error rate 0.93, 143 connections
+2026-10-14 18:22:51,472 [CRITICAL] ALERT-00084 DataExfiltration src=203.0.113.41 dst=10.0.1.3 conf=1.00 | 0.39 MB sent out over 23s (hour 21)
+2026-10-14 18:22:51,472 [HIGH] ALERT-00085 BruteForce src=203.0.113.20 dst=10.0.2.17 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,472 [HIGH] ALERT-00086 BruteForce src=203.0.113.21 dst=10.0.0.26 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,472 [HIGH] ALERT-00087 BruteForce src=203.0.113.23 dst=10.0.3.26 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,472 [HIGH] ALERT-00088 DoS src=203.0.113.11 dst=10.0.1.20 conf=1.00 | request rate 616/s, SYN-error rate 0.83, 145 connections
+2026-10-14 18:22:51,473 [HIGH] ALERT-00089 BruteForce src=203.0.113.23 dst=10.0.0.57 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,473 [HIGH] ALERT-00090 DoS src=203.0.113.11 dst=10.0.3.17 conf=1.00 | request rate 830/s, SYN-error rate 0.98, 148 connections
+2026-10-14 18:22:51,473 [CRITICAL] ALERT-00091 DataExfiltration src=203.0.113.41 dst=10.0.2.2 conf=0.99 | 0.05 MB sent out over 61s (hour 23)
+2026-10-14 18:22:51,473 [HIGH] ALERT-00092 BruteForce src=203.0.113.20 dst=10.0.3.38 conf=1.00 | 7 failed logins on http
+2026-10-14 18:22:51,473 [MEDIUM] ALERT-00093 UnknownAnomaly src=192.168.8.225 dst=10.0.2.30 conf=0.64 | behaviour far from normal baseline (anomaly score 0.556)
+2026-10-14 18:22:51,474 [HIGH] ALERT-00094 BruteForce src=203.0.113.20 dst=10.0.2.26 conf=1.00 | 5 failed logins on http
+2026-10-14 18:22:51,474 [HIGH] ALERT-00095 BruteForce src=203.0.113.22 dst=10.0.0.9 conf=1.00 | 5 failed logins on telnet
+2026-10-14 18:22:51,474 [CRITICAL] ALERT-00096 DataExfiltration src=203.0.113.41 dst=10.0.1.37 conf=1.00 | 2.44 MB sent out over 63s (hour 1)
+2026-10-14 18:22:51,474 [HIGH] ALERT-00097 BruteForce src=203.0.113.21 dst=10.0.1.1 conf=1.00 | 11 failed logins on http
+2026-10-14 18:22:51,474 [HIGH] ALERT-00098 BruteForce src=203.0.113.20 dst=10.0.1.52 conf=0.95 | 8 failed logins on ftp
+2026-10-14 18:22:51,474 [HIGH] ALERT-00099 BruteForce src=203.0.113.22 dst=10.0.0.32 conf=1.00 | 4 failed logins on telnet
+2026-10-14 18:22:51,475 [CRITICAL] ALERT-00100 DataExfiltration src=203.0.113.40 dst=10.0.2.58 conf=1.00 | 0.20 MB sent out over 92s (hour 1)
+2026-10-14 18:22:51,475 [HIGH] ALERT-00101 BruteForce src=203.0.113.22 dst=10.0.3.15 conf=0.99 | 8 failed logins on ssh
+2026-10-14 18:22:51,475 [HIGH] ALERT-00102 BruteForce src=203.0.113.20 dst=10.0.0.51 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,475 [CRITICAL] ALERT-00103 DataExfiltration src=203.0.113.43 dst=10.0.0.13 conf=1.00 | 0.39 MB sent out over 31s (hour 2)
+2026-10-14 18:22:51,475 [CRITICAL] ALERT-00104 DataExfiltration src=203.0.113.41 dst=10.0.0.25 conf=1.00 | 10.44 MB sent out over 74s (hour 2)
+2026-10-14 18:22:51,476 [HIGH] ALERT-00105 BruteForce src=203.0.113.23 dst=10.0.3.56 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,476 [HIGH] ALERT-00106 DoS src=203.0.113.12 dst=10.0.1.12 conf=1.00 | request rate 262/s, SYN-error rate 0.98, 149 connections
+2026-10-14 18:22:51,476 [CRITICAL] ALERT-00107 DataExfiltration src=203.0.113.41 dst=10.0.0.52 conf=1.00 | 1.05 MB sent out over 95s (hour 3)
+2026-10-14 18:22:51,476 [CRITICAL] ALERT-00108 DataExfiltration src=203.0.113.41 dst=10.0.2.52 conf=1.00 | 0.19 MB sent out over 102s (hour 4)
+2026-10-14 18:22:51,476 [HIGH] ALERT-00109 DoS src=203.0.113.11 dst=10.0.0.2 conf=1.00 | request rate 308/s, SYN-error rate 0.96, 160 connections
+2026-10-14 18:22:51,476 [HIGH] ALERT-00110 BruteForce src=203.0.113.21 dst=10.0.2.25 conf=1.00 | 7 failed logins on telnet
+2026-10-14 18:22:51,477 [CRITICAL] ALERT-00111 DataExfiltration src=203.0.113.40 dst=10.0.3.38 conf=1.00 | 0.55 MB sent out over 36s (hour 5)
+2026-10-14 18:22:51,477 [HIGH] ALERT-00112 BruteForce src=203.0.113.21 dst=10.0.1.50 conf=1.00 | 9 failed logins on ssh
+2026-10-14 18:22:51,477 [MEDIUM] ALERT-00113 BruteForce src=192.168.0.194 dst=10.0.1.31 conf=0.50 | 0 failed logins on ssh
+2026-10-14 18:22:51,477 [HIGH] ALERT-00114 DoS src=203.0.113.10 dst=10.0.2.9 conf=1.00 | request rate 278/s, SYN-error rate 0.82, 151 connections
+2026-10-14 18:22:51,477 [MEDIUM] ALERT-00115 PortScan src=203.0.113.32 dst=10.0.1.52 conf=1.00 | 22 different ports probed, reject rate 0.69
+2026-10-14 18:22:51,477 [CRITICAL] ALERT-00116 DataExfiltration src=203.0.113.42 dst=10.0.0.57 conf=1.00 | 0.69 MB sent out over 99s (hour 8)
+2026-10-14 18:22:51,478 [HIGH] ALERT-00117 BruteForce src=203.0.113.22 dst=10.0.3.45 conf=1.00 | 8 failed logins on http
+2026-10-14 18:22:51,478 [MEDIUM] ALERT-00118 PortScan src=203.0.113.33 dst=10.0.3.18 conf=1.00 | 198 different ports probed, reject rate 0.70
+2026-10-14 18:22:51,478 [HIGH] ALERT-00119 BruteForce src=203.0.113.20 dst=10.0.3.3 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,478 [HIGH] ALERT-00120 BruteForce src=203.0.113.23 dst=10.0.1.52 conf=1.00 | 12 failed logins on ssh
+2026-10-14 18:22:51,478 [HIGH] ALERT-00121 DoS src=203.0.113.12 dst=10.0.3.40 conf=1.00 | request rate 308/s, SYN-error rate 0.76, 150 connections
+2026-10-14 18:22:51,478 [CRITICAL] ALERT-00122 DataExfiltration src=203.0.113.40 dst=10.0.3.54 conf=0.99 | 0.14 MB sent out over 108s (hour 9)
+2026-10-14 18:22:51,479 [HIGH] ALERT-00123 DoS src=203.0.113.11 dst=10.0.1.11 conf=1.00 | request rate 236/s, SYN-error rate 0.88, 135 connections
+2026-10-14 18:22:51,479 [HIGH] ALERT-00124 DoS src=203.0.113.12 dst=10.0.3.31 conf=0.99 | request rate 163/s, SYN-error rate 0.88, 158 connections
+2026-10-14 18:22:51,479 [CRITICAL] ALERT-00125 DataExfiltration src=203.0.113.40 dst=10.0.2.46 conf=1.00 | 0.16 MB sent out over 89s (hour 10)
+2026-10-14 18:22:51,479 [MEDIUM] ALERT-00126 PortScan src=203.0.113.32 dst=10.0.1.22 conf=1.00 | 305 different ports probed, reject rate 0.62
+2026-10-14 18:22:51,480 [HIGH] ALERT-00127 DoS src=203.0.113.11 dst=10.0.2.26 conf=1.00 | request rate 542/s, SYN-error rate 0.83, 163 connections
+2026-10-14 18:22:51,480 [HIGH] ALERT-00128 DoS src=203.0.113.10 dst=10.0.1.50 conf=1.00 | request rate 484/s, SYN-error rate 0.97, 135 connections
+2026-10-14 18:22:51,480 [HIGH] ALERT-00129 DoS src=203.0.113.13 dst=10.0.3.59 conf=1.00 | request rate 570/s, SYN-error rate 0.91, 175 connections
+2026-10-14 18:22:51,480 [HIGH] ALERT-00130 DoS src=203.0.113.11 dst=10.0.2.53 conf=1.00 | request rate 221/s, SYN-error rate 0.93, 160 connections
+2026-10-14 18:22:51,480 [CRITICAL] ALERT-00131 DataExfiltration src=203.0.113.40 dst=10.0.3.56 conf=1.00 | 0.34 MB sent out over 252s (hour 11)
+2026-10-14 18:22:51,480 [HIGH] ALERT-00132 DoS src=203.0.113.11 dst=10.0.0.43 conf=1.00 | request rate 881/s, SYN-error rate 0.94, 153 connections
+2026-10-14 18:22:51,481 [HIGH] ALERT-00133 DoS src=203.0.113.10 dst=10.0.0.5 conf=1.00 | request rate 412/s, SYN-error rate 0.95, 161 connections
+2026-10-14 18:22:51,481 [CRITICAL] ALERT-00134 DataExfiltration src=203.0.113.40 dst=10.0.1.17 conf=1.00 | 0.32 MB sent out over 121s (hour 11)
+2026-10-14 18:22:51,481 [MEDIUM] ALERT-00135 PortScan src=203.0.113.33 dst=10.0.3.26 conf=1.00 | 285 different ports probed, reject rate 0.75
+2026-10-14 18:22:51,481 [HIGH] ALERT-00136 BruteForce src=203.0.113.20 dst=10.0.1.23 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,481 [MEDIUM] ALERT-00137 PortScan src=203.0.113.31 dst=10.0.2.48 conf=1.00 | 437 different ports probed, reject rate 0.78
+2026-10-14 18:22:51,481 [HIGH] ALERT-00138 DoS src=203.0.113.13 dst=10.0.0.4 conf=1.00 | request rate 298/s, SYN-error rate 0.94, 154 connections
+2026-10-14 18:22:51,482 [HIGH] ALERT-00139 DoS src=203.0.113.12 dst=10.0.0.18 conf=1.00 | request rate 488/s, SYN-error rate 0.99, 137 connections
+2026-10-14 18:22:51,482 [MEDIUM] ALERT-00140 PortScan src=203.0.113.30 dst=10.0.3.31 conf=1.00 | 485 different ports probed, reject rate 0.90
+2026-10-14 18:22:51,482 [MEDIUM] ALERT-00141 PortScan src=203.0.113.31 dst=10.0.3.58 conf=1.00 | 29 different ports probed, reject rate 0.90
+2026-10-14 18:22:51,482 [CRITICAL] ALERT-00142 DataExfiltration src=203.0.113.43 dst=10.0.0.59 conf=1.00 | 0.67 MB sent out over 46s (hour 14)
+2026-10-14 18:22:51,482 [HIGH] ALERT-00143 BruteForce src=203.0.113.23 dst=10.0.3.45 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,482 [HIGH] ALERT-00144 DoS src=203.0.113.12 dst=10.0.0.51 conf=1.00 | request rate 314/s, SYN-error rate 0.89, 137 connections
+2026-10-14 18:22:51,483 [HIGH] ALERT-00145 DoS src=203.0.113.10 dst=10.0.0.48 conf=1.00 | request rate 239/s, SYN-error rate 0.93, 178 connections
+2026-10-14 18:22:51,483 [CRITICAL] ALERT-00146 DataExfiltration src=203.0.113.42 dst=10.0.2.7 conf=1.00 | 0.62 MB sent out over 98s (hour 15)
+2026-10-14 18:22:51,483 [CRITICAL] ALERT-00147 DataExfiltration src=203.0.113.41 dst=10.0.3.7 conf=1.00 | 0.17 MB sent out over 100s (hour 15)
+2026-10-14 18:22:51,483 [HIGH] ALERT-00148 DoS src=203.0.113.13 dst=10.0.1.6 conf=1.00 | request rate 194/s, SYN-error rate 0.87, 159 connections
+2026-10-14 18:22:51,483 [MEDIUM] ALERT-00149 BruteForce src=192.168.2.232 dst=10.0.1.24 conf=0.56 | 0 failed logins on ssh
+2026-10-14 18:22:51,484 [HIGH] ALERT-00150 DoS src=203.0.113.10 dst=10.0.1.46 conf=1.00 | request rate 229/s, SYN-error rate 0.87, 139 connections
+2026-10-14 18:22:51,484 [HIGH] ALERT-00151 BruteForce src=203.0.113.20 dst=10.0.3.28 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,484 [HIGH] ALERT-00152 DoS src=203.0.113.13 dst=10.0.0.33 conf=1.00 | request rate 250/s, SYN-error rate 0.88, 154 connections
+2026-10-14 18:22:51,484 [HIGH] ALERT-00153 DoS src=203.0.113.12 dst=10.0.0.13 conf=1.00 | request rate 477/s, SYN-error rate 0.83, 141 connections
+2026-10-14 18:22:51,484 [HIGH] ALERT-00154 DoS src=203.0.113.13 dst=10.0.3.11 conf=1.00 | request rate 277/s, SYN-error rate 0.96, 165 connections
+2026-10-14 18:22:51,485 [HIGH] ALERT-00155 DoS src=203.0.113.11 dst=10.0.1.40 conf=1.00 | request rate 494/s, SYN-error rate 0.87, 153 connections
+2026-10-14 18:22:51,485 [HIGH] ALERT-00156 DoS src=203.0.113.12 dst=10.0.2.35 conf=1.00 | request rate 362/s, SYN-error rate 0.88, 161 connections
+2026-10-14 18:22:51,485 [HIGH] ALERT-00157 DoS src=203.0.113.11 dst=10.0.1.48 conf=1.00 | request rate 259/s, SYN-error rate 0.97, 136 connections
+2026-10-14 18:22:51,485 [HIGH] ALERT-00158 BruteForce src=203.0.113.22 dst=10.0.0.34 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,485 [HIGH] ALERT-00159 DoS src=203.0.113.10 dst=10.0.1.20 conf=1.00 | request rate 577/s, SYN-error rate 0.94, 164 connections
+2026-10-14 18:22:51,486 [MEDIUM] ALERT-00160 PortScan src=203.0.113.30 dst=10.0.0.39 conf=1.00 | 179 different ports probed, reject rate 0.63
+2026-10-14 18:22:51,486 [MEDIUM] ALERT-00161 PortScan src=203.0.113.31 dst=10.0.3.33 conf=1.00 | 83 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,486 [MEDIUM] ALERT-00162 PortScan src=203.0.113.32 dst=10.0.1.28 conf=1.00 | 362 different ports probed, reject rate 0.89
+2026-10-14 18:22:51,486 [HIGH] ALERT-00163 DoS src=203.0.113.11 dst=10.0.2.5 conf=1.00 | request rate 663/s, SYN-error rate 0.88, 164 connections
+2026-10-14 18:22:51,486 [HIGH] ALERT-00164 DoS src=203.0.113.12 dst=10.0.3.54 conf=1.00 | request rate 308/s, SYN-error rate 0.94, 164 connections
+2026-10-14 18:22:51,486 [MEDIUM] ALERT-00165 PortScan src=203.0.113.33 dst=10.0.1.12 conf=1.00 | 424 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,486 [HIGH] ALERT-00166 DoS src=203.0.113.11 dst=10.0.1.50 conf=1.00 | request rate 532/s, SYN-error rate 0.88, 155 connections
+2026-10-14 18:22:51,487 [MEDIUM] ALERT-00167 PortScan src=203.0.113.31 dst=10.0.2.8 conf=1.00 | 276 different ports probed, reject rate 0.74
+2026-10-14 18:22:51,487 [HIGH] ALERT-00168 DoS src=203.0.113.13 dst=10.0.0.48 conf=1.00 | request rate 415/s, SYN-error rate 0.84, 141 connections
+2026-10-14 18:22:51,487 [HIGH] ALERT-00169 BruteForce src=203.0.113.23 dst=10.0.2.34 conf=0.99 | 9 failed logins on ftp
+2026-10-14 18:22:51,487 [HIGH] ALERT-00170 BruteForce src=203.0.113.23 dst=10.0.2.19 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,487 [HIGH] ALERT-00171 BruteForce src=203.0.113.23 dst=10.0.2.32 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,487 [CRITICAL] ALERT-00172 DataExfiltration src=203.0.113.42 dst=10.0.2.11 conf=1.00 | 0.22 MB sent out over 29s (hour 1)
+2026-10-14 18:22:51,488 [HIGH] ALERT-00173 DoS src=203.0.113.13 dst=10.0.2.55 conf=1.00 | request rate 585/s, SYN-error rate 0.77, 150 connections
+2026-10-14 18:22:51,488 [CRITICAL] ALERT-00174 DataExfiltration src=203.0.113.43 dst=10.0.3.27 conf=1.00 | 0.21 MB sent out over 73s (hour 1)
+2026-10-14 18:22:51,488 [HIGH] ALERT-00175 BruteForce src=203.0.113.20 dst=10.0.1.29 conf=1.00 | 11 failed logins on ftp
+2026-10-14 18:22:51,488 [HIGH] ALERT-00176 BruteForce src=203.0.113.20 dst=10.0.1.50 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,488 [HIGH] ALERT-00177 BruteForce src=203.0.113.21 dst=10.0.2.58 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,489 [LOW] ALERT-00178 UnknownAnomaly src=192.168.8.187 dst=10.0.2.37 conf=0.47 | behaviour far from normal baseline (anomaly score 0.557)
+2026-10-14 18:22:51,489 [HIGH] ALERT-00179 BruteForce src=203.0.113.21 dst=10.0.0.22 conf=1.00 | 8 failed logins on telnet
+2026-10-14 18:22:51,489 [HIGH] ALERT-00180 BruteForce src=203.0.113.21 dst=10.0.0.2 conf=0.96 | 3 failed logins on ssh
+2026-10-14 18:22:51,489 [HIGH] ALERT-00181 DoS src=203.0.113.13 dst=10.0.3.6 conf=1.00 | request rate 298/s, SYN-error rate 0.95, 164 connections
+2026-10-14 18:22:51,489 [HIGH] ALERT-00182 BruteForce src=203.0.113.23 dst=10.0.2.17 conf=0.99 | 9 failed logins on ftp
+2026-10-14 18:22:51,489 [HIGH] ALERT-00183 BruteForce src=203.0.113.22 dst=10.0.0.55 conf=1.00 | 10 failed logins on ftp
+2026-10-14 18:22:51,490 [MEDIUM] ALERT-00184 BruteForce src=192.168.5.94 dst=10.0.2.14 conf=0.54 | 0 failed logins on ssh
+2026-10-14 18:22:51,490 [MEDIUM] ALERT-00185 PortScan src=203.0.113.30 dst=10.0.0.59 conf=1.00 | 64 different ports probed, reject rate 0.87
+2026-10-14 18:22:51,490 [HIGH] ALERT-00186 BruteForce src=203.0.113.21 dst=10.0.1.5 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,490 [CRITICAL] ALERT-00187 DataExfiltration src=203.0.113.40 dst=10.0.0.51 conf=1.00 | 0.22 MB sent out over 56s (hour 5)
+2026-10-14 18:22:51,490 [CRITICAL] ALERT-00188 DataExfiltration src=203.0.113.43 dst=10.0.1.23 conf=1.00 | 1.76 MB sent out over 112s (hour 5)
+2026-10-14 18:22:51,490 [HIGH] ALERT-00189 DoS src=203.0.113.11 dst=10.0.3.28 conf=1.00 | request rate 204/s, SYN-error rate 0.91, 130 connections
+2026-10-14 18:22:51,491 [CRITICAL] ALERT-00190 DataExfiltration src=203.0.113.42 dst=10.0.0.1 conf=1.00 | 0.20 MB sent out over 96s (hour 7)
+2026-10-14 18:22:51,491 [HIGH] ALERT-00191 DoS src=203.0.113.11 dst=10.0.3.7 conf=1.00 | request rate 328/s, SYN-error rate 0.98, 146 connections
+2026-10-14 18:22:51,491 [HIGH] ALERT-00192 DoS src=203.0.113.12 dst=10.0.1.8 conf=1.00 | request rate 611/s, SYN-error rate 0.85, 161 connections
+2026-10-14 18:22:51,491 [MEDIUM] ALERT-00193 BruteForce src=192.168.3.188 dst=10.0.1.46 conf=0.45 | 0 failed logins on ssh
+2026-10-14 18:22:51,492 [HIGH] ALERT-00194 BruteForce src=203.0.113.21 dst=10.0.1.20 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,492 [CRITICAL] ALERT-00195 DataExfiltration src=203.0.113.41 dst=10.0.0.18 conf=1.00 | 0.86 MB sent out over 51s (hour 8)
+2026-10-14 18:22:51,492 [HIGH] ALERT-00196 DoS src=203.0.113.11 dst=10.0.2.47 conf=1.00 | request rate 411/s, SYN-error rate 0.93, 166 connections
+2026-10-14 18:22:51,492 [HIGH] ALERT-00197 DoS src=203.0.113.12 dst=10.0.3.7 conf=1.00 | request rate 376/s, SYN-error rate 0.89, 147 connections
+2026-10-14 18:22:51,492 [HIGH] ALERT-00198 BruteForce src=203.0.113.23 dst=10.0.0.56 conf=1.00 | 11 failed logins on ftp
+2026-10-14 18:22:51,493 [MEDIUM] ALERT-00199 PortScan src=203.0.113.31 dst=10.0.1.2 conf=1.00 | 362 different ports probed, reject rate 0.83
+2026-10-14 18:22:51,493 [HIGH] ALERT-00200 BruteForce src=203.0.113.21 dst=10.0.1.8 conf=1.00 | 8 failed logins on telnet
+2026-10-14 18:22:51,493 [HIGH] ALERT-00201 BruteForce src=203.0.113.23 dst=10.0.2.6 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,493 [MEDIUM] ALERT-00202 PortScan src=203.0.113.33 dst=10.0.2.25 conf=1.00 | 89 different ports probed, reject rate 0.65
+2026-10-14 18:22:51,493 [HIGH] ALERT-00203 BruteForce src=203.0.113.23 dst=10.0.1.8 conf=1.00 | 14 failed logins on ftp
+2026-10-14 18:22:51,494 [HIGH] ALERT-00204 DoS src=203.0.113.11 dst=10.0.2.11 conf=1.00 | request rate 377/s, SYN-error rate 0.74, 155 connections
+2026-10-14 18:22:51,494 [HIGH] ALERT-00205 DoS src=203.0.113.12 dst=10.0.0.51 conf=1.00 | request rate 276/s, SYN-error rate 0.86, 149 connections
+2026-10-14 18:22:51,494 [MEDIUM] ALERT-00206 PortScan src=203.0.113.33 dst=10.0.1.50 conf=1.00 | 423 different ports probed, reject rate 0.74
+2026-10-14 18:22:51,494 [HIGH] ALERT-00207 BruteForce src=203.0.113.20 dst=10.0.1.4 conf=0.98 | 7 failed logins on telnet
+2026-10-14 18:22:51,494 [MEDIUM] ALERT-00208 PortScan src=203.0.113.33 dst=10.0.0.39 conf=1.00 | 129 different ports probed, reject rate 0.70
+2026-10-14 18:22:51,494 [HIGH] ALERT-00209 DoS src=203.0.113.12 dst=10.0.0.19 conf=1.00 | request rate 699/s, SYN-error rate 0.76, 145 connections
+2026-10-14 18:22:51,494 [HIGH] ALERT-00210 DoS src=203.0.113.13 dst=10.0.0.49 conf=1.00 | request rate 213/s, SYN-error rate 0.81, 148 connections
+2026-10-14 18:22:51,495 [HIGH] ALERT-00211 BruteForce src=203.0.113.20 dst=10.0.3.28 conf=0.96 | 7 failed logins on ssh
+2026-10-14 18:22:51,495 [HIGH] ALERT-00212 DoS src=203.0.113.11 dst=10.0.1.30 conf=1.00 | request rate 497/s, SYN-error rate 0.95, 130 connections
+2026-10-14 18:22:51,495 [HIGH] ALERT-00213 BruteForce src=203.0.113.23 dst=10.0.2.52 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,496 [HIGH] ALERT-00214 DoS src=203.0.113.11 dst=10.0.2.23 conf=1.00 | request rate 521/s, SYN-error rate 0.92, 140 connections
+2026-10-14 18:22:51,496 [HIGH] ALERT-00215 BruteForce src=203.0.113.22 dst=10.0.3.42 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,496 [HIGH] ALERT-00216 DoS src=203.0.113.12 dst=10.0.0.55 conf=1.00 | request rate 301/s, SYN-error rate 0.85, 126 connections
+2026-10-14 18:22:51,496 [HIGH] ALERT-00217 DoS src=203.0.113.13 dst=10.0.0.31 conf=1.00 | request rate 339/s, SYN-error rate 0.79, 187 connections
+2026-10-14 18:22:51,496 [MEDIUM] ALERT-00218 PortScan src=203.0.113.32 dst=10.0.3.29 conf=1.00 | 396 different ports probed, reject rate 0.83
+2026-10-14 18:22:51,497 [HIGH] ALERT-00219 DoS src=203.0.113.13 dst=10.0.0.42 conf=1.00 | request rate 459/s, SYN-error rate 0.88, 134 connections
+2026-10-14 18:22:51,497 [HIGH] ALERT-00220 DoS src=203.0.113.11 dst=10.0.0.14 conf=1.00 | request rate 415/s, SYN-error rate 0.86, 160 connections
+2026-10-14 18:22:51,497 [HIGH] ALERT-00221 DoS src=203.0.113.12 dst=10.0.2.30 conf=1.00 | request rate 805/s, SYN-error rate 0.94, 144 connections
+2026-10-14 18:22:51,497 [LOW] ALERT-00222 UnknownAnomaly src=192.168.1.77 dst=10.0.1.18 conf=0.59 | behaviour far from normal baseline (anomaly score 0.580)
+2026-10-14 18:22:51,498 [HIGH] ALERT-00223 DoS src=203.0.113.12 dst=10.0.1.12 conf=1.00 | request rate 311/s, SYN-error rate 0.84, 167 connections
+2026-10-14 18:22:51,498 [CRITICAL] ALERT-00224 DataExfiltration src=203.0.113.40 dst=10.0.0.48 conf=1.00 | 0.60 MB sent out over 44s (hour 14)
+2026-10-14 18:22:51,498 [MEDIUM] ALERT-00225 PortScan src=203.0.113.32 dst=10.0.0.33 conf=1.00 | 62 different ports probed, reject rate 0.70
+2026-10-14 18:22:51,498 [MEDIUM] ALERT-00226 PortScan src=203.0.113.33 dst=10.0.0.15 conf=1.00 | 100 different ports probed, reject rate 0.75
+2026-10-14 18:22:51,498 [HIGH] ALERT-00227 DoS src=203.0.113.12 dst=10.0.3.36 conf=1.00 | request rate 203/s, SYN-error rate 0.76, 149 connections
+2026-10-14 18:22:51,499 [MEDIUM] ALERT-00228 PortScan src=203.0.113.31 dst=10.0.1.35 conf=1.00 | 84 different ports probed, reject rate 0.78
+2026-10-14 18:22:51,499 [HIGH] ALERT-00229 BruteForce src=203.0.113.22 dst=10.0.3.29 conf=1.00 | 9 failed logins on ssh
+2026-10-14 18:22:51,499 [MEDIUM] ALERT-00230 PortScan src=203.0.113.33 dst=10.0.1.19 conf=1.00 | 155 different ports probed, reject rate 0.66
+2026-10-14 18:22:51,499 [CRITICAL] ALERT-00231 DataExfiltration src=203.0.113.42 dst=10.0.2.53 conf=1.00 | 2.63 MB sent out over 32s (hour 16)
+2026-10-14 18:22:51,499 [HIGH] ALERT-00232 DoS src=203.0.113.10 dst=10.0.3.22 conf=1.00 | request rate 485/s, SYN-error rate 0.87, 152 connections
+2026-10-14 18:22:51,500 [HIGH] ALERT-00233 BruteForce src=203.0.113.21 dst=10.0.0.41 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,500 [HIGH] ALERT-00234 DoS src=203.0.113.11 dst=10.0.2.11 conf=1.00 | request rate 323/s, SYN-error rate 0.96, 166 connections
+2026-10-14 18:22:51,500 [MEDIUM] ALERT-00235 PortScan src=203.0.113.33 dst=10.0.2.54 conf=1.00 | 321 different ports probed, reject rate 0.79
+2026-10-14 18:22:51,501 [MEDIUM] ALERT-00236 PortScan src=203.0.113.30 dst=10.0.0.1 conf=1.00 | 453 different ports probed, reject rate 0.85
+2026-10-14 18:22:51,501 [MEDIUM] ALERT-00237 PortScan src=203.0.113.30 dst=10.0.1.35 conf=1.00 | 293 different ports probed, reject rate 0.78
+2026-10-14 18:22:51,501 [CRITICAL] ALERT-00238 DataExfiltration src=203.0.113.42 dst=10.0.2.2 conf=1.00 | 0.50 MB sent out over 34s (hour 17)
+2026-10-14 18:22:51,502 [CRITICAL] ALERT-00239 DataExfiltration src=203.0.113.43 dst=10.0.2.32 conf=1.00 | 0.59 MB sent out over 62s (hour 17)
+2026-10-14 18:22:51,502 [HIGH] ALERT-00240 DoS src=203.0.113.11 dst=10.0.3.7 conf=1.00 | request rate 699/s, SYN-error rate 0.83, 138 connections
+2026-10-14 18:22:51,502 [HIGH] ALERT-00241 DoS src=203.0.113.10 dst=10.0.2.41 conf=1.00 | request rate 184/s, SYN-error rate 0.93, 151 connections
+2026-10-14 18:22:51,502 [HIGH] ALERT-00242 DoS src=203.0.113.12 dst=10.0.1.47 conf=1.00 | request rate 300/s, SYN-error rate 0.99, 149 connections
+2026-10-14 18:22:51,502 [MEDIUM] ALERT-00243 PortScan src=203.0.113.32 dst=10.0.0.48 conf=1.00 | 255 different ports probed, reject rate 0.78
+2026-10-14 18:22:51,503 [HIGH] ALERT-00244 BruteForce src=203.0.113.23 dst=10.0.1.1 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,503 [HIGH] ALERT-00245 BruteForce src=203.0.113.22 dst=10.0.1.42 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,503 [CRITICAL] ALERT-00246 DataExfiltration src=203.0.113.40 dst=10.0.3.30 conf=1.00 | 0.31 MB sent out over 77s (hour 20)
+2026-10-14 18:22:51,503 [HIGH] ALERT-00247 DoS src=203.0.113.11 dst=10.0.1.27 conf=1.00 | request rate 260/s, SYN-error rate 0.92, 160 connections
+2026-10-14 18:22:51,503 [CRITICAL] ALERT-00248 DataExfiltration src=203.0.113.40 dst=10.0.3.39 conf=1.00 | 0.37 MB sent out over 38s (hour 20)
+2026-10-14 18:22:51,504 [HIGH] ALERT-00249 BruteForce src=203.0.113.21 dst=10.0.2.15 conf=0.97 | 3 failed logins on http
+2026-10-14 18:22:51,504 [CRITICAL] ALERT-00250 DataExfiltration src=203.0.113.42 dst=10.0.2.25 conf=0.99 | 0.06 MB sent out over 72s (hour 21)
+2026-10-14 18:22:51,504 [CRITICAL] ALERT-00251 DataExfiltration src=203.0.113.43 dst=10.0.1.48 conf=1.00 | 0.69 MB sent out over 45s (hour 22)
+2026-10-14 18:22:51,504 [HIGH] ALERT-00252 DoS src=203.0.113.12 dst=10.0.2.24 conf=1.00 | request rate 426/s, SYN-error rate 0.97, 163 connections
+2026-10-14 18:22:51,504 [HIGH] ALERT-00253 DoS src=203.0.113.13 dst=10.0.0.3 conf=1.00 | request rate 156/s, SYN-error rate 0.94, 155 connections
+2026-10-14 18:22:51,505 [MEDIUM] ALERT-00254 PortScan src=203.0.113.32 dst=10.0.3.3 conf=1.00 | 57 different ports probed, reject rate 0.71
+2026-10-14 18:22:51,505 [HIGH] ALERT-00255 BruteForce src=203.0.113.22 dst=10.0.3.53 conf=1.00 | 8 failed logins on telnet
+2026-10-14 18:22:51,505 [HIGH] ALERT-00256 BruteForce src=203.0.113.22 dst=10.0.1.30 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,505 [CRITICAL] ALERT-00257 DataExfiltration src=203.0.113.41 dst=10.0.2.13 conf=1.00 | 0.42 MB sent out over 167s (hour 0)
+2026-10-14 18:22:51,505 [HIGH] ALERT-00258 DoS src=203.0.113.10 dst=10.0.3.56 conf=1.00 | request rate 294/s, SYN-error rate 0.90, 162 connections
+2026-10-14 18:22:51,505 [HIGH] ALERT-00259 BruteForce src=203.0.113.20 dst=10.0.3.19 conf=1.00 | 11 failed logins on ftp
+2026-10-14 18:22:51,506 [CRITICAL] ALERT-00260 DataExfiltration src=203.0.113.42 dst=10.0.2.30 conf=1.00 | 0.23 MB sent out over 51s (hour 2)
+2026-10-14 18:22:51,506 [MEDIUM] ALERT-00261 UnknownAnomaly src=192.168.5.228 dst=10.0.3.38 conf=0.62 | behaviour far from normal baseline (anomaly score 0.556)
+2026-10-14 18:22:51,506 [LOW] ALERT-00262 UnknownAnomaly src=192.168.5.36 dst=10.0.3.29 conf=0.45 | behaviour far from normal baseline (anomaly score 0.557)
+2026-10-14 18:22:51,506 [HIGH] ALERT-00263 BruteForce src=203.0.113.22 dst=10.0.0.30 conf=1.00 | 4 failed logins on http
+2026-10-14 18:22:51,506 [CRITICAL] ALERT-00264 DataExfiltration src=203.0.113.40 dst=10.0.3.16 conf=1.00 | 0.36 MB sent out over 47s (hour 2)
+2026-10-14 18:22:51,506 [HIGH] ALERT-00265 BruteForce src=203.0.113.20 dst=10.0.0.56 conf=1.00 | 7 failed logins on ftp
+2026-10-14 18:22:51,507 [HIGH] ALERT-00266 DoS src=203.0.113.11 dst=10.0.1.4 conf=1.00 | request rate 291/s, SYN-error rate 0.90, 159 connections
+2026-10-14 18:22:51,507 [MEDIUM] ALERT-00267 BruteForce src=192.168.5.165 dst=10.0.3.48 conf=0.49 | 0 failed logins on ssh
+2026-10-14 18:22:51,507 [MEDIUM] ALERT-00268 PortScan src=203.0.113.30 dst=10.0.3.50 conf=1.00 | 162 different ports probed, reject rate 0.74
+2026-10-14 18:22:51,507 [HIGH] ALERT-00269 DoS src=203.0.113.12 dst=10.0.3.46 conf=1.00 | request rate 279/s, SYN-error rate 0.76, 145 connections
+2026-10-14 18:22:51,507 [HIGH] ALERT-00270 BruteForce src=203.0.113.20 dst=10.0.2.6 conf=1.00 | 8 failed logins on http
+2026-10-14 18:22:51,507 [CRITICAL] ALERT-00271 DataExfiltration src=203.0.113.43 dst=10.0.3.21 conf=1.00 | 1.50 MB sent out over 143s (hour 6)
+2026-10-14 18:22:51,508 [MEDIUM] ALERT-00272 PortScan src=203.0.113.32 dst=10.0.1.45 conf=1.00 | 210 different ports probed, reject rate 0.68
+2026-10-14 18:22:51,508 [MEDIUM] ALERT-00273 PortScan src=203.0.113.33 dst=10.0.2.50 conf=1.00 | 433 different ports probed, reject rate 0.91
+2026-10-14 18:22:51,508 [HIGH] ALERT-00274 DoS src=203.0.113.13 dst=10.0.0.30 conf=1.00 | request rate 340/s, SYN-error rate 0.94, 134 connections
+2026-10-14 18:22:51,508 [MEDIUM] ALERT-00275 PortScan src=203.0.113.30 dst=10.0.3.28 conf=1.00 | 446 different ports probed, reject rate 0.70
+2026-10-14 18:22:51,508 [HIGH] ALERT-00276 DoS src=203.0.113.12 dst=10.0.0.32 conf=1.00 | request rate 701/s, SYN-error rate 0.74, 157 connections
+2026-10-14 18:22:51,509 [HIGH] ALERT-00277 BruteForce src=203.0.113.22 dst=10.0.2.44 conf=0.99 | 8 failed logins on ssh
+2026-10-14 18:22:51,509 [CRITICAL] ALERT-00278 DataExfiltration src=203.0.113.40 dst=10.0.0.1 conf=0.99 | 0.11 MB sent out over 32s (hour 8)
+2026-10-14 18:22:51,509 [MEDIUM] ALERT-00279 PortScan src=203.0.113.33 dst=10.0.1.10 conf=1.00 | 164 different ports probed, reject rate 0.91
+2026-10-14 18:22:51,509 [HIGH] ALERT-00280 BruteForce src=203.0.113.23 dst=10.0.1.40 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,509 [HIGH] ALERT-00281 DoS src=203.0.113.13 dst=10.0.1.15 conf=1.00 | request rate 194/s, SYN-error rate 0.88, 147 connections
+2026-10-14 18:22:51,509 [HIGH] ALERT-00282 DoS src=203.0.113.10 dst=10.0.0.38 conf=1.00 | request rate 459/s, SYN-error rate 0.93, 164 connections
+2026-10-14 18:22:51,510 [MEDIUM] ALERT-00283 PortScan src=203.0.113.30 dst=10.0.1.37 conf=1.00 | 303 different ports probed, reject rate 0.78
+2026-10-14 18:22:51,510 [HIGH] ALERT-00284 DoS src=203.0.113.13 dst=10.0.3.46 conf=1.00 | request rate 508/s, SYN-error rate 0.80, 137 connections
+2026-10-14 18:22:51,510 [HIGH] ALERT-00285 BruteForce src=203.0.113.21 dst=10.0.1.22 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,510 [HIGH] ALERT-00286 BruteForce src=203.0.113.20 dst=10.0.2.22 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,510 [MEDIUM] ALERT-00287 PortScan src=203.0.113.30 dst=10.0.1.34 conf=1.00 | 105 different ports probed, reject rate 0.68
+2026-10-14 18:22:51,511 [HIGH] ALERT-00288 DoS src=203.0.113.10 dst=10.0.2.18 conf=1.00 | request rate 698/s, SYN-error rate 0.96, 152 connections
+2026-10-14 18:22:51,511 [MEDIUM] ALERT-00289 PortScan src=203.0.113.32 dst=10.0.0.33 conf=1.00 | 143 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,511 [MEDIUM] ALERT-00290 PortScan src=203.0.113.32 dst=10.0.1.25 conf=1.00 | 328 different ports probed, reject rate 0.80
+2026-10-14 18:22:51,511 [MEDIUM] ALERT-00291 PortScan src=203.0.113.31 dst=10.0.3.44 conf=1.00 | 473 different ports probed, reject rate 0.72
+2026-10-14 18:22:51,511 [MEDIUM] ALERT-00292 PortScan src=203.0.113.30 dst=10.0.1.55 conf=1.00 | 471 different ports probed, reject rate 0.85
+2026-10-14 18:22:51,511 [MEDIUM] ALERT-00293 PortScan src=203.0.113.33 dst=10.0.3.40 conf=1.00 | 411 different ports probed, reject rate 0.80
+2026-10-14 18:22:51,512 [CRITICAL] ALERT-00294 DataExfiltration src=203.0.113.43 dst=10.0.0.7 conf=1.00 | 0.79 MB sent out over 59s (hour 11)
+2026-10-14 18:22:51,512 [HIGH] ALERT-00295 BruteForce src=203.0.113.21 dst=10.0.3.18 conf=0.96 | 5 failed logins on ssh
+2026-10-14 18:22:51,512 [HIGH] ALERT-00296 BruteForce src=203.0.113.22 dst=10.0.1.23 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,512 [MEDIUM] ALERT-00297 PortScan src=203.0.113.32 dst=10.0.0.10 conf=1.00 | 487 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,512 [HIGH] ALERT-00298 DoS src=203.0.113.13 dst=10.0.3.46 conf=1.00 | request rate 668/s, SYN-error rate 0.82, 150 connections
+2026-10-14 18:22:51,512 [MEDIUM] ALERT-00299 PortScan src=203.0.113.30 dst=10.0.2.54 conf=1.00 | 68 different ports probed, reject rate 0.85
+2026-10-14 18:22:51,513 [MEDIUM] ALERT-00300 PortScan src=203.0.113.30 dst=10.0.2.16 conf=1.00 | 114 different ports probed, reject rate 0.93
+2026-10-14 18:22:51,513 [HIGH] ALERT-00301 DoS src=203.0.113.12 dst=10.0.0.59 conf=1.00 | request rate 439/s, SYN-error rate 0.87, 160 connections
+2026-10-14 18:22:51,513 [HIGH] ALERT-00302 DoS src=203.0.113.11 dst=10.0.0.55 conf=1.00 | request rate 269/s, SYN-error rate 0.95, 125 connections
+2026-10-14 18:22:51,513 [HIGH] ALERT-00303 DoS src=203.0.113.11 dst=10.0.3.16 conf=1.00 | request rate 303/s, SYN-error rate 0.84, 137 connections
+2026-10-14 18:22:51,513 [HIGH] ALERT-00304 DoS src=203.0.113.10 dst=10.0.2.34 conf=1.00 | request rate 499/s, SYN-error rate 0.96, 164 connections
+2026-10-14 18:22:51,513 [HIGH] ALERT-00305 DoS src=203.0.113.10 dst=10.0.0.26 conf=0.99 | request rate 643/s, SYN-error rate 0.82, 113 connections
+2026-10-14 18:22:51,514 [MEDIUM] ALERT-00306 PortScan src=203.0.113.33 dst=10.0.1.37 conf=1.00 | 335 different ports probed, reject rate 0.59
+2026-10-14 18:22:51,514 [HIGH] ALERT-00307 BruteForce src=203.0.113.20 dst=10.0.2.59 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,514 [MEDIUM] ALERT-00308 PortScan src=203.0.113.30 dst=10.0.2.4 conf=1.00 | 114 different ports probed, reject rate 0.67
+2026-10-14 18:22:51,514 [HIGH] ALERT-00309 BruteForce src=203.0.113.23 dst=10.0.1.54 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,514 [MEDIUM] ALERT-00310 PortScan src=203.0.113.33 dst=10.0.3.23 conf=1.00 | 210 different ports probed, reject rate 0.84
+2026-10-14 18:22:51,514 [MEDIUM] ALERT-00311 PortScan src=203.0.113.30 dst=10.0.1.49 conf=1.00 | 462 different ports probed, reject rate 0.68
+2026-10-14 18:22:51,515 [HIGH] ALERT-00312 DoS src=203.0.113.10 dst=10.0.3.49 conf=1.00 | request rate 270/s, SYN-error rate 0.98, 131 connections
+2026-10-14 18:22:51,515 [HIGH] ALERT-00313 BruteForce src=203.0.113.22 dst=10.0.3.18 conf=1.00 | 9 failed logins on ssh
+2026-10-14 18:22:51,515 [MEDIUM] ALERT-00314 PortScan src=203.0.113.33 dst=10.0.1.21 conf=1.00 | 217 different ports probed, reject rate 0.88
+2026-10-14 18:22:51,515 [HIGH] ALERT-00315 DoS src=203.0.113.11 dst=10.0.0.32 conf=1.00 | request rate 111/s, SYN-error rate 0.90, 147 connections
+2026-10-14 18:22:51,515 [HIGH] ALERT-00316 DoS src=203.0.113.11 dst=10.0.2.53 conf=1.00 | request rate 333/s, SYN-error rate 0.93, 143 connections
+2026-10-14 18:22:51,515 [HIGH] ALERT-00317 DoS src=203.0.113.13 dst=10.0.3.31 conf=1.00 | request rate 1215/s, SYN-error rate 0.88, 152 connections
+2026-10-14 18:22:51,516 [HIGH] ALERT-00318 DoS src=203.0.113.10 dst=10.0.3.35 conf=1.00 | request rate 571/s, SYN-error rate 0.84, 151 connections
+2026-10-14 18:22:51,516 [HIGH] ALERT-00319 DoS src=203.0.113.11 dst=10.0.0.58 conf=1.00 | request rate 296/s, SYN-error rate 0.92, 134 connections
+2026-10-14 18:22:51,516 [HIGH] ALERT-00320 DoS src=203.0.113.13 dst=10.0.1.7 conf=1.00 | request rate 308/s, SYN-error rate 0.70, 173 connections
+2026-10-14 18:22:51,516 [HIGH] ALERT-00321 DoS src=203.0.113.10 dst=10.0.0.27 conf=1.00 | request rate 653/s, SYN-error rate 0.94, 169 connections
+2026-10-14 18:22:51,516 [MEDIUM] ALERT-00322 PortScan src=203.0.113.33 dst=10.0.1.43 conf=1.00 | 356 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,516 [CRITICAL] ALERT-00323 DataExfiltration src=203.0.113.42 dst=10.0.3.28 conf=1.00 | 0.64 MB sent out over 43s (hour 17)
+2026-10-14 18:22:51,517 [MEDIUM] ALERT-00324 PortScan src=203.0.113.33 dst=10.0.2.35 conf=1.00 | 70 different ports probed, reject rate 0.78
+2026-10-14 18:22:51,517 [LOW] ALERT-00325 UnknownAnomaly src=192.168.5.33 dst=10.0.0.28 conf=0.60 | behaviour far from normal baseline (anomaly score 0.568)
+2026-10-14 18:22:51,517 [HIGH] ALERT-00326 DoS src=203.0.113.11 dst=10.0.1.43 conf=1.00 | request rate 564/s, SYN-error rate 0.83, 146 connections
+2026-10-14 18:22:51,517 [CRITICAL] ALERT-00327 DataExfiltration src=203.0.113.40 dst=10.0.3.50 conf=1.00 | 0.68 MB sent out over 27s (hour 18)
+2026-10-14 18:22:51,517 [MEDIUM] ALERT-00328 UnknownAnomaly src=192.168.6.139 dst=10.0.3.24 conf=0.66 | behaviour far from normal baseline (anomaly score 0.564)
+2026-10-14 18:22:51,518 [HIGH] ALERT-00329 BruteForce src=203.0.113.23 dst=10.0.2.7 conf=1.00 | 11 failed logins on http
+2026-10-14 18:22:51,518 [MEDIUM] ALERT-00330 PortScan src=203.0.113.32 dst=10.0.2.36 conf=1.00 | 117 different ports probed, reject rate 0.83
+2026-10-14 18:22:51,518 [HIGH] ALERT-00331 BruteForce src=203.0.113.20 dst=10.0.1.27 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,518 [HIGH] ALERT-00332 DoS src=203.0.113.11 dst=10.0.2.55 conf=1.00 | request rate 397/s, SYN-error rate 0.84, 132 connections
+2026-10-14 18:22:51,518 [MEDIUM] ALERT-00333 PortScan src=203.0.113.31 dst=10.0.0.46 conf=1.00 | 241 different ports probed, reject rate 0.53
+2026-10-14 18:22:51,518 [CRITICAL] ALERT-00334 DataExfiltration src=203.0.113.42 dst=10.0.3.21 conf=1.00 | 0.18 MB sent out over 36s (hour 19)
+2026-10-14 18:22:51,519 [MEDIUM] ALERT-00335 PortScan src=203.0.113.33 dst=10.0.2.46 conf=1.00 | 55 different ports probed, reject rate 0.60
+2026-10-14 18:22:51,519 [HIGH] ALERT-00336 BruteForce src=203.0.113.23 dst=10.0.3.23 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,519 [HIGH] ALERT-00337 DoS src=203.0.113.13 dst=10.0.2.3 conf=1.00 | request rate 156/s, SYN-error rate 0.98, 157 connections
+2026-10-14 18:22:51,519 [HIGH] ALERT-00338 DoS src=203.0.113.11 dst=10.0.1.13 conf=1.00 | request rate 109/s, SYN-error rate 0.80, 161 connections
+2026-10-14 18:22:51,519 [CRITICAL] ALERT-00339 DataExfiltration src=203.0.113.40 dst=10.0.0.37 conf=1.00 | 0.14 MB sent out over 67s (hour 0)
+2026-10-14 18:22:51,519 [HIGH] ALERT-00340 BruteForce src=203.0.113.20 dst=10.0.0.3 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,520 [HIGH] ALERT-00341 BruteForce src=203.0.113.21 dst=10.0.1.30 conf=1.00 | 14 failed logins on ssh
+2026-10-14 18:22:51,520 [MEDIUM] ALERT-00342 PortScan src=203.0.113.31 dst=10.0.3.24 conf=1.00 | 478 different ports probed, reject rate 0.88
+2026-10-14 18:22:51,520 [HIGH] ALERT-00343 DoS src=203.0.113.10 dst=10.0.1.54 conf=1.00 | request rate 587/s, SYN-error rate 0.89, 154 connections
+2026-10-14 18:22:51,520 [MEDIUM] ALERT-00344 PortScan src=203.0.113.30 dst=10.0.0.9 conf=1.00 | 184 different ports probed, reject rate 0.95
+2026-10-14 18:22:51,520 [HIGH] ALERT-00345 BruteForce src=203.0.113.22 dst=10.0.3.13 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,520 [HIGH] ALERT-00346 BruteForce src=203.0.113.20 dst=10.0.3.11 conf=1.00 | 8 failed logins on http
+2026-10-14 18:22:51,521 [HIGH] ALERT-00347 BruteForce src=203.0.113.23 dst=10.0.0.45 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,521 [HIGH] ALERT-00348 BruteForce src=203.0.113.23 dst=10.0.2.6 conf=1.00 | 13 failed logins on ssh
+2026-10-14 18:22:51,521 [MEDIUM] ALERT-00349 UnknownAnomaly src=192.168.1.14 dst=10.0.3.28 conf=0.70 | behaviour far from normal baseline (anomaly score 0.567)
+2026-10-14 18:22:51,521 [MEDIUM] ALERT-00350 PortScan src=203.0.113.30 dst=10.0.0.26 conf=1.00 | 29 different ports probed, reject rate 0.58
+2026-10-14 18:22:51,521 [HIGH] ALERT-00351 BruteForce src=203.0.113.23 dst=10.0.2.35 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,521 [CRITICAL] ALERT-00352 DataExfiltration src=203.0.113.41 dst=10.0.1.39 conf=1.00 | 0.65 MB sent out over 77s (hour 3)
+2026-10-14 18:22:51,522 [MEDIUM] ALERT-00353 BruteForce src=192.168.0.42 dst=10.0.0.1 conf=0.60 | 0 failed logins on ssh
+2026-10-14 18:22:51,522 [HIGH] ALERT-00354 BruteForce src=203.0.113.20 dst=10.0.1.56 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,522 [HIGH] ALERT-00355 BruteForce src=203.0.113.21 dst=10.0.3.9 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,522 [MEDIUM] ALERT-00356 PortScan src=203.0.113.31 dst=10.0.2.28 conf=1.00 | 68 different ports probed, reject rate 0.74
+2026-10-14 18:22:51,522 [HIGH] ALERT-00357 BruteForce src=203.0.113.23 dst=10.0.2.29 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,522 [CRITICAL] ALERT-00358 DataExfiltration src=203.0.113.41 dst=10.0.3.18 conf=0.99 | 0.34 MB sent out over 21s (hour 5)
+2026-10-14 18:22:51,523 [HIGH] ALERT-00359 BruteForce src=203.0.113.20 dst=10.0.3.36 conf=1.00 | 7 failed logins on telnet
+2026-10-14 18:22:51,523 [LOW] ALERT-00360 UnknownAnomaly src=192.168.0.249 dst=10.0.0.54 conf=0.58 | behaviour far from normal baseline (anomaly score 0.571)
+2026-10-14 18:22:51,523 [HIGH] ALERT-00361 BruteForce src=203.0.113.23 dst=10.0.1.59 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,523 [HIGH] ALERT-00362 DoS src=203.0.113.12 dst=10.0.2.29 conf=1.00 | request rate 351/s, SYN-error rate 0.90, 136 connections
+2026-10-14 18:22:51,523 [HIGH] ALERT-00363 DoS src=203.0.113.10 dst=10.0.1.45 conf=1.00 | request rate 378/s, SYN-error rate 0.87, 151 connections
+2026-10-14 18:22:51,524 [HIGH] ALERT-00364 DoS src=203.0.113.10 dst=10.0.0.41 conf=1.00 | request rate 369/s, SYN-error rate 0.93, 144 connections
+2026-10-14 18:22:51,524 [HIGH] ALERT-00365 DoS src=203.0.113.12 dst=10.0.0.5 conf=1.00 | request rate 603/s, SYN-error rate 0.91, 164 connections
+2026-10-14 18:22:51,524 [HIGH] ALERT-00366 DoS src=203.0.113.12 dst=10.0.2.12 conf=1.00 | request rate 569/s, SYN-error rate 0.96, 136 connections
+2026-10-14 18:22:51,524 [HIGH] ALERT-00367 DoS src=203.0.113.11 dst=10.0.2.46 conf=1.00 | request rate 283/s, SYN-error rate 0.90, 141 connections
+2026-10-14 18:22:51,524 [CRITICAL] ALERT-00368 DataExfiltration src=203.0.113.42 dst=10.0.0.5 conf=1.00 | 2.09 MB sent out over 188s (hour 10)
+2026-10-14 18:22:51,524 [MEDIUM] ALERT-00369 UnknownAnomaly src=192.168.6.171 dst=10.0.2.43 conf=0.73 | behaviour far from normal baseline (anomaly score 0.556)
+2026-10-14 18:22:51,525 [MEDIUM] ALERT-00370 PortScan src=203.0.113.32 dst=10.0.2.55 conf=1.00 | 272 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,525 [HIGH] ALERT-00371 DoS src=203.0.113.12 dst=10.0.3.55 conf=1.00 | request rate 284/s, SYN-error rate 0.88, 163 connections
+2026-10-14 18:22:51,539 [HIGH] ALERT-00372 DoS src=203.0.113.13 dst=10.0.1.43 conf=1.00 | request rate 394/s, SYN-error rate 0.88, 154 connections
+2026-10-14 18:22:51,539 [HIGH] ALERT-00373 DoS src=203.0.113.11 dst=10.0.1.31 conf=1.00 | request rate 268/s, SYN-error rate 0.98, 146 connections
+2026-10-14 18:22:51,539 [MEDIUM] ALERT-00374 PortScan src=203.0.113.31 dst=10.0.3.59 conf=1.00 | 304 different ports probed, reject rate 0.92
+2026-10-14 18:22:51,540 [HIGH] ALERT-00375 DoS src=203.0.113.11 dst=10.0.3.26 conf=1.00 | request rate 454/s, SYN-error rate 0.88, 157 connections
+2026-10-14 18:22:51,540 [HIGH] ALERT-00376 DoS src=203.0.113.12 dst=10.0.2.11 conf=1.00 | request rate 496/s, SYN-error rate 0.91, 151 connections
+2026-10-14 18:22:51,540 [HIGH] ALERT-00377 BruteForce src=203.0.113.20 dst=10.0.2.19 conf=1.00 | 10 failed logins on ftp
+2026-10-14 18:22:51,540 [CRITICAL] ALERT-00378 DataExfiltration src=203.0.113.41 dst=10.0.3.56 conf=1.00 | 0.88 MB sent out over 23s (hour 12)
+2026-10-14 18:22:51,540 [HIGH] ALERT-00379 BruteForce src=203.0.113.22 dst=10.0.3.43 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,540 [MEDIUM] ALERT-00380 PortScan src=203.0.113.33 dst=10.0.0.33 conf=1.00 | 361 different ports probed, reject rate 0.76
+2026-10-14 18:22:51,541 [HIGH] ALERT-00381 DoS src=203.0.113.11 dst=10.0.2.34 conf=1.00 | request rate 245/s, SYN-error rate 0.92, 142 connections
+2026-10-14 18:22:51,541 [MEDIUM] ALERT-00382 PortScan src=203.0.113.30 dst=10.0.2.44 conf=1.00 | 246 different ports probed, reject rate 0.96
+2026-10-14 18:22:51,541 [HIGH] ALERT-00383 BruteForce src=203.0.113.21 dst=10.0.3.8 conf=1.00 | 13 failed logins on ssh
+2026-10-14 18:22:51,541 [HIGH] ALERT-00384 DoS src=203.0.113.12 dst=10.0.3.2 conf=1.00 | request rate 387/s, SYN-error rate 0.83, 147 connections
+2026-10-14 18:22:51,541 [HIGH] ALERT-00385 DoS src=203.0.113.12 dst=10.0.0.52 conf=1.00 | request rate 462/s, SYN-error rate 0.96, 119 connections
+2026-10-14 18:22:51,541 [HIGH] ALERT-00386 DoS src=203.0.113.11 dst=10.0.3.23 conf=1.00 | request rate 196/s, SYN-error rate 0.99, 157 connections
+2026-10-14 18:22:51,542 [HIGH] ALERT-00387 DoS src=203.0.113.12 dst=10.0.0.46 conf=1.00 | request rate 590/s, SYN-error rate 0.73, 162 connections
+2026-10-14 18:22:51,542 [HIGH] ALERT-00388 BruteForce src=203.0.113.21 dst=10.0.1.12 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,542 [HIGH] ALERT-00389 DoS src=203.0.113.12 dst=10.0.0.47 conf=1.00 | request rate 442/s, SYN-error rate 0.91, 154 connections
+2026-10-14 18:22:51,542 [HIGH] ALERT-00390 DoS src=203.0.113.10 dst=10.0.2.24 conf=1.00 | request rate 329/s, SYN-error rate 0.80, 145 connections
+2026-10-14 18:22:51,542 [CRITICAL] ALERT-00391 DataExfiltration src=203.0.113.41 dst=10.0.1.2 conf=1.00 | 0.61 MB sent out over 31s (hour 13)
+2026-10-14 18:22:51,542 [MEDIUM] ALERT-00392 PortScan src=203.0.113.32 dst=10.0.1.17 conf=1.00 | 51 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,543 [HIGH] ALERT-00393 BruteForce src=203.0.113.23 dst=10.0.1.31 conf=1.00 | 10 failed logins on telnet
+2026-10-14 18:22:51,543 [HIGH] ALERT-00394 DoS src=203.0.113.11 dst=10.0.2.39 conf=1.00 | request rate 347/s, SYN-error rate 0.90, 126 connections
+2026-10-14 18:22:51,543 [MEDIUM] ALERT-00395 PortScan src=203.0.113.30 dst=10.0.1.42 conf=1.00 | 335 different ports probed, reject rate 0.56
+2026-10-14 18:22:51,543 [MEDIUM] ALERT-00396 PortScan src=203.0.113.30 dst=10.0.1.54 conf=1.00 | 294 different ports probed, reject rate 0.67
+2026-10-14 18:22:51,543 [HIGH] ALERT-00397 BruteForce src=203.0.113.21 dst=10.0.2.24 conf=1.00 | 7 failed logins on http
+2026-10-14 18:22:51,543 [CRITICAL] ALERT-00398 DataExfiltration src=203.0.113.40 dst=10.0.1.37 conf=1.00 | 0.22 MB sent out over 230s (hour 14)
+2026-10-14 18:22:51,544 [CRITICAL] ALERT-00399 DataExfiltration src=203.0.113.40 dst=10.0.3.9 conf=1.00 | 0.07 MB sent out over 375s (hour 15)
+2026-10-14 18:22:51,544 [HIGH] ALERT-00400 DoS src=203.0.113.10 dst=10.0.3.44 conf=1.00 | request rate 380/s, SYN-error rate 0.68, 167 connections
+2026-10-14 18:22:51,544 [HIGH] ALERT-00401 DoS src=203.0.113.13 dst=10.0.3.6 conf=1.00 | request rate 240/s, SYN-error rate 0.95, 148 connections
+2026-10-14 18:22:51,544 [MEDIUM] ALERT-00402 PortScan src=203.0.113.30 dst=10.0.1.4 conf=1.00 | 332 different ports probed, reject rate 0.88
+2026-10-14 18:22:51,544 [HIGH] ALERT-00403 DoS src=203.0.113.12 dst=10.0.2.17 conf=1.00 | request rate 294/s, SYN-error rate 0.86, 166 connections
+2026-10-14 18:22:51,544 [HIGH] ALERT-00404 DoS src=203.0.113.13 dst=10.0.2.28 conf=1.00 | request rate 253/s, SYN-error rate 0.85, 131 connections
+2026-10-14 18:22:51,545 [HIGH] ALERT-00405 DoS src=203.0.113.13 dst=10.0.3.2 conf=1.00 | request rate 203/s, SYN-error rate 0.80, 146 connections
+2026-10-14 18:22:51,557 [HIGH] ALERT-00406 DoS src=203.0.113.13 dst=10.0.3.54 conf=1.00 | request rate 216/s, SYN-error rate 0.75, 148 connections
+2026-10-14 18:22:51,558 [CRITICAL] ALERT-00407 DataExfiltration src=203.0.113.43 dst=10.0.3.38 conf=1.00 | 1.42 MB sent out over 72s (hour 16)
+2026-10-14 18:22:51,558 [CRITICAL] ALERT-00408 DataExfiltration src=203.0.113.40 dst=10.0.0.54 conf=1.00 | 1.07 MB sent out over 28s (hour 16)
+2026-10-14 18:22:51,558 [MEDIUM] ALERT-00409 PortScan src=203.0.113.33 dst=10.0.2.9 conf=1.00 | 317 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,559 [MEDIUM] ALERT-00410 PortScan src=203.0.113.31 dst=10.0.0.30 conf=1.00 | 76 different ports probed, reject rate 0.79
+2026-10-14 18:22:51,561 [CRITICAL] ALERT-00411 DataExfiltration src=203.0.113.43 dst=10.0.2.7 conf=1.00 | 0.52 MB sent out over 105s (hour 17)
+2026-10-14 18:22:51,561 [HIGH] ALERT-00412 DoS src=203.0.113.11 dst=10.0.0.53 conf=1.00 | request rate 268/s, SYN-error rate 0.97, 143 connections
+2026-10-14 18:22:51,561 [CRITICAL] ALERT-00413 DataExfiltration src=203.0.113.41 dst=10.0.0.30 conf=0.99 | 0.05 MB sent out over 29s (hour 17)
+2026-10-14 18:22:51,562 [MEDIUM] ALERT-00414 UnknownAnomaly src=192.168.8.170 dst=10.0.0.40 conf=0.67 | behaviour far from normal baseline (anomaly score 0.546)
+2026-10-14 18:22:51,563 [MEDIUM] ALERT-00415 PortScan src=203.0.113.33 dst=10.0.2.26 conf=1.00 | 447 different ports probed, reject rate 0.63
+2026-10-14 18:22:51,563 [CRITICAL] ALERT-00416 DataExfiltration src=203.0.113.42 dst=10.0.0.2 conf=1.00 | 1.28 MB sent out over 30s (hour 18)
+2026-10-14 18:22:51,566 [CRITICAL] ALERT-00417 DataExfiltration src=203.0.113.43 dst=10.0.0.14 conf=1.00 | 0.84 MB sent out over 68s (hour 18)
+2026-10-14 18:22:51,567 [HIGH] ALERT-00418 DoS src=203.0.113.12 dst=10.0.2.16 conf=1.00 | request rate 355/s, SYN-error rate 0.91, 153 connections
+2026-10-14 18:22:51,568 [HIGH] ALERT-00419 BruteForce src=203.0.113.20 dst=10.0.1.6 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,568 [HIGH] ALERT-00420 DoS src=203.0.113.11 dst=10.0.0.25 conf=1.00 | request rate 120/s, SYN-error rate 0.87, 147 connections
+2026-10-14 18:22:51,568 [HIGH] ALERT-00421 DoS src=203.0.113.11 dst=10.0.0.4 conf=1.00 | request rate 498/s, SYN-error rate 0.96, 159 connections
+2026-10-14 18:22:51,569 [MEDIUM] ALERT-00422 PortScan src=203.0.113.32 dst=10.0.1.43 conf=1.00 | 483 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,569 [HIGH] ALERT-00423 BruteForce src=203.0.113.22 dst=10.0.2.10 conf=0.92 | 11 failed logins on ftp
+2026-10-14 18:22:51,569 [HIGH] ALERT-00424 DoS src=203.0.113.13 dst=10.0.1.7 conf=1.00 | request rate 268/s, SYN-error rate 0.99, 184 connections
+2026-10-14 18:22:51,569 [MEDIUM] ALERT-00425 BruteForce src=192.168.2.188 dst=10.0.1.8 conf=0.43 | 0 failed logins on ssh
+2026-10-14 18:22:51,569 [HIGH] ALERT-00426 BruteForce src=203.0.113.23 dst=10.0.0.17 conf=1.00 | 12 failed logins on ssh
+2026-10-14 18:22:51,569 [CRITICAL] ALERT-00427 DataExfiltration src=203.0.113.41 dst=10.0.1.48 conf=1.00 | 1.19 MB sent out over 39s (hour 0)
+2026-10-14 18:22:51,570 [HIGH] ALERT-00428 DoS src=203.0.113.13 dst=10.0.3.10 conf=1.00 | request rate 438/s, SYN-error rate 0.83, 146 connections
+2026-10-14 18:22:51,570 [HIGH] ALERT-00429 BruteForce src=203.0.113.23 dst=10.0.1.57 conf=0.98 | 7 failed logins on ftp
+2026-10-14 18:22:51,570 [CRITICAL] ALERT-00430 DataExfiltration src=203.0.113.40 dst=10.0.3.43 conf=1.00 | 0.31 MB sent out over 269s (hour 1)
+2026-10-14 18:22:51,570 [MEDIUM] ALERT-00431 PortScan src=203.0.113.32 dst=10.0.2.43 conf=1.00 | 76 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,571 [CRITICAL] ALERT-00432 DataExfiltration src=203.0.113.40 dst=10.0.2.56 conf=1.00 | 0.51 MB sent out over 217s (hour 2)
+2026-10-14 18:22:51,571 [HIGH] ALERT-00433 BruteForce src=203.0.113.21 dst=10.0.2.47 conf=1.00 | 13 failed logins on ssh
+2026-10-14 18:22:51,571 [HIGH] ALERT-00434 DoS src=203.0.113.10 dst=10.0.2.13 conf=1.00 | request rate 812/s, SYN-error rate 0.93, 133 connections
+2026-10-14 18:22:51,571 [HIGH] ALERT-00435 BruteForce src=203.0.113.21 dst=10.0.1.27 conf=1.00 | 7 failed logins on ssh
+2026-10-14 18:22:51,572 [MEDIUM] ALERT-00436 PortScan src=203.0.113.33 dst=10.0.3.51 conf=1.00 | 297 different ports probed, reject rate 0.73
+2026-10-14 18:22:51,572 [HIGH] ALERT-00437 DoS src=203.0.113.12 dst=10.0.0.31 conf=1.00 | request rate 525/s, SYN-error rate 0.90, 179 connections
+2026-10-14 18:22:51,572 [CRITICAL] ALERT-00438 DataExfiltration src=203.0.113.43 dst=10.0.3.10 conf=1.00 | 0.17 MB sent out over 42s (hour 4)
+2026-10-14 18:22:51,572 [HIGH] ALERT-00439 BruteForce src=203.0.113.22 dst=10.0.0.28 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,572 [HIGH] ALERT-00440 BruteForce src=203.0.113.20 dst=10.0.0.35 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,574 [CRITICAL] ALERT-00441 DataExfiltration src=203.0.113.43 dst=10.0.1.49 conf=1.00 | 1.59 MB sent out over 154s (hour 4)
+2026-10-14 18:22:51,574 [HIGH] ALERT-00442 BruteForce src=203.0.113.20 dst=10.0.0.32 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,574 [MEDIUM] ALERT-00443 BruteForce src=192.168.5.68 dst=10.0.0.10 conf=0.47 | 0 failed logins on ssh
+2026-10-14 18:22:51,574 [HIGH] ALERT-00444 DoS src=203.0.113.10 dst=10.0.0.15 conf=1.00 | request rate 424/s, SYN-error rate 0.90, 162 connections
+2026-10-14 18:22:51,575 [CRITICAL] ALERT-00445 DataExfiltration src=203.0.113.41 dst=10.0.2.3 conf=1.00 | 1.39 MB sent out over 224s (hour 5)
+2026-10-14 18:22:51,575 [LOW] ALERT-00446 UnknownAnomaly src=192.168.4.232 dst=10.0.1.36 conf=0.47 | behaviour far from normal baseline (anomaly score 0.564)
+2026-10-14 18:22:51,575 [MEDIUM] ALERT-00447 PortScan src=203.0.113.31 dst=10.0.0.13 conf=1.00 | 145 different ports probed, reject rate 0.69
+2026-10-14 18:22:51,575 [MEDIUM] ALERT-00448 PortScan src=203.0.113.30 dst=10.0.1.29 conf=1.00 | 498 different ports probed, reject rate 0.85
+2026-10-14 18:22:51,575 [HIGH] ALERT-00449 DoS src=203.0.113.11 dst=10.0.2.56 conf=1.00 | request rate 404/s, SYN-error rate 0.97, 146 connections
+2026-10-14 18:22:51,576 [LOW] ALERT-00450 UnknownAnomaly src=192.168.0.51 dst=10.0.1.49 conf=0.53 | behaviour far from normal baseline (anomaly score 0.592)
+2026-10-14 18:22:51,576 [HIGH] ALERT-00451 DoS src=203.0.113.10 dst=10.0.0.28 conf=1.00 | request rate 293/s, SYN-error rate 0.98, 143 connections
+2026-10-14 18:22:51,576 [MEDIUM] ALERT-00452 PortScan src=203.0.113.33 dst=10.0.1.33 conf=1.00 | 407 different ports probed, reject rate 0.67
+2026-10-14 18:22:51,577 [HIGH] ALERT-00453 DoS src=203.0.113.10 dst=10.0.1.28 conf=1.00 | request rate 276/s, SYN-error rate 0.92, 153 connections
+2026-10-14 18:22:51,577 [HIGH] ALERT-00454 DoS src=203.0.113.13 dst=10.0.1.46 conf=1.00 | request rate 520/s, SYN-error rate 0.91, 171 connections
+2026-10-14 18:22:51,577 [HIGH] ALERT-00455 DoS src=203.0.113.10 dst=10.0.1.25 conf=1.00 | request rate 295/s, SYN-error rate 0.87, 163 connections
+2026-10-14 18:22:51,577 [MEDIUM] ALERT-00456 PortScan src=203.0.113.33 dst=10.0.0.24 conf=1.00 | 52 different ports probed, reject rate 0.80
+2026-10-14 18:22:51,577 [MEDIUM] ALERT-00457 PortScan src=203.0.113.33 dst=10.0.0.12 conf=1.00 | 153 different ports probed, reject rate 0.88
+2026-10-14 18:22:51,577 [HIGH] ALERT-00458 DoS src=203.0.113.12 dst=10.0.1.39 conf=1.00 | request rate 308/s, SYN-error rate 0.85, 180 connections
+2026-10-14 18:22:51,578 [HIGH] ALERT-00459 DoS src=203.0.113.12 dst=10.0.2.48 conf=1.00 | request rate 320/s, SYN-error rate 0.91, 153 connections
+2026-10-14 18:22:51,578 [HIGH] ALERT-00460 DoS src=203.0.113.12 dst=10.0.2.13 conf=1.00 | request rate 702/s, SYN-error rate 0.76, 129 connections
+2026-10-14 18:22:51,578 [HIGH] ALERT-00461 DoS src=203.0.113.11 dst=10.0.1.3 conf=1.00 | request rate 573/s, SYN-error rate 0.93, 134 connections
+2026-10-14 18:22:51,592 [HIGH] ALERT-00462 DoS src=203.0.113.12 dst=10.0.3.48 conf=1.00 | request rate 384/s, SYN-error rate 0.88, 136 connections
+2026-10-14 18:22:51,592 [HIGH] ALERT-00463 DoS src=203.0.113.11 dst=10.0.3.15 conf=1.00 | request rate 210/s, SYN-error rate 0.87, 134 connections
+2026-10-14 18:22:51,593 [HIGH] ALERT-00464 DoS src=203.0.113.10 dst=10.0.2.58 conf=1.00 | request rate 363/s, SYN-error rate 0.90, 160 connections
+2026-10-14 18:22:51,594 [HIGH] ALERT-00465 BruteForce src=203.0.113.21 dst=10.0.1.53 conf=0.99 | 8 failed logins on ssh
+2026-10-14 18:22:51,594 [HIGH] ALERT-00466 DoS src=203.0.113.12 dst=10.0.2.19 conf=1.00 | request rate 664/s, SYN-error rate 0.94, 159 connections
+2026-10-14 18:22:51,594 [MEDIUM] ALERT-00467 PortScan src=203.0.113.33 dst=10.0.1.34 conf=1.00 | 81 different ports probed, reject rate 0.89
+2026-10-14 18:22:51,595 [HIGH] ALERT-00468 DoS src=203.0.113.11 dst=10.0.3.44 conf=1.00 | request rate 568/s, SYN-error rate 0.86, 127 connections
+2026-10-14 18:22:51,595 [HIGH] ALERT-00469 DoS src=203.0.113.11 dst=10.0.3.30 conf=1.00 | request rate 401/s, SYN-error rate 0.71, 136 connections
+2026-10-14 18:22:51,595 [MEDIUM] ALERT-00470 PortScan src=203.0.113.32 dst=10.0.3.16 conf=1.00 | 55 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,596 [HIGH] ALERT-00471 DoS src=203.0.113.12 dst=10.0.1.40 conf=1.00 | request rate 475/s, SYN-error rate 0.98, 164 connections
+2026-10-14 18:22:51,596 [HIGH] ALERT-00472 DoS src=203.0.113.11 dst=10.0.0.52 conf=1.00 | request rate 223/s, SYN-error rate 0.82, 148 connections
+2026-10-14 18:22:51,596 [HIGH] ALERT-00473 DoS src=203.0.113.10 dst=10.0.2.37 conf=1.00 | request rate 280/s, SYN-error rate 0.96, 150 connections
+2026-10-14 18:22:51,596 [CRITICAL] ALERT-00474 DataExfiltration src=203.0.113.41 dst=10.0.2.34 conf=1.00 | 1.25 MB sent out over 30s (hour 13)
+2026-10-14 18:22:51,597 [HIGH] ALERT-00475 BruteForce src=203.0.113.20 dst=10.0.0.43 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,597 [CRITICAL] ALERT-00476 DataExfiltration src=203.0.113.43 dst=10.0.1.43 conf=1.00 | 0.30 MB sent out over 27s (hour 14)
+2026-10-14 18:22:51,597 [HIGH] ALERT-00477 DoS src=203.0.113.12 dst=10.0.2.9 conf=1.00 | request rate 599/s, SYN-error rate 0.76, 140 connections
+2026-10-14 18:22:51,597 [HIGH] ALERT-00478 DoS src=203.0.113.10 dst=10.0.3.14 conf=1.00 | request rate 308/s, SYN-error rate 0.68, 156 connections
+2026-10-14 18:22:51,597 [MEDIUM] ALERT-00479 PortScan src=203.0.113.31 dst=10.0.3.51 conf=1.00 | 200 different ports probed, reject rate 0.71
+2026-10-14 18:22:51,598 [HIGH] ALERT-00480 DoS src=203.0.113.12 dst=10.0.1.44 conf=1.00 | request rate 731/s, SYN-error rate 0.90, 152 connections
+2026-10-14 18:22:51,598 [MEDIUM] ALERT-00481 PortScan src=203.0.113.31 dst=10.0.3.1 conf=1.00 | 43 different ports probed, reject rate 0.55
+2026-10-14 18:22:51,598 [CRITICAL] ALERT-00482 DataExfiltration src=203.0.113.43 dst=10.0.3.28 conf=1.00 | 0.69 MB sent out over 78s (hour 14)
+2026-10-14 18:22:51,598 [HIGH] ALERT-00483 DoS src=203.0.113.12 dst=10.0.1.42 conf=1.00 | request rate 347/s, SYN-error rate 0.94, 156 connections
+2026-10-14 18:22:51,598 [HIGH] ALERT-00484 DoS src=203.0.113.10 dst=10.0.0.34 conf=1.00 | request rate 175/s, SYN-error rate 0.90, 149 connections
+2026-10-14 18:22:51,598 [CRITICAL] ALERT-00485 DataExfiltration src=203.0.113.42 dst=10.0.0.33 conf=0.99 | 0.21 MB sent out over 130s (hour 14)
+2026-10-14 18:22:51,599 [MEDIUM] ALERT-00486 PortScan src=203.0.113.30 dst=10.0.3.53 conf=0.99 | 139 different ports probed, reject rate 0.87
+2026-10-14 18:22:51,599 [MEDIUM] ALERT-00487 BruteForce src=192.168.1.190 dst=10.0.2.4 conf=0.51 | 0 failed logins on ssh
+2026-10-14 18:22:51,599 [HIGH] ALERT-00488 DoS src=203.0.113.11 dst=10.0.2.17 conf=1.00 | request rate 287/s, SYN-error rate 0.84, 168 connections
+2026-10-14 18:22:51,599 [HIGH] ALERT-00489 DoS src=203.0.113.12 dst=10.0.3.42 conf=1.00 | request rate 107/s, SYN-error rate 0.83, 151 connections
+2026-10-14 18:22:51,599 [HIGH] ALERT-00490 DoS src=203.0.113.11 dst=10.0.1.11 conf=1.00 | request rate 337/s, SYN-error rate 0.82, 140 connections
+2026-10-14 18:22:51,600 [HIGH] ALERT-00491 BruteForce src=203.0.113.21 dst=10.0.3.58 conf=1.00 | 6 failed logins on http
+2026-10-14 18:22:51,600 [HIGH] ALERT-00492 DoS src=203.0.113.13 dst=10.0.2.2 conf=1.00 | request rate 249/s, SYN-error rate 0.83, 145 connections
+2026-10-14 18:22:51,600 [HIGH] ALERT-00493 BruteForce src=203.0.113.23 dst=10.0.0.58 conf=1.00 | 12 failed logins on ssh
+2026-10-14 18:22:51,600 [MEDIUM] ALERT-00494 PortScan src=203.0.113.33 dst=10.0.0.9 conf=1.00 | 283 different ports probed, reject rate 0.99
+2026-10-14 18:22:51,600 [HIGH] ALERT-00495 DoS src=203.0.113.11 dst=10.0.1.10 conf=1.00 | request rate 316/s, SYN-error rate 0.93, 146 connections
+2026-10-14 18:22:51,600 [HIGH] ALERT-00496 DoS src=203.0.113.10 dst=10.0.1.8 conf=1.00 | request rate 377/s, SYN-error rate 0.97, 144 connections
+2026-10-14 18:22:51,601 [HIGH] ALERT-00497 BruteForce src=203.0.113.23 dst=10.0.0.18 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,601 [MEDIUM] ALERT-00498 PortScan src=203.0.113.31 dst=10.0.2.5 conf=1.00 | 121 different ports probed, reject rate 0.69
+2026-10-14 18:22:51,601 [HIGH] ALERT-00499 BruteForce src=203.0.113.23 dst=10.0.2.29 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,601 [HIGH] ALERT-00500 DoS src=203.0.113.13 dst=10.0.3.38 conf=1.00 | request rate 692/s, SYN-error rate 0.90, 147 connections
+2026-10-14 18:22:51,601 [MEDIUM] ALERT-00501 PortScan src=203.0.113.32 dst=10.0.0.14 conf=1.00 | 365 different ports probed, reject rate 0.71
+2026-10-14 18:22:51,601 [HIGH] ALERT-00502 BruteForce src=203.0.113.23 dst=10.0.3.29 conf=0.99 | 6 failed logins on telnet
+2026-10-14 18:22:51,602 [MEDIUM] ALERT-00503 PortScan src=203.0.113.30 dst=10.0.1.45 conf=1.00 | 498 different ports probed, reject rate 0.83
+2026-10-14 18:22:51,602 [MEDIUM] ALERT-00504 BruteForce src=192.168.2.142 dst=10.0.2.18 conf=0.47 | 0 failed logins on ssh
+2026-10-14 18:22:51,602 [HIGH] ALERT-00505 DoS src=203.0.113.13 dst=10.0.2.42 conf=1.00 | request rate 310/s, SYN-error rate 0.94, 144 connections
+2026-10-14 18:22:51,602 [MEDIUM] ALERT-00506 PortScan src=203.0.113.30 dst=10.0.0.43 conf=1.00 | 435 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,602 [HIGH] ALERT-00507 DoS src=203.0.113.10 dst=10.0.3.37 conf=1.00 | request rate 335/s, SYN-error rate 0.87, 140 connections
+2026-10-14 18:22:51,602 [HIGH] ALERT-00508 BruteForce src=203.0.113.23 dst=10.0.2.58 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,603 [HIGH] ALERT-00509 DoS src=203.0.113.12 dst=10.0.0.43 conf=1.00 | request rate 485/s, SYN-error rate 0.95, 158 connections
+2026-10-14 18:22:51,603 [HIGH] ALERT-00510 DataExfiltration src=203.0.113.41 dst=10.0.2.30 conf=0.59 | 0.01 MB sent out over 76s (hour 0)
+2026-10-14 18:22:51,603 [HIGH] ALERT-00511 DoS src=203.0.113.12 dst=10.0.3.5 conf=1.00 | request rate 284/s, SYN-error rate 0.74, 150 connections
+2026-10-14 18:22:51,603 [CRITICAL] ALERT-00512 DataExfiltration src=203.0.113.40 dst=10.0.2.35 conf=1.00 | 0.18 MB sent out over 161s (hour 0)
+2026-10-14 18:22:51,604 [HIGH] ALERT-00513 BruteForce src=203.0.113.20 dst=10.0.2.29 conf=1.00 | 8 failed logins on ssh
+2026-10-14 18:22:51,604 [HIGH] ALERT-00514 DoS src=203.0.113.11 dst=10.0.3.10 conf=1.00 | request rate 123/s, SYN-error rate 0.97, 162 connections
+2026-10-14 18:22:51,604 [HIGH] ALERT-00515 BruteForce src=203.0.113.20 dst=10.0.1.42 conf=1.00 | 15 failed logins on http
+2026-10-14 18:22:51,604 [MEDIUM] ALERT-00516 BruteForce src=192.168.7.49 dst=10.0.1.30 conf=0.47 | 0 failed logins on ssh
+2026-10-14 18:22:51,605 [HIGH] ALERT-00517 BruteForce src=203.0.113.22 dst=10.0.3.24 conf=1.00 | 6 failed logins on ssh
+2026-10-14 18:22:51,605 [HIGH] ALERT-00518 DoS src=203.0.113.11 dst=10.0.3.41 conf=1.00 | request rate 454/s, SYN-error rate 0.98, 152 connections
+2026-10-14 18:22:51,605 [HIGH] ALERT-00519 BruteForce src=203.0.113.21 dst=10.0.0.57 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,605 [HIGH] ALERT-00520 DoS src=203.0.113.13 dst=10.0.0.49 conf=1.00 | request rate 397/s, SYN-error rate 0.95, 130 connections
+2026-10-14 18:22:51,605 [MEDIUM] ALERT-00521 UnknownAnomaly src=192.168.9.87 dst=10.0.1.27 conf=0.78 | behaviour far from normal baseline (anomaly score 0.569)
+2026-10-14 18:22:51,605 [HIGH] ALERT-00522 BruteForce src=203.0.113.20 dst=10.0.3.51 conf=0.92 | 12 failed logins on ftp
+2026-10-14 18:22:51,606 [LOW] ALERT-00523 UnknownAnomaly src=192.168.1.137 dst=10.0.2.4 conf=0.54 | behaviour far from normal baseline (anomaly score 0.558)
+2026-10-14 18:22:51,606 [HIGH] ALERT-00524 BruteForce src=203.0.113.20 dst=10.0.2.13 conf=1.00 | 6 failed logins on ftp
+2026-10-14 18:22:51,606 [CRITICAL] ALERT-00525 DataExfiltration src=203.0.113.42 dst=10.0.0.58 conf=1.00 | 0.23 MB sent out over 49s (hour 3)
+2026-10-14 18:22:51,606 [HIGH] ALERT-00526 BruteForce src=203.0.113.21 dst=10.0.1.53 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,606 [HIGH] ALERT-00527 BruteForce src=203.0.113.23 dst=10.0.2.18 conf=0.95 | 7 failed logins on ftp
+2026-10-14 18:22:51,606 [MEDIUM] ALERT-00528 PortScan src=203.0.113.33 dst=10.0.1.59 conf=1.00 | 64 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,607 [HIGH] ALERT-00529 BruteForce src=203.0.113.21 dst=10.0.0.47 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,607 [MEDIUM] ALERT-00530 BruteForce src=192.168.7.29 dst=10.0.2.25 conf=0.38 | 0 failed logins on telnet
+2026-10-14 18:22:51,607 [CRITICAL] ALERT-00531 DataExfiltration src=203.0.113.41 dst=10.0.2.13 conf=1.00 | 2.21 MB sent out over 262s (hour 3)
+2026-10-14 18:22:51,607 [HIGH] ALERT-00532 DoS src=203.0.113.12 dst=10.0.1.22 conf=1.00 | request rate 270/s, SYN-error rate 0.95, 161 connections
+2026-10-14 18:22:51,608 [HIGH] ALERT-00533 BruteForce src=203.0.113.21 dst=10.0.3.10 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,608 [HIGH] ALERT-00534 BruteForce src=203.0.113.20 dst=10.0.2.28 conf=1.00 | 11 failed logins on ssh
+2026-10-14 18:22:51,608 [HIGH] ALERT-00535 DoS src=203.0.113.10 dst=10.0.3.48 conf=1.00 | request rate 100/s, SYN-error rate 0.83, 154 connections
+2026-10-14 18:22:51,608 [CRITICAL] ALERT-00536 DataExfiltration src=203.0.113.41 dst=10.0.1.39 conf=1.00 | 0.09 MB sent out over 37s (hour 5)
+2026-10-14 18:22:51,609 [HIGH] ALERT-00537 BruteForce src=203.0.113.22 dst=10.0.3.47 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,609 [MEDIUM] ALERT-00538 PortScan src=203.0.113.31 dst=10.0.1.48 conf=1.00 | 346 different ports probed, reject rate 0.68
+2026-10-14 18:22:51,610 [HIGH] ALERT-00539 BruteForce src=203.0.113.21 dst=10.0.1.56 conf=1.00 | 12 failed logins on http
+2026-10-14 18:22:51,610 [MEDIUM] ALERT-00540 BruteForce src=203.0.113.23 dst=10.0.2.14 conf=0.42 | 0 failed logins on telnet
+2026-10-14 18:22:51,610 [HIGH] ALERT-00541 DoS src=203.0.113.10 dst=10.0.1.12 conf=1.00 | request rate 379/s, SYN-error rate 0.88, 128 connections
+2026-10-14 18:22:51,610 [MEDIUM] ALERT-00542 PortScan src=203.0.113.31 dst=10.0.3.56 conf=1.00 | 257 different ports probed, reject rate 0.63
+2026-10-14 18:22:51,611 [HIGH] ALERT-00543 DoS src=203.0.113.12 dst=10.0.3.8 conf=1.00 | request rate 480/s, SYN-error rate 0.89, 148 connections
+2026-10-14 18:22:51,611 [HIGH] ALERT-00544 DoS src=203.0.113.13 dst=10.0.1.14 conf=1.00 | request rate 372/s, SYN-error rate 0.90, 171 connections
+2026-10-14 18:22:51,611 [MEDIUM] ALERT-00545 BruteForce src=192.168.6.203 dst=10.0.1.50 conf=0.48 | 0 failed logins on ssh
+2026-10-14 18:22:51,611 [HIGH] ALERT-00546 BruteForce src=203.0.113.22 dst=10.0.0.11 conf=0.99 | 13 failed logins on telnet
+2026-10-14 18:22:51,611 [HIGH] ALERT-00547 BruteForce src=203.0.113.23 dst=10.0.0.50 conf=0.97 | 7 failed logins on ftp
+2026-10-14 18:22:51,612 [HIGH] ALERT-00548 DoS src=203.0.113.13 dst=10.0.1.10 conf=1.00 | request rate 476/s, SYN-error rate 0.91, 136 connections
+2026-10-14 18:22:51,612 [MEDIUM] ALERT-00549 PortScan src=203.0.113.32 dst=10.0.0.52 conf=1.00 | 151 different ports probed, reject rate 0.86
+2026-10-14 18:22:51,612 [HIGH] ALERT-00550 DoS src=203.0.113.11 dst=10.0.3.39 conf=1.00 | request rate 517/s, SYN-error rate 0.99, 150 connections
+2026-10-14 18:22:51,612 [CRITICAL] ALERT-00551 DataExfiltration src=203.0.113.40 dst=10.0.1.54 conf=1.00 | 0.73 MB sent out over 33s (hour 10)
+2026-10-14 18:22:51,612 [HIGH] ALERT-00552 DoS src=203.0.113.11 dst=10.0.0.26 conf=1.00 | request rate 468/s, SYN-error rate 0.86, 137 connections
+2026-10-14 18:22:51,613 [HIGH] ALERT-00553 DoS src=203.0.113.11 dst=10.0.0.47 conf=1.00 | request rate 136/s, SYN-error rate 0.91, 148 connections
+2026-10-14 18:22:51,613 [HIGH] ALERT-00554 DoS src=203.0.113.12 dst=10.0.1.18 conf=1.00 | request rate 407/s, SYN-error rate 0.92, 144 connections
+2026-10-14 18:22:51,613 [HIGH] ALERT-00555 DoS src=203.0.113.10 dst=10.0.2.31 conf=1.00 | request rate 432/s, SYN-error rate 0.95, 135 connections
+2026-10-14 18:22:51,613 [MEDIUM] ALERT-00556 PortScan src=203.0.113.30 dst=10.0.3.30 conf=1.00 | 309 different ports probed, reject rate 0.82
+2026-10-14 18:22:51,613 [HIGH] ALERT-00557 DoS src=203.0.113.12 dst=10.0.0.33 conf=1.00 | request rate 545/s, SYN-error rate 0.84, 161 connections
+2026-10-14 18:22:51,613 [HIGH] ALERT-00558 DoS src=203.0.113.11 dst=10.0.1.21 conf=1.00 | request rate 342/s, SYN-error rate 0.95, 138 connections
+2026-10-14 18:22:51,614 [HIGH] ALERT-00559 DoS src=203.0.113.10 dst=10.0.3.50 conf=1.00 | request rate 647/s, SYN-error rate 0.97, 143 connections
+2026-10-14 18:22:51,614 [HIGH] ALERT-00560 DoS src=203.0.113.13 dst=10.0.0.33 conf=1.00 | request rate 159/s, SYN-error rate 0.93, 146 connections
+2026-10-14 18:22:51,614 [CRITICAL] ALERT-00561 DataExfiltration src=203.0.113.40 dst=10.0.1.51 conf=1.00 | 1.72 MB sent out over 102s (hour 12)
+2026-10-14 18:22:51,614 [HIGH] ALERT-00562 DoS src=203.0.113.13 dst=10.0.1.45 conf=1.00 | request rate 587/s, SYN-error rate 0.85, 151 connections
+2026-10-14 18:22:51,614 [HIGH] ALERT-00563 DoS src=203.0.113.10 dst=10.0.2.25 conf=1.00 | request rate 401/s, SYN-error rate 0.94, 147 connections
+2026-10-14 18:22:51,615 [MEDIUM] ALERT-00564 PortScan src=203.0.113.31 dst=10.0.3.12 conf=1.00 | 406 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,615 [HIGH] ALERT-00565 DoS src=203.0.113.13 dst=10.0.0.1 conf=1.00 | request rate 458/s, SYN-error rate 0.95, 148 connections
+2026-10-14 18:22:51,615 [HIGH] ALERT-00566 DoS src=203.0.113.10 dst=10.0.0.13 conf=1.00 | request rate 519/s, SYN-error rate 0.88, 152 connections
+2026-10-14 18:22:51,615 [HIGH] ALERT-00567 BruteForce src=203.0.113.23 dst=10.0.1.57 conf=1.00 | 9 failed logins on ftp
+2026-10-14 18:22:51,616 [CRITICAL] ALERT-00568 DataExfiltration src=203.0.113.42 dst=10.0.1.25 conf=1.00 | 0.42 MB sent out over 63s (hour 14)
+2026-10-14 18:22:51,616 [HIGH] ALERT-00569 DoS src=203.0.113.12 dst=10.0.2.22 conf=1.00 | request rate 84/s, SYN-error rate 0.85, 157 connections
+2026-10-14 18:22:51,616 [MEDIUM] ALERT-00570 PortScan src=203.0.113.32 dst=10.0.0.2 conf=1.00 | 358 different ports probed, reject rate 0.70
+2026-10-14 18:22:51,616 [HIGH] ALERT-00571 DoS src=203.0.113.12 dst=10.0.2.46 conf=1.00 | request rate 583/s, SYN-error rate 0.98, 156 connections
+2026-10-14 18:22:51,616 [HIGH] ALERT-00572 DoS src=203.0.113.12 dst=10.0.3.43 conf=1.00 | request rate 372/s, SYN-error rate 0.98, 152 connections
+2026-10-14 18:22:51,617 [CRITICAL] ALERT-00573 DataExfiltration src=203.0.113.43 dst=10.0.1.56 conf=1.00 | 0.81 MB sent out over 28s (hour 15)
+2026-10-14 18:22:51,617 [HIGH] ALERT-00574 DoS src=203.0.113.10 dst=10.0.3.29 conf=1.00 | request rate 528/s, SYN-error rate 0.98, 141 connections
+2026-10-14 18:22:51,617 [HIGH] ALERT-00575 DoS src=203.0.113.12 dst=10.0.1.51 conf=1.00 | request rate 323/s, SYN-error rate 0.93, 155 connections
+2026-10-14 18:22:51,617 [HIGH] ALERT-00576 DoS src=203.0.113.13 dst=10.0.1.59 conf=1.00 | request rate 340/s, SYN-error rate 0.96, 142 connections
+2026-10-14 18:22:51,617 [HIGH] ALERT-00577 DoS src=203.0.113.12 dst=10.0.3.56 conf=1.00 | request rate 478/s, SYN-error rate 0.82, 150 connections
+2026-10-14 18:22:51,618 [HIGH] ALERT-00578 DoS src=203.0.113.12 dst=10.0.3.9 conf=1.00 | request rate 516/s, SYN-error rate 0.87, 161 connections
+2026-10-14 18:22:51,618 [MEDIUM] ALERT-00579 UnknownAnomaly src=192.168.4.41 dst=10.0.3.52 conf=0.75 | behaviour far from normal baseline (anomaly score 0.552)
+2026-10-14 18:22:51,618 [MEDIUM] ALERT-00580 PortScan src=203.0.113.31 dst=10.0.2.14 conf=1.00 | 219 different ports probed, reject rate 0.89
+2026-10-14 18:22:51,618 [MEDIUM] ALERT-00581 UnknownAnomaly src=192.168.3.31 dst=10.0.2.16 conf=0.63 | behaviour far from normal baseline (anomaly score 0.551)
+2026-10-14 18:22:51,619 [HIGH] ALERT-00582 DoS src=203.0.113.12 dst=10.0.0.55 conf=1.00 | request rate 393/s, SYN-error rate 0.89, 140 connections
+2026-10-14 18:22:51,619 [HIGH] ALERT-00583 DoS src=203.0.113.11 dst=10.0.3.29 conf=1.00 | request rate 206/s, SYN-error rate 0.94, 145 connections
+2026-10-14 18:22:51,619 [HIGH] ALERT-00584 BruteForce src=203.0.113.23 dst=10.0.2.8 conf=1.00 | 5 failed logins on ssh
+2026-10-14 18:22:51,619 [MEDIUM] ALERT-00585 PortScan src=203.0.113.31 dst=10.0.2.45 conf=1.00 | 92 different ports probed, reject rate 0.86
+2026-10-14 18:22:51,620 [MEDIUM] ALERT-00586 PortScan src=203.0.113.33 dst=10.0.0.47 conf=1.00 | 210 different ports probed, reject rate 0.77
+2026-10-14 18:22:51,620 [HIGH] ALERT-00587 BruteForce src=203.0.113.22 dst=10.0.1.1 conf=1.00 | 6 failed logins on telnet
+2026-10-14 18:22:51,620 [HIGH] ALERT-00588 DoS src=203.0.113.12 dst=10.0.3.46 conf=1.00 | request rate 220/s, SYN-error rate 0.93, 141 connections
+2026-10-14 18:22:51,620 [MEDIUM] ALERT-00589 PortScan src=203.0.113.30 dst=10.0.2.53 conf=1.00 | 22 different ports probed, reject rate 0.73
+2026-10-14 18:22:51,621 [MEDIUM] ALERT-00590 PortScan src=203.0.113.32 dst=10.0.2.47 conf=1.00 | 217 different ports probed, reject rate 0.81
+2026-10-14 18:22:51,621 [HIGH] ALERT-00591 DoS src=203.0.113.12 dst=10.0.2.1 conf=1.00 | request rate 356/s, SYN-error rate 0.80, 173 connections
+2026-10-14 18:22:51,621 [HIGH] ALERT-00592 DoS src=203.0.113.13 dst=10.0.3.16 conf=1.00 | request rate 499/s, SYN-error rate 0.77, 154 connections
+2026-10-14 18:22:51,621 [HIGH] ALERT-00593 BruteForce src=203.0.113.22 dst=10.0.1.4 conf=1.00 | 10 failed logins on ssh
+2026-10-14 18:22:51,621 [HIGH] ALERT-00594 BruteForce src=203.0.113.23 dst=10.0.1.16 conf=1.00 | 5 failed logins on http
+2026-10-14 18:22:51,622 [MEDIUM] ALERT-00595 PortScan src=203.0.113.32 dst=10.0.3.11 conf=1.00 | 301 different ports probed, reject rate 0.86
+2026-10-14 18:22:51,622 [HIGH] ALERT-00596 BruteForce src=203.0.113.21 dst=10.0.3.44 conf=1.00 | 11 failed logins on http
+2026-10-14 18:22:51,622 [HIGH] ALERT-00597 BruteForce src=203.0.113.20 dst=10.0.1.6 conf=1.00 | 6 failed logins on ftp
+2026-10-14 18:22:51,622 [HIGH] ALERT-00598 DoS src=203.0.113.12 dst=10.0.2.16 conf=1.00 | request rate 378/s, SYN-error rate 0.82, 142 connections
+2026-10-14 18:22:51,623 [CRITICAL] ALERT-00599 DataExfiltration src=203.0.113.41 dst=10.0.1.23 conf=1.00 | 0.21 MB sent out over 166s (hour 22)
+2026-10-14 18:22:51,623 [CRITICAL] ALERT-00600 DataExfiltration src=203.0.113.42 dst=10.0.3.59 conf=1.00 | 0.31 MB sent out over 207s (hour 22)
+2026-10-14 18:22:51,623 [MEDIUM] ALERT-00601 UnknownAnomaly src=192.168.9.55 dst=10.0.3.31 conf=0.69 | behaviour far from normal baseline (anomaly score 0.587)
+2026-10-14 18:22:51,623 [MEDIUM] ALERT-00602 PortScan src=203.0.113.30 dst=10.0.1.2 conf=1.00 | 477 different ports probed, reject rate 0.63
+2026-10-14 18:22:51,623 [HIGH] ALERT-00603 DoS src=203.0.113.13 dst=10.0.0.28 conf=1.00 | request rate 371/s, SYN-error rate 0.96, 153 connections
+2026-10-14 18:22:51,624 [HIGH] ALERT-00604 BruteForce src=203.0.113.22 dst=10.0.3.40 conf=1.00 | 6 failed logins on ssh

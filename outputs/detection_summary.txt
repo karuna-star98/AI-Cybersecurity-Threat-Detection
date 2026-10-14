@@ -1,0 +1,33 @@
+==============================================================
+  THREAT DETECTION SUMMARY
+==============================================================
+Flows analysed : 3000
+Alerts raised  : 604
+
+Alerts by type:
+threat_type
+DoS                 225
+BruteForce          158
+PortScan            113
+DataExfiltration     85
+UnknownAnomaly       23
+
+Alerts by severity:
+severity
+Critical     84
+High        367
+Medium      144
+Low           9
+
+Top suspicious source IPs:
+src_ip
+203.0.113.12    67
+203.0.113.11    60
+203.0.113.13    50
+203.0.113.10    48
+203.0.113.23    41
+
+Simulation check (ground truth):
+  real attacks in traffic : 600
+  attacks detected        : 565 (94.2% recall)
+  false alarms            : 39

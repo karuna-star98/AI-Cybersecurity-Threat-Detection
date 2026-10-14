@@ -1,0 +1,11 @@
+                  precision    recall  f1-score   support
+
+          Normal      0.977     0.991     0.984      2800
+             DoS      0.964     0.946     0.955       480
+      BruteForce      0.980     0.967     0.973       300
+        PortScan      0.996     0.933     0.963       240
+DataExfiltration      0.994     0.928     0.960       180
+
+        accuracy                          0.978      4000
+       macro avg      0.982     0.953     0.967      4000
+    weighted avg      0.978     0.978     0.978      4000

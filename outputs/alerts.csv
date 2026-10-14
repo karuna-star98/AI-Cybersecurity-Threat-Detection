@@ -1,0 +1,605 @@
+alert_id,timestamp,severity,threat_type,confidence,anomaly_score,src_ip,dst_ip,service,protocol_type,reason,attack_type
+ALERT-00001,2026-02-01 00:32:51,Critical,DataExfiltration,1.0,0.6198,203.0.113.41,10.0.1.31,https,tcp,0.69 MB sent out over 86s (hour 0),DataExfiltration
+ALERT-00002,2026-02-01 00:49:38,High,DoS,1.0,0.5973,203.0.113.13,10.0.3.3,http,tcp,"request rate 314/s, SYN-error rate 0.83, 147 connections",DoS
+ALERT-00003,2026-02-01 00:55:33,High,DoS,1.0,0.6362,203.0.113.10,10.0.3.6,other,icmp,"request rate 468/s, SYN-error rate 0.71, 152 connections",DoS
+ALERT-00004,2026-02-01 01:37:39,Critical,DataExfiltration,1.0,0.6375,203.0.113.40,10.0.2.56,ftp,tcp,0.51 MB sent out over 38s (hour 1),DataExfiltration
+ALERT-00005,2026-02-01 01:43:19,High,BruteForce,1.0,0.6401,203.0.113.21,10.0.0.1,ftp,tcp,11 failed logins on ftp,BruteForce
+ALERT-00006,2026-02-01 01:59:55,Low,UnknownAnomaly,0.595,0.556,192.168.6.13,10.0.3.50,smtp,udp,behaviour far from normal baseline (anomaly score 0.556),Normal
+ALERT-00007,2026-02-01 02:14:17,High,DoS,1.0,0.6036,203.0.113.12,10.0.0.38,http,tcp,"request rate 385/s, SYN-error rate 0.92, 145 connections",DoS
+ALERT-00008,2026-02-01 02:45:00,Critical,DataExfiltration,1.0,0.6297,203.0.113.40,10.0.3.38,ftp,tcp,0.29 MB sent out over 106s (hour 2),DataExfiltration
+ALERT-00009,2026-02-01 02:59:40,Critical,DataExfiltration,0.99,0.5869,203.0.113.40,10.0.1.49,https,tcp,0.11 MB sent out over 93s (hour 2),DataExfiltration
+ALERT-00010,2026-02-01 03:20:40,High,BruteForce,1.0,0.6218,203.0.113.22,10.0.2.32,http,tcp,6 failed logins on http,BruteForce
+ALERT-00011,2026-02-01 03:41:33,Critical,DataExfiltration,1.0,0.6178,203.0.113.42,10.0.2.42,other,tcp,0.45 MB sent out over 56s (hour 3),DataExfiltration
+ALERT-00012,2026-02-01 03:50:04,Critical,DataExfiltration,1.0,0.6134,203.0.113.43,10.0.2.55,https,tcp,0.99 MB sent out over 113s (hour 3),DataExfiltration
+ALERT-00013,2026-02-01 03:51:12,Critical,DataExfiltration,1.0,0.6056,203.0.113.40,10.0.3.36,smtp,tcp,0.37 MB sent out over 96s (hour 3),DataExfiltration
+ALERT-00014,2026-02-01 04:08:18,High,BruteForce,0.995,0.6354,203.0.113.20,10.0.0.17,ftp,tcp,4 failed logins on ftp,BruteForce
+ALERT-00015,2026-02-01 04:17:48,High,BruteForce,1.0,0.6341,203.0.113.21,10.0.3.20,http,tcp,7 failed logins on http,BruteForce
+ALERT-00016,2026-02-01 04:41:48,Medium,BruteForce,0.372,0.4904,192.168.6.86,10.0.2.34,telnet,tcp,0 failed logins on telnet,Normal
+ALERT-00017,2026-02-01 04:45:06,High,BruteForce,0.99,0.6118,203.0.113.21,10.0.3.44,http,tcp,5 failed logins on http,BruteForce
+ALERT-00018,2026-02-01 04:54:34,Critical,DataExfiltration,1.0,0.6242,203.0.113.41,10.0.0.16,ftp,tcp,0.66 MB sent out over 95s (hour 4),DataExfiltration
+ALERT-00019,2026-02-01 05:28:58,High,DoS,1.0,0.6308,203.0.113.11,10.0.0.50,http,icmp,"request rate 395/s, SYN-error rate 0.76, 153 connections",DoS
+ALERT-00020,2026-02-01 05:52:35,High,DoS,0.993,0.6381,203.0.113.11,10.0.1.59,other,icmp,"request rate 334/s, SYN-error rate 0.91, 161 connections",DoS
+ALERT-00021,2026-02-01 07:16:18,High,BruteForce,1.0,0.6042,203.0.113.22,10.0.3.22,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00022,2026-02-01 07:51:14,High,BruteForce,1.0,0.6012,203.0.113.23,10.0.3.16,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00023,2026-02-01 08:00:50,Medium,BruteForce,0.479,0.4312,192.168.2.237,10.0.1.17,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00024,2026-02-01 08:31:54,High,DoS,1.0,0.5841,203.0.113.13,10.0.0.1,other,tcp,"request rate 345/s, SYN-error rate 0.84, 152 connections",DoS
+ALERT-00025,2026-02-01 08:58:50,High,DoS,1.0,0.5652,203.0.113.13,10.0.2.58,other,tcp,"request rate 383/s, SYN-error rate 0.81, 133 connections",DoS
+ALERT-00026,2026-02-01 09:04:19,High,DoS,1.0,0.6179,203.0.113.10,10.0.3.37,https,icmp,"request rate 369/s, SYN-error rate 1.00, 142 connections",DoS
+ALERT-00027,2026-02-01 09:08:52,High,DoS,0.992,0.5791,203.0.113.13,10.0.3.3,other,tcp,"request rate 425/s, SYN-error rate 0.91, 141 connections",DoS
+ALERT-00028,2026-02-01 09:13:06,Medium,PortScan,1.0,0.6207,203.0.113.31,10.0.0.22,http,tcp,"392 different ports probed, reject rate 0.87",PortScan
+ALERT-00029,2026-02-01 09:19:12,High,DoS,1.0,0.5897,203.0.113.10,10.0.1.50,http,tcp,"request rate 82/s, SYN-error rate 0.96, 185 connections",DoS
+ALERT-00030,2026-02-01 09:21:16,High,BruteForce,1.0,0.6351,203.0.113.20,10.0.1.33,ftp,tcp,10 failed logins on ftp,BruteForce
+ALERT-00031,2026-02-01 09:24:16,High,DoS,1.0,0.6052,203.0.113.13,10.0.0.37,https,udp,"request rate 428/s, SYN-error rate 0.91, 174 connections",DoS
+ALERT-00032,2026-02-01 09:32:34,High,DoS,1.0,0.5978,203.0.113.12,10.0.3.11,other,icmp,"request rate 262/s, SYN-error rate 0.95, 139 connections",DoS
+ALERT-00033,2026-02-01 09:35:54,Medium,PortScan,1.0,0.6449,203.0.113.32,10.0.1.34,https,udp,"315 different ports probed, reject rate 0.70",PortScan
+ALERT-00034,2026-02-01 09:51:55,High,DoS,1.0,0.5908,203.0.113.11,10.0.3.15,http,tcp,"request rate 747/s, SYN-error rate 0.89, 124 connections",DoS
+ALERT-00035,2026-02-01 09:59:19,High,DoS,1.0,0.589,203.0.113.13,10.0.3.22,http,tcp,"request rate 211/s, SYN-error rate 0.92, 175 connections",DoS
+ALERT-00036,2026-02-01 10:05:34,Medium,PortScan,1.0,0.6501,203.0.113.30,10.0.0.8,ssh,udp,"153 different ports probed, reject rate 0.92",PortScan
+ALERT-00037,2026-02-01 10:11:10,High,BruteForce,1.0,0.6172,203.0.113.21,10.0.2.48,ftp,tcp,6 failed logins on ftp,BruteForce
+ALERT-00038,2026-02-01 10:36:05,Medium,BruteForce,0.486,0.4323,192.168.0.72,10.0.3.43,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00039,2026-02-01 11:02:38,Medium,UnknownAnomaly,0.636,0.5497,192.168.1.182,10.0.2.50,dns,icmp,behaviour far from normal baseline (anomaly score 0.550),Normal
+ALERT-00040,2026-02-01 11:07:40,High,DoS,1.0,0.5716,203.0.113.10,10.0.0.27,other,tcp,"request rate 407/s, SYN-error rate 0.70, 141 connections",DoS
+ALERT-00041,2026-02-01 11:19:17,High,BruteForce,1.0,0.6033,203.0.113.21,10.0.2.11,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00042,2026-02-01 11:23:00,High,BruteForce,1.0,0.614,203.0.113.21,10.0.1.24,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00043,2026-02-01 11:25:29,High,BruteForce,1.0,0.5946,203.0.113.22,10.0.0.1,ssh,tcp,12 failed logins on ssh,BruteForce
+ALERT-00044,2026-02-01 11:28:14,High,BruteForce,1.0,0.6061,203.0.113.21,10.0.2.23,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00045,2026-02-01 11:40:41,High,BruteForce,1.0,0.5976,203.0.113.23,10.0.3.57,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00046,2026-02-01 11:59:09,High,DoS,1.0,0.5692,203.0.113.11,10.0.1.46,https,tcp,"request rate 706/s, SYN-error rate 0.76, 141 connections",DoS
+ALERT-00047,2026-02-01 12:01:41,High,BruteForce,0.996,0.587,203.0.113.23,10.0.0.17,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00048,2026-02-01 12:02:16,Medium,PortScan,1.0,0.6226,203.0.113.32,10.0.2.13,dns,tcp,"290 different ports probed, reject rate 0.76",PortScan
+ALERT-00049,2026-02-01 12:08:45,Medium,UnknownAnomaly,0.632,0.5798,192.168.3.118,10.0.1.3,dns,tcp,behaviour far from normal baseline (anomaly score 0.580),Normal
+ALERT-00050,2026-02-01 12:24:26,Medium,PortScan,1.0,0.6023,203.0.113.31,10.0.2.35,http,tcp,"225 different ports probed, reject rate 0.42",PortScan
+ALERT-00051,2026-02-01 12:26:54,High,DoS,1.0,0.5873,203.0.113.12,10.0.3.25,http,tcp,"request rate 348/s, SYN-error rate 0.88, 154 connections",DoS
+ALERT-00052,2026-02-01 12:32:33,High,DoS,1.0,0.573,203.0.113.10,10.0.2.33,https,tcp,"request rate 644/s, SYN-error rate 0.97, 156 connections",DoS
+ALERT-00053,2026-02-01 12:32:40,High,DoS,1.0,0.5886,203.0.113.13,10.0.2.49,https,tcp,"request rate 445/s, SYN-error rate 0.91, 174 connections",DoS
+ALERT-00054,2026-02-01 12:57:49,High,DoS,1.0,0.5777,203.0.113.13,10.0.1.10,dns,tcp,"request rate 510/s, SYN-error rate 0.96, 165 connections",DoS
+ALERT-00055,2026-02-01 13:09:05,High,DoS,1.0,0.5862,203.0.113.12,10.0.2.38,http,udp,"request rate 361/s, SYN-error rate 0.81, 142 connections",DoS
+ALERT-00056,2026-02-01 13:24:46,High,BruteForce,1.0,0.5746,203.0.113.22,10.0.1.54,ssh,tcp,4 failed logins on ssh,BruteForce
+ALERT-00057,2026-02-01 13:30:17,High,DoS,1.0,0.6235,203.0.113.12,10.0.1.41,other,icmp,"request rate 271/s, SYN-error rate 0.91, 158 connections",DoS
+ALERT-00058,2026-02-01 13:41:09,High,DoS,1.0,0.612,203.0.113.12,10.0.0.29,other,tcp,"request rate 398/s, SYN-error rate 0.91, 150 connections",DoS
+ALERT-00059,2026-02-01 13:41:27,High,DoS,1.0,0.5966,203.0.113.13,10.0.1.21,https,icmp,"request rate 324/s, SYN-error rate 0.97, 140 connections",DoS
+ALERT-00060,2026-02-01 14:11:10,High,DoS,1.0,0.6138,203.0.113.10,10.0.3.13,http,icmp,"request rate 423/s, SYN-error rate 0.96, 169 connections",DoS
+ALERT-00061,2026-02-01 14:16:09,High,DoS,1.0,0.5745,203.0.113.10,10.0.0.37,http,tcp,"request rate 458/s, SYN-error rate 0.74, 147 connections",DoS
+ALERT-00062,2026-02-01 14:39:35,Medium,PortScan,1.0,0.6296,203.0.113.30,10.0.2.10,smtp,tcp,"138 different ports probed, reject rate 0.88",PortScan
+ALERT-00063,2026-02-01 14:42:47,Medium,PortScan,0.99,0.637,203.0.113.33,10.0.0.6,telnet,tcp,"461 different ports probed, reject rate 0.62",PortScan
+ALERT-00064,2026-02-01 14:57:46,High,DoS,1.0,0.6168,203.0.113.10,10.0.2.17,https,icmp,"request rate 307/s, SYN-error rate 0.87, 145 connections",DoS
+ALERT-00065,2026-02-01 15:09:10,Critical,DataExfiltration,0.97,0.5233,203.0.113.41,10.0.2.32,https,tcp,0.04 MB sent out over 347s (hour 15),DataExfiltration
+ALERT-00066,2026-02-01 15:29:34,High,DoS,1.0,0.5583,203.0.113.10,10.0.0.28,https,tcp,"request rate 497/s, SYN-error rate 0.77, 173 connections",DoS
+ALERT-00067,2026-02-01 15:35:21,Medium,PortScan,1.0,0.6043,203.0.113.30,10.0.2.3,smtp,tcp,"153 different ports probed, reject rate 0.84",PortScan
+ALERT-00068,2026-02-01 15:38:50,Medium,PortScan,0.98,0.6038,203.0.113.31,10.0.0.45,https,tcp,"47 different ports probed, reject rate 0.87",PortScan
+ALERT-00069,2026-02-01 15:40:52,Medium,PortScan,1.0,0.6266,203.0.113.32,10.0.3.9,other,tcp,"455 different ports probed, reject rate 0.64",PortScan
+ALERT-00070,2026-02-01 16:01:11,High,DoS,1.0,0.5768,203.0.113.12,10.0.1.46,http,tcp,"request rate 250/s, SYN-error rate 0.88, 154 connections",DoS
+ALERT-00071,2026-02-01 16:19:32,High,BruteForce,1.0,0.6077,203.0.113.20,10.0.2.5,ssh,tcp,9 failed logins on ssh,BruteForce
+ALERT-00072,2026-02-01 16:56:05,Medium,PortScan,1.0,0.6259,203.0.113.33,10.0.0.8,telnet,tcp,"390 different ports probed, reject rate 0.76",PortScan
+ALERT-00073,2026-02-01 17:02:09,Critical,DataExfiltration,0.934,0.5615,203.0.113.40,10.0.1.13,smtp,tcp,0.04 MB sent out over 29s (hour 17),DataExfiltration
+ALERT-00074,2026-02-01 17:41:24,Medium,PortScan,1.0,0.6417,203.0.113.33,10.0.3.25,smtp,udp,"234 different ports probed, reject rate 0.77",PortScan
+ALERT-00075,2026-02-01 17:49:05,High,DoS,1.0,0.5802,203.0.113.13,10.0.2.23,https,tcp,"request rate 291/s, SYN-error rate 0.81, 151 connections",DoS
+ALERT-00076,2026-02-01 18:15:15,High,DoS,1.0,0.5802,203.0.113.13,10.0.1.17,http,tcp,"request rate 373/s, SYN-error rate 0.96, 140 connections",DoS
+ALERT-00077,2026-02-01 18:28:31,Medium,PortScan,1.0,0.613,203.0.113.32,10.0.1.2,https,tcp,"192 different ports probed, reject rate 0.67",PortScan
+ALERT-00078,2026-02-01 18:36:30,Medium,UnknownAnomaly,0.607,0.5819,192.168.3.175,10.0.2.38,other,tcp,behaviour far from normal baseline (anomaly score 0.582),Normal
+ALERT-00079,2026-02-01 18:36:45,High,DoS,1.0,0.6121,203.0.113.12,10.0.2.7,other,icmp,"request rate 678/s, SYN-error rate 0.89, 158 connections",DoS
+ALERT-00080,2026-02-01 18:57:54,Medium,PortScan,1.0,0.6302,203.0.113.30,10.0.0.50,http,tcp,"85 different ports probed, reject rate 0.79",PortScan
+ALERT-00081,2026-02-01 19:05:30,Medium,UnknownAnomaly,0.667,0.5676,192.168.9.161,10.0.2.45,https,tcp,behaviour far from normal baseline (anomaly score 0.568),Normal
+ALERT-00082,2026-02-01 19:51:21,High,BruteForce,1.0,0.6198,203.0.113.23,10.0.0.38,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00083,2026-02-01 20:30:26,High,DoS,1.0,0.5847,203.0.113.11,10.0.1.23,http,tcp,"request rate 355/s, SYN-error rate 0.93, 143 connections",DoS
+ALERT-00084,2026-02-01 21:11:00,Critical,DataExfiltration,1.0,0.5809,203.0.113.41,10.0.1.3,smtp,tcp,0.39 MB sent out over 23s (hour 21),DataExfiltration
+ALERT-00085,2026-02-01 21:51:39,High,BruteForce,1.0,0.6045,203.0.113.20,10.0.2.17,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00086,2026-02-01 21:52:15,High,BruteForce,1.0,0.6101,203.0.113.21,10.0.0.26,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00087,2026-02-01 22:39:09,High,BruteForce,1.0,0.6233,203.0.113.23,10.0.3.26,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00088,2026-02-01 22:50:07,High,DoS,1.0,0.5962,203.0.113.11,10.0.1.20,dns,tcp,"request rate 616/s, SYN-error rate 0.83, 145 connections",DoS
+ALERT-00089,2026-02-01 22:58:48,High,BruteForce,1.0,0.604,203.0.113.23,10.0.0.57,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00090,2026-02-01 23:27:28,High,DoS,1.0,0.564,203.0.113.11,10.0.3.17,http,tcp,"request rate 830/s, SYN-error rate 0.98, 148 connections",DoS
+ALERT-00091,2026-02-01 23:28:51,Critical,DataExfiltration,0.99,0.5677,203.0.113.41,10.0.2.2,https,tcp,0.05 MB sent out over 61s (hour 23),DataExfiltration
+ALERT-00092,2026-02-01 23:44:27,High,BruteForce,1.0,0.6371,203.0.113.20,10.0.3.38,http,tcp,7 failed logins on http,BruteForce
+ALERT-00093,2026-02-02 00:10:49,Medium,UnknownAnomaly,0.635,0.556,192.168.8.225,10.0.2.30,telnet,udp,behaviour far from normal baseline (anomaly score 0.556),Normal
+ALERT-00094,2026-02-02 00:41:08,High,BruteForce,1.0,0.5938,203.0.113.20,10.0.2.26,http,tcp,5 failed logins on http,BruteForce
+ALERT-00095,2026-02-02 00:59:51,High,BruteForce,1.0,0.6298,203.0.113.22,10.0.0.9,telnet,tcp,5 failed logins on telnet,BruteForce
+ALERT-00096,2026-02-02 01:20:03,Critical,DataExfiltration,1.0,0.6466,203.0.113.41,10.0.1.37,ftp,tcp,2.44 MB sent out over 63s (hour 1),DataExfiltration
+ALERT-00097,2026-02-02 01:21:15,High,BruteForce,1.0,0.6493,203.0.113.21,10.0.1.1,http,tcp,11 failed logins on http,BruteForce
+ALERT-00098,2026-02-02 01:23:40,High,BruteForce,0.952,0.6586,203.0.113.20,10.0.1.52,ftp,tcp,8 failed logins on ftp,BruteForce
+ALERT-00099,2026-02-02 01:36:07,High,BruteForce,1.0,0.6373,203.0.113.22,10.0.0.32,telnet,tcp,4 failed logins on telnet,BruteForce
+ALERT-00100,2026-02-02 01:38:24,Critical,DataExfiltration,1.0,0.5918,203.0.113.40,10.0.2.58,https,tcp,0.20 MB sent out over 92s (hour 1),DataExfiltration
+ALERT-00101,2026-02-02 01:41:16,High,BruteForce,0.995,0.6381,203.0.113.22,10.0.3.15,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00102,2026-02-02 01:52:52,High,BruteForce,1.0,0.635,203.0.113.20,10.0.0.51,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00103,2026-02-02 02:49:42,Critical,DataExfiltration,1.0,0.6045,203.0.113.43,10.0.0.13,https,tcp,0.39 MB sent out over 31s (hour 2),DataExfiltration
+ALERT-00104,2026-02-02 02:58:25,Critical,DataExfiltration,1.0,0.637,203.0.113.41,10.0.0.25,https,tcp,10.44 MB sent out over 74s (hour 2),DataExfiltration
+ALERT-00105,2026-02-02 03:15:16,High,BruteForce,1.0,0.6325,203.0.113.23,10.0.3.56,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00106,2026-02-02 03:42:11,High,DoS,1.0,0.6126,203.0.113.12,10.0.1.12,http,tcp,"request rate 262/s, SYN-error rate 0.98, 149 connections",DoS
+ALERT-00107,2026-02-02 03:56:54,Critical,DataExfiltration,1.0,0.6207,203.0.113.41,10.0.0.52,other,tcp,1.05 MB sent out over 95s (hour 3),DataExfiltration
+ALERT-00108,2026-02-02 04:13:53,Critical,DataExfiltration,1.0,0.6207,203.0.113.41,10.0.2.52,ftp,tcp,0.19 MB sent out over 102s (hour 4),DataExfiltration
+ALERT-00109,2026-02-02 04:16:48,High,DoS,1.0,0.6148,203.0.113.11,10.0.0.2,http,tcp,"request rate 308/s, SYN-error rate 0.96, 160 connections",DoS
+ALERT-00110,2026-02-02 05:22:42,High,BruteForce,1.0,0.6467,203.0.113.21,10.0.2.25,telnet,tcp,7 failed logins on telnet,BruteForce
+ALERT-00111,2026-02-02 05:31:24,Critical,DataExfiltration,1.0,0.5952,203.0.113.40,10.0.3.38,https,tcp,0.55 MB sent out over 36s (hour 5),DataExfiltration
+ALERT-00112,2026-02-02 05:37:36,High,BruteForce,1.0,0.6391,203.0.113.21,10.0.1.50,ssh,tcp,9 failed logins on ssh,BruteForce
+ALERT-00113,2026-02-02 05:55:55,Medium,BruteForce,0.504,0.4659,192.168.0.194,10.0.1.31,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00114,2026-02-02 05:58:42,High,DoS,1.0,0.6449,203.0.113.10,10.0.2.9,other,icmp,"request rate 278/s, SYN-error rate 0.82, 151 connections",DoS
+ALERT-00115,2026-02-02 07:38:52,Medium,PortScan,1.0,0.6103,203.0.113.32,10.0.1.52,http,tcp,"22 different ports probed, reject rate 0.69",PortScan
+ALERT-00116,2026-02-02 08:31:02,Critical,DataExfiltration,1.0,0.578,203.0.113.42,10.0.0.57,https,tcp,0.69 MB sent out over 99s (hour 8),DataExfiltration
+ALERT-00117,2026-02-02 08:55:33,High,BruteForce,1.0,0.6143,203.0.113.22,10.0.3.45,http,tcp,8 failed logins on http,BruteForce
+ALERT-00118,2026-02-02 09:06:21,Medium,PortScan,1.0,0.6272,203.0.113.33,10.0.3.18,dns,tcp,"198 different ports probed, reject rate 0.70",PortScan
+ALERT-00119,2026-02-02 09:17:32,High,BruteForce,1.0,0.6006,203.0.113.20,10.0.3.3,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00120,2026-02-02 09:20:25,High,BruteForce,1.0,0.6126,203.0.113.23,10.0.1.52,ssh,tcp,12 failed logins on ssh,BruteForce
+ALERT-00121,2026-02-02 09:47:25,High,DoS,1.0,0.6281,203.0.113.12,10.0.3.40,other,udp,"request rate 308/s, SYN-error rate 0.76, 150 connections",DoS
+ALERT-00122,2026-02-02 09:48:46,Critical,DataExfiltration,0.994,0.5785,203.0.113.40,10.0.3.54,https,tcp,0.14 MB sent out over 108s (hour 9),DataExfiltration
+ALERT-00123,2026-02-02 10:00:10,High,DoS,1.0,0.575,203.0.113.11,10.0.1.11,https,tcp,"request rate 236/s, SYN-error rate 0.88, 135 connections",DoS
+ALERT-00124,2026-02-02 10:00:13,High,DoS,0.992,0.5789,203.0.113.12,10.0.3.31,http,udp,"request rate 163/s, SYN-error rate 0.88, 158 connections",DoS
+ALERT-00125,2026-02-02 10:06:02,Critical,DataExfiltration,1.0,0.5648,203.0.113.40,10.0.2.46,https,tcp,0.16 MB sent out over 89s (hour 10),DataExfiltration
+ALERT-00126,2026-02-02 10:13:59,Medium,PortScan,1.0,0.6245,203.0.113.32,10.0.1.22,smtp,tcp,"305 different ports probed, reject rate 0.62",PortScan
+ALERT-00127,2026-02-02 10:41:28,High,DoS,1.0,0.5526,203.0.113.11,10.0.2.26,https,tcp,"request rate 542/s, SYN-error rate 0.83, 163 connections",DoS
+ALERT-00128,2026-02-02 10:47:06,High,DoS,1.0,0.5778,203.0.113.10,10.0.1.50,http,tcp,"request rate 484/s, SYN-error rate 0.97, 135 connections",DoS
+ALERT-00129,2026-02-02 10:47:20,High,DoS,1.0,0.6235,203.0.113.13,10.0.3.59,http,icmp,"request rate 570/s, SYN-error rate 0.91, 175 connections",DoS
+ALERT-00130,2026-02-02 10:51:53,High,DoS,1.0,0.5573,203.0.113.11,10.0.2.53,https,tcp,"request rate 221/s, SYN-error rate 0.93, 160 connections",DoS
+ALERT-00131,2026-02-02 11:03:38,Critical,DataExfiltration,1.0,0.5638,203.0.113.40,10.0.3.56,https,tcp,0.34 MB sent out over 252s (hour 11),DataExfiltration
+ALERT-00132,2026-02-02 11:10:08,High,DoS,1.0,0.5805,203.0.113.11,10.0.0.43,dns,tcp,"request rate 881/s, SYN-error rate 0.94, 153 connections",DoS
+ALERT-00133,2026-02-02 11:26:49,High,DoS,1.0,0.6219,203.0.113.10,10.0.0.5,other,icmp,"request rate 412/s, SYN-error rate 0.95, 161 connections",DoS
+ALERT-00134,2026-02-02 11:29:41,Critical,DataExfiltration,1.0,0.5915,203.0.113.40,10.0.1.17,smtp,tcp,0.32 MB sent out over 121s (hour 11),DataExfiltration
+ALERT-00135,2026-02-02 11:34:17,Medium,PortScan,1.0,0.6323,203.0.113.33,10.0.3.26,ftp,tcp,"285 different ports probed, reject rate 0.75",PortScan
+ALERT-00136,2026-02-02 11:43:50,High,BruteForce,1.0,0.6183,203.0.113.20,10.0.1.23,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00137,2026-02-02 12:22:07,Medium,PortScan,1.0,0.6007,203.0.113.31,10.0.2.48,https,tcp,"437 different ports probed, reject rate 0.78",PortScan
+ALERT-00138,2026-02-02 12:44:16,High,DoS,1.0,0.6026,203.0.113.13,10.0.0.4,other,tcp,"request rate 298/s, SYN-error rate 0.94, 154 connections",DoS
+ALERT-00139,2026-02-02 12:44:25,High,DoS,1.0,0.6099,203.0.113.12,10.0.0.18,https,icmp,"request rate 488/s, SYN-error rate 0.99, 137 connections",DoS
+ALERT-00140,2026-02-02 12:53:22,Medium,PortScan,1.0,0.5916,203.0.113.30,10.0.3.31,ssh,tcp,"485 different ports probed, reject rate 0.90",PortScan
+ALERT-00141,2026-02-02 13:25:33,Medium,PortScan,0.999,0.6289,203.0.113.31,10.0.3.58,dns,tcp,"29 different ports probed, reject rate 0.90",PortScan
+ALERT-00142,2026-02-02 14:27:39,Critical,DataExfiltration,1.0,0.5786,203.0.113.43,10.0.0.59,https,tcp,0.67 MB sent out over 46s (hour 14),DataExfiltration
+ALERT-00143,2026-02-02 14:41:24,High,BruteForce,1.0,0.6145,203.0.113.23,10.0.3.45,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00144,2026-02-02 14:46:31,High,DoS,1.0,0.5984,203.0.113.12,10.0.0.51,dns,icmp,"request rate 314/s, SYN-error rate 0.89, 137 connections",DoS
+ALERT-00145,2026-02-02 15:02:11,High,DoS,1.0,0.6241,203.0.113.10,10.0.0.48,other,icmp,"request rate 239/s, SYN-error rate 0.93, 178 connections",DoS
+ALERT-00146,2026-02-02 15:12:37,Critical,DataExfiltration,1.0,0.5902,203.0.113.42,10.0.2.7,other,tcp,0.62 MB sent out over 98s (hour 15),DataExfiltration
+ALERT-00147,2026-02-02 15:23:45,Critical,DataExfiltration,1.0,0.566,203.0.113.41,10.0.3.7,https,tcp,0.17 MB sent out over 100s (hour 15),DataExfiltration
+ALERT-00148,2026-02-02 15:50:34,High,DoS,1.0,0.5906,203.0.113.13,10.0.1.6,http,tcp,"request rate 194/s, SYN-error rate 0.87, 159 connections",DoS
+ALERT-00149,2026-02-02 15:51:29,Medium,BruteForce,0.559,0.4166,192.168.2.232,10.0.1.24,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00150,2026-02-02 16:05:13,High,DoS,1.0,0.587,203.0.113.10,10.0.1.46,http,tcp,"request rate 229/s, SYN-error rate 0.87, 139 connections",DoS
+ALERT-00151,2026-02-02 16:06:09,High,BruteForce,1.0,0.6313,203.0.113.20,10.0.3.28,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00152,2026-02-02 16:28:19,High,DoS,1.0,0.616,203.0.113.13,10.0.0.33,https,icmp,"request rate 250/s, SYN-error rate 0.88, 154 connections",DoS
+ALERT-00153,2026-02-02 16:34:19,High,DoS,1.0,0.5921,203.0.113.12,10.0.0.13,http,tcp,"request rate 477/s, SYN-error rate 0.83, 141 connections",DoS
+ALERT-00154,2026-02-02 17:08:58,High,DoS,1.0,0.6248,203.0.113.13,10.0.3.11,dns,icmp,"request rate 277/s, SYN-error rate 0.96, 165 connections",DoS
+ALERT-00155,2026-02-02 17:47:22,High,DoS,1.0,0.5887,203.0.113.11,10.0.1.40,http,tcp,"request rate 494/s, SYN-error rate 0.87, 153 connections",DoS
+ALERT-00156,2026-02-02 17:50:14,High,DoS,1.0,0.5959,203.0.113.12,10.0.2.35,http,icmp,"request rate 362/s, SYN-error rate 0.88, 161 connections",DoS
+ALERT-00157,2026-02-02 17:51:28,High,DoS,1.0,0.6136,203.0.113.11,10.0.1.48,other,icmp,"request rate 259/s, SYN-error rate 0.97, 136 connections",DoS
+ALERT-00158,2026-02-02 18:04:34,High,BruteForce,1.0,0.6121,203.0.113.22,10.0.0.34,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00159,2026-02-02 18:32:46,High,DoS,1.0,0.6069,203.0.113.10,10.0.1.20,http,icmp,"request rate 577/s, SYN-error rate 0.94, 164 connections",DoS
+ALERT-00160,2026-02-02 18:35:33,Medium,PortScan,1.0,0.6174,203.0.113.30,10.0.0.39,http,tcp,"179 different ports probed, reject rate 0.63",PortScan
+ALERT-00161,2026-02-02 18:47:26,Medium,PortScan,1.0,0.586,203.0.113.31,10.0.3.33,https,tcp,"83 different ports probed, reject rate 0.77",PortScan
+ALERT-00162,2026-02-02 19:59:15,Medium,PortScan,1.0,0.6364,203.0.113.32,10.0.1.28,smtp,tcp,"362 different ports probed, reject rate 0.89",PortScan
+ALERT-00163,2026-02-02 20:13:23,High,DoS,1.0,0.5816,203.0.113.11,10.0.2.5,http,tcp,"request rate 663/s, SYN-error rate 0.88, 164 connections",DoS
+ALERT-00164,2026-02-02 20:57:46,High,DoS,1.0,0.6163,203.0.113.12,10.0.3.54,https,udp,"request rate 308/s, SYN-error rate 0.94, 164 connections",DoS
+ALERT-00165,2026-02-02 21:32:49,Medium,PortScan,1.0,0.6539,203.0.113.33,10.0.1.12,https,udp,"424 different ports probed, reject rate 0.82",PortScan
+ALERT-00166,2026-02-02 22:31:46,High,DoS,1.0,0.6088,203.0.113.11,10.0.1.50,https,icmp,"request rate 532/s, SYN-error rate 0.88, 155 connections",DoS
+ALERT-00167,2026-02-02 23:16:39,Medium,PortScan,1.0,0.6226,203.0.113.31,10.0.2.8,smtp,tcp,"276 different ports probed, reject rate 0.74",PortScan
+ALERT-00168,2026-02-03 00:06:14,High,DoS,1.0,0.6157,203.0.113.13,10.0.0.48,other,tcp,"request rate 415/s, SYN-error rate 0.84, 141 connections",DoS
+ALERT-00169,2026-02-03 00:13:14,High,BruteForce,0.995,0.6221,203.0.113.23,10.0.2.34,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00170,2026-02-03 00:34:04,High,BruteForce,1.0,0.6344,203.0.113.23,10.0.2.19,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00171,2026-02-03 00:55:28,High,BruteForce,1.0,0.6349,203.0.113.23,10.0.2.32,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00172,2026-02-03 01:07:56,Critical,DataExfiltration,1.0,0.5965,203.0.113.42,10.0.2.11,https,tcp,0.22 MB sent out over 29s (hour 1),DataExfiltration
+ALERT-00173,2026-02-03 01:48:44,High,DoS,1.0,0.6351,203.0.113.13,10.0.2.55,http,icmp,"request rate 585/s, SYN-error rate 0.77, 150 connections",DoS
+ALERT-00174,2026-02-03 01:50:10,Critical,DataExfiltration,1.0,0.619,203.0.113.43,10.0.3.27,other,tcp,0.21 MB sent out over 73s (hour 1),DataExfiltration
+ALERT-00175,2026-02-03 01:59:51,High,BruteForce,1.0,0.6379,203.0.113.20,10.0.1.29,ftp,tcp,11 failed logins on ftp,BruteForce
+ALERT-00176,2026-02-03 02:20:21,High,BruteForce,1.0,0.6281,203.0.113.20,10.0.1.50,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00177,2026-02-03 02:31:58,High,BruteForce,1.0,0.6326,203.0.113.21,10.0.2.58,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00178,2026-02-03 02:47:55,Low,UnknownAnomaly,0.467,0.5566,192.168.8.187,10.0.2.37,other,tcp,behaviour far from normal baseline (anomaly score 0.557),Normal
+ALERT-00179,2026-02-03 02:58:31,High,BruteForce,1.0,0.6547,203.0.113.21,10.0.0.22,telnet,tcp,8 failed logins on telnet,BruteForce
+ALERT-00180,2026-02-03 02:58:48,High,BruteForce,0.962,0.6126,203.0.113.21,10.0.0.2,ssh,tcp,3 failed logins on ssh,BruteForce
+ALERT-00181,2026-02-03 03:24:16,High,DoS,1.0,0.6212,203.0.113.13,10.0.3.6,http,icmp,"request rate 298/s, SYN-error rate 0.95, 164 connections",DoS
+ALERT-00182,2026-02-03 04:09:14,High,BruteForce,0.995,0.623,203.0.113.23,10.0.2.17,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00183,2026-02-03 04:30:51,High,BruteForce,1.0,0.6339,203.0.113.22,10.0.0.55,ftp,tcp,10 failed logins on ftp,BruteForce
+ALERT-00184,2026-02-03 04:53:57,Medium,BruteForce,0.539,0.4659,192.168.5.94,10.0.2.14,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00185,2026-02-03 05:21:32,Medium,PortScan,1.0,0.6559,203.0.113.30,10.0.0.59,ftp,udp,"64 different ports probed, reject rate 0.87",PortScan
+ALERT-00186,2026-02-03 05:23:30,High,BruteForce,1.0,0.6209,203.0.113.21,10.0.1.5,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00187,2026-02-03 05:40:02,Critical,DataExfiltration,1.0,0.5842,203.0.113.40,10.0.0.51,https,tcp,0.22 MB sent out over 56s (hour 5),DataExfiltration
+ALERT-00188,2026-02-03 05:43:20,Critical,DataExfiltration,1.0,0.6034,203.0.113.43,10.0.1.23,https,tcp,1.76 MB sent out over 112s (hour 5),DataExfiltration
+ALERT-00189,2026-02-03 06:58:33,High,DoS,1.0,0.6143,203.0.113.11,10.0.3.28,https,udp,"request rate 204/s, SYN-error rate 0.91, 130 connections",DoS
+ALERT-00190,2026-02-03 07:08:56,Critical,DataExfiltration,1.0,0.5805,203.0.113.42,10.0.0.1,other,tcp,0.20 MB sent out over 96s (hour 7),DataExfiltration
+ALERT-00191,2026-02-03 07:12:31,High,DoS,1.0,0.6085,203.0.113.11,10.0.3.7,other,icmp,"request rate 328/s, SYN-error rate 0.98, 146 connections",DoS
+ALERT-00192,2026-02-03 07:27:46,High,DoS,1.0,0.5882,203.0.113.12,10.0.1.8,http,tcp,"request rate 611/s, SYN-error rate 0.85, 161 connections",DoS
+ALERT-00193,2026-02-03 08:15:27,Medium,BruteForce,0.448,0.4199,192.168.3.188,10.0.1.46,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00194,2026-02-03 08:24:13,High,BruteForce,1.0,0.603,203.0.113.21,10.0.1.20,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00195,2026-02-03 08:30:48,Critical,DataExfiltration,1.0,0.6144,203.0.113.41,10.0.0.18,ftp,tcp,0.86 MB sent out over 51s (hour 8),DataExfiltration
+ALERT-00196,2026-02-03 08:37:23,High,DoS,1.0,0.6025,203.0.113.11,10.0.2.47,other,icmp,"request rate 411/s, SYN-error rate 0.93, 166 connections",DoS
+ALERT-00197,2026-02-03 09:02:26,High,DoS,1.0,0.5942,203.0.113.12,10.0.3.7,other,udp,"request rate 376/s, SYN-error rate 0.89, 147 connections",DoS
+ALERT-00198,2026-02-03 09:14:40,High,BruteForce,1.0,0.6195,203.0.113.23,10.0.0.56,ftp,tcp,11 failed logins on ftp,BruteForce
+ALERT-00199,2026-02-03 09:16:18,Medium,PortScan,1.0,0.6544,203.0.113.31,10.0.1.2,ftp,udp,"362 different ports probed, reject rate 0.83",PortScan
+ALERT-00200,2026-02-03 09:33:01,High,BruteForce,1.0,0.6086,203.0.113.21,10.0.1.8,telnet,tcp,8 failed logins on telnet,BruteForce
+ALERT-00201,2026-02-03 09:44:36,High,BruteForce,1.0,0.6061,203.0.113.23,10.0.2.6,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00202,2026-02-03 10:20:17,Medium,PortScan,1.0,0.607,203.0.113.33,10.0.2.25,http,tcp,"89 different ports probed, reject rate 0.65",PortScan
+ALERT-00203,2026-02-03 10:46:02,High,BruteForce,1.0,0.6319,203.0.113.23,10.0.1.8,ftp,tcp,14 failed logins on ftp,BruteForce
+ALERT-00204,2026-02-03 11:08:35,High,DoS,1.0,0.5848,203.0.113.11,10.0.2.11,other,tcp,"request rate 377/s, SYN-error rate 0.74, 155 connections",DoS
+ALERT-00205,2026-02-03 11:10:24,High,DoS,1.0,0.6025,203.0.113.12,10.0.0.51,dns,icmp,"request rate 276/s, SYN-error rate 0.86, 149 connections",DoS
+ALERT-00206,2026-02-03 11:12:55,Medium,PortScan,1.0,0.6219,203.0.113.33,10.0.1.50,https,tcp,"423 different ports probed, reject rate 0.74",PortScan
+ALERT-00207,2026-02-03 11:34:55,High,BruteForce,0.98,0.6255,203.0.113.20,10.0.1.4,telnet,tcp,7 failed logins on telnet,BruteForce
+ALERT-00208,2026-02-03 11:36:32,Medium,PortScan,1.0,0.6168,203.0.113.33,10.0.0.39,other,tcp,"129 different ports probed, reject rate 0.70",PortScan
+ALERT-00209,2026-02-03 11:54:28,High,DoS,1.0,0.6129,203.0.113.12,10.0.0.19,http,udp,"request rate 699/s, SYN-error rate 0.76, 145 connections",DoS
+ALERT-00210,2026-02-03 12:20:20,High,DoS,1.0,0.5886,203.0.113.13,10.0.0.49,http,tcp,"request rate 213/s, SYN-error rate 0.81, 148 connections",DoS
+ALERT-00211,2026-02-03 12:20:21,High,BruteForce,0.962,0.6117,203.0.113.20,10.0.3.28,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00212,2026-02-03 12:37:11,High,DoS,1.0,0.6201,203.0.113.11,10.0.1.30,https,icmp,"request rate 497/s, SYN-error rate 0.95, 130 connections",DoS
+ALERT-00213,2026-02-03 12:52:09,High,BruteForce,1.0,0.6205,203.0.113.23,10.0.2.52,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00214,2026-02-03 13:01:23,High,DoS,1.0,0.6236,203.0.113.11,10.0.2.23,https,icmp,"request rate 521/s, SYN-error rate 0.92, 140 connections",DoS
+ALERT-00215,2026-02-03 13:11:50,High,BruteForce,1.0,0.583,203.0.113.22,10.0.3.42,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00216,2026-02-03 13:19:00,High,DoS,1.0,0.5916,203.0.113.12,10.0.0.55,http,udp,"request rate 301/s, SYN-error rate 0.85, 126 connections",DoS
+ALERT-00217,2026-02-03 13:39:19,High,DoS,1.0,0.5938,203.0.113.13,10.0.0.31,dns,udp,"request rate 339/s, SYN-error rate 0.79, 187 connections",DoS
+ALERT-00218,2026-02-03 14:16:40,Medium,PortScan,1.0,0.6221,203.0.113.32,10.0.3.29,dns,tcp,"396 different ports probed, reject rate 0.83",PortScan
+ALERT-00219,2026-02-03 14:23:30,High,DoS,1.0,0.6207,203.0.113.13,10.0.0.42,http,icmp,"request rate 459/s, SYN-error rate 0.88, 134 connections",DoS
+ALERT-00220,2026-02-03 14:27:20,High,DoS,1.0,0.5853,203.0.113.11,10.0.0.14,https,tcp,"request rate 415/s, SYN-error rate 0.86, 160 connections",DoS
+ALERT-00221,2026-02-03 14:30:02,High,DoS,1.0,0.5691,203.0.113.12,10.0.2.30,http,tcp,"request rate 805/s, SYN-error rate 0.94, 144 connections",DoS
+ALERT-00222,2026-02-03 14:36:55,Low,UnknownAnomaly,0.593,0.5798,192.168.1.77,10.0.1.18,https,udp,behaviour far from normal baseline (anomaly score 0.580),Normal
+ALERT-00223,2026-02-03 14:40:45,High,DoS,1.0,0.6136,203.0.113.12,10.0.1.12,http,udp,"request rate 311/s, SYN-error rate 0.84, 167 connections",DoS
+ALERT-00224,2026-02-03 14:45:38,Critical,DataExfiltration,1.0,0.5731,203.0.113.40,10.0.0.48,https,tcp,0.60 MB sent out over 44s (hour 14),DataExfiltration
+ALERT-00225,2026-02-03 14:53:56,Medium,PortScan,1.0,0.6396,203.0.113.32,10.0.0.33,telnet,tcp,"62 different ports probed, reject rate 0.70",PortScan
+ALERT-00226,2026-02-03 14:57:18,Medium,PortScan,1.0,0.6278,203.0.113.33,10.0.0.15,dns,tcp,"100 different ports probed, reject rate 0.75",PortScan
+ALERT-00227,2026-02-03 15:19:14,High,DoS,1.0,0.6187,203.0.113.12,10.0.3.36,other,icmp,"request rate 203/s, SYN-error rate 0.76, 149 connections",DoS
+ALERT-00228,2026-02-03 15:24:14,Medium,PortScan,1.0,0.6321,203.0.113.31,10.0.1.35,smtp,tcp,"84 different ports probed, reject rate 0.78",PortScan
+ALERT-00229,2026-02-03 15:27:38,High,BruteForce,1.0,0.6051,203.0.113.22,10.0.3.29,ssh,tcp,9 failed logins on ssh,BruteForce
+ALERT-00230,2026-02-03 15:51:22,Medium,PortScan,1.0,0.6145,203.0.113.33,10.0.1.19,ssh,tcp,"155 different ports probed, reject rate 0.66",PortScan
+ALERT-00231,2026-02-03 16:03:29,Critical,DataExfiltration,1.0,0.598,203.0.113.42,10.0.2.53,https,tcp,2.63 MB sent out over 32s (hour 16),DataExfiltration
+ALERT-00232,2026-02-03 16:04:36,High,DoS,1.0,0.6136,203.0.113.10,10.0.3.22,https,icmp,"request rate 485/s, SYN-error rate 0.87, 152 connections",DoS
+ALERT-00233,2026-02-03 16:16:50,High,BruteForce,1.0,0.6124,203.0.113.21,10.0.0.41,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00234,2026-02-03 16:31:13,High,DoS,1.0,0.6063,203.0.113.11,10.0.2.11,https,icmp,"request rate 323/s, SYN-error rate 0.96, 166 connections",DoS
+ALERT-00235,2026-02-03 16:34:54,Medium,PortScan,1.0,0.6233,203.0.113.33,10.0.2.54,smtp,tcp,"321 different ports probed, reject rate 0.79",PortScan
+ALERT-00236,2026-02-03 16:45:01,Medium,PortScan,1.0,0.6441,203.0.113.30,10.0.0.1,smtp,tcp,"453 different ports probed, reject rate 0.85",PortScan
+ALERT-00237,2026-02-03 16:50:33,Medium,PortScan,0.998,0.6031,203.0.113.30,10.0.1.35,https,tcp,"293 different ports probed, reject rate 0.78",PortScan
+ALERT-00238,2026-02-03 17:09:19,Critical,DataExfiltration,1.0,0.5905,203.0.113.42,10.0.2.2,smtp,tcp,0.50 MB sent out over 34s (hour 17),DataExfiltration
+ALERT-00239,2026-02-03 17:11:37,Critical,DataExfiltration,1.0,0.5796,203.0.113.43,10.0.2.32,https,tcp,0.59 MB sent out over 62s (hour 17),DataExfiltration
+ALERT-00240,2026-02-03 17:24:04,High,DoS,1.0,0.5935,203.0.113.11,10.0.3.7,http,icmp,"request rate 699/s, SYN-error rate 0.83, 138 connections",DoS
+ALERT-00241,2026-02-03 17:27:14,High,DoS,1.0,0.5659,203.0.113.10,10.0.2.41,http,tcp,"request rate 184/s, SYN-error rate 0.93, 151 connections",DoS
+ALERT-00242,2026-02-03 17:44:27,High,DoS,1.0,0.5882,203.0.113.12,10.0.1.47,other,tcp,"request rate 300/s, SYN-error rate 0.99, 149 connections",DoS
+ALERT-00243,2026-02-03 18:20:09,Medium,PortScan,1.0,0.6096,203.0.113.32,10.0.0.48,ssh,tcp,"255 different ports probed, reject rate 0.78",PortScan
+ALERT-00244,2026-02-03 18:56:41,High,BruteForce,1.0,0.6159,203.0.113.23,10.0.1.1,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00245,2026-02-03 18:58:40,High,BruteForce,1.0,0.6157,203.0.113.22,10.0.1.42,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00246,2026-02-03 20:21:41,Critical,DataExfiltration,1.0,0.6144,203.0.113.40,10.0.3.30,ftp,tcp,0.31 MB sent out over 77s (hour 20),DataExfiltration
+ALERT-00247,2026-02-03 20:23:07,High,DoS,1.0,0.5964,203.0.113.11,10.0.1.27,other,tcp,"request rate 260/s, SYN-error rate 0.92, 160 connections",DoS
+ALERT-00248,2026-02-03 20:26:35,Critical,DataExfiltration,1.0,0.59,203.0.113.40,10.0.3.39,https,tcp,0.37 MB sent out over 38s (hour 20),DataExfiltration
+ALERT-00249,2026-02-03 21:51:02,High,BruteForce,0.97,0.597,203.0.113.21,10.0.2.15,http,tcp,3 failed logins on http,BruteForce
+ALERT-00250,2026-02-03 21:52:05,Critical,DataExfiltration,0.99,0.5954,203.0.113.42,10.0.2.25,ftp,tcp,0.06 MB sent out over 72s (hour 21),DataExfiltration
+ALERT-00251,2026-02-03 22:15:25,Critical,DataExfiltration,1.0,0.583,203.0.113.43,10.0.1.48,https,tcp,0.69 MB sent out over 45s (hour 22),DataExfiltration
+ALERT-00252,2026-02-03 22:33:05,High,DoS,1.0,0.6218,203.0.113.12,10.0.2.24,https,icmp,"request rate 426/s, SYN-error rate 0.97, 163 connections",DoS
+ALERT-00253,2026-02-03 23:08:07,High,DoS,1.0,0.5989,203.0.113.13,10.0.0.3,https,icmp,"request rate 156/s, SYN-error rate 0.94, 155 connections",DoS
+ALERT-00254,2026-02-03 23:23:29,Medium,PortScan,1.0,0.6245,203.0.113.32,10.0.3.3,dns,tcp,"57 different ports probed, reject rate 0.71",PortScan
+ALERT-00255,2026-02-03 23:42:39,High,BruteForce,1.0,0.6359,203.0.113.22,10.0.3.53,telnet,tcp,8 failed logins on telnet,BruteForce
+ALERT-00256,2026-02-04 00:12:32,High,BruteForce,1.0,0.6306,203.0.113.22,10.0.1.30,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00257,2026-02-04 00:21:06,Critical,DataExfiltration,1.0,0.6229,203.0.113.41,10.0.2.13,other,tcp,0.42 MB sent out over 167s (hour 0),DataExfiltration
+ALERT-00258,2026-02-04 00:27:51,High,DoS,1.0,0.6382,203.0.113.10,10.0.3.56,http,icmp,"request rate 294/s, SYN-error rate 0.90, 162 connections",DoS
+ALERT-00259,2026-02-04 00:54:54,High,BruteForce,1.0,0.6353,203.0.113.20,10.0.3.19,ftp,tcp,11 failed logins on ftp,BruteForce
+ALERT-00260,2026-02-04 02:05:54,Critical,DataExfiltration,1.0,0.6158,203.0.113.42,10.0.2.30,smtp,tcp,0.23 MB sent out over 51s (hour 2),DataExfiltration
+ALERT-00261,2026-02-04 02:06:31,Medium,UnknownAnomaly,0.62,0.5561,192.168.5.228,10.0.3.38,http,icmp,behaviour far from normal baseline (anomaly score 0.556),Normal
+ALERT-00262,2026-02-04 02:10:20,Low,UnknownAnomaly,0.453,0.5571,192.168.5.36,10.0.3.29,ftp,tcp,behaviour far from normal baseline (anomaly score 0.557),Normal
+ALERT-00263,2026-02-04 02:34:37,High,BruteForce,1.0,0.6025,203.0.113.22,10.0.0.30,http,tcp,4 failed logins on http,BruteForce
+ALERT-00264,2026-02-04 02:35:44,Critical,DataExfiltration,1.0,0.6124,203.0.113.40,10.0.3.16,smtp,tcp,0.36 MB sent out over 47s (hour 2),DataExfiltration
+ALERT-00265,2026-02-04 02:43:27,High,BruteForce,1.0,0.6464,203.0.113.20,10.0.0.56,ftp,tcp,7 failed logins on ftp,BruteForce
+ALERT-00266,2026-02-04 03:06:03,High,DoS,1.0,0.6439,203.0.113.11,10.0.1.4,http,icmp,"request rate 291/s, SYN-error rate 0.90, 159 connections",DoS
+ALERT-00267,2026-02-04 03:27:30,Medium,BruteForce,0.489,0.4703,192.168.5.165,10.0.3.48,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00268,2026-02-04 03:49:23,Medium,PortScan,1.0,0.6606,203.0.113.30,10.0.3.50,ftp,udp,"162 different ports probed, reject rate 0.74",PortScan
+ALERT-00269,2026-02-04 05:01:16,High,DoS,1.0,0.6075,203.0.113.12,10.0.3.46,http,tcp,"request rate 279/s, SYN-error rate 0.76, 145 connections",DoS
+ALERT-00270,2026-02-04 05:03:14,High,BruteForce,1.0,0.6395,203.0.113.20,10.0.2.6,http,tcp,8 failed logins on http,BruteForce
+ALERT-00271,2026-02-04 06:20:58,Critical,DataExfiltration,1.0,0.619,203.0.113.43,10.0.3.21,ftp,tcp,1.50 MB sent out over 143s (hour 6),DataExfiltration
+ALERT-00272,2026-02-04 08:02:02,Medium,PortScan,1.0,0.6196,203.0.113.32,10.0.1.45,ssh,tcp,"210 different ports probed, reject rate 0.68",PortScan
+ALERT-00273,2026-02-04 08:17:19,Medium,PortScan,1.0,0.6232,203.0.113.33,10.0.2.50,smtp,tcp,"433 different ports probed, reject rate 0.91",PortScan
+ALERT-00274,2026-02-04 08:23:57,High,DoS,1.0,0.6001,203.0.113.13,10.0.0.30,other,icmp,"request rate 340/s, SYN-error rate 0.94, 134 connections",DoS
+ALERT-00275,2026-02-04 08:29:36,Medium,PortScan,1.0,0.611,203.0.113.30,10.0.3.28,other,tcp,"446 different ports probed, reject rate 0.70",PortScan
+ALERT-00276,2026-02-04 08:39:27,High,DoS,1.0,0.622,203.0.113.12,10.0.0.32,other,icmp,"request rate 701/s, SYN-error rate 0.74, 157 connections",DoS
+ALERT-00277,2026-02-04 08:51:01,High,BruteForce,0.99,0.6167,203.0.113.22,10.0.2.44,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00278,2026-02-04 08:54:52,Critical,DataExfiltration,0.99,0.5801,203.0.113.40,10.0.0.1,ftp,tcp,0.11 MB sent out over 32s (hour 8),DataExfiltration
+ALERT-00279,2026-02-04 09:04:32,Medium,PortScan,1.0,0.6176,203.0.113.33,10.0.1.10,ssh,tcp,"164 different ports probed, reject rate 0.91",PortScan
+ALERT-00280,2026-02-04 09:05:27,High,BruteForce,1.0,0.6108,203.0.113.23,10.0.1.40,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00281,2026-02-04 09:06:35,High,DoS,1.0,0.6321,203.0.113.13,10.0.1.15,other,icmp,"request rate 194/s, SYN-error rate 0.88, 147 connections",DoS
+ALERT-00282,2026-02-04 09:08:16,High,DoS,1.0,0.6077,203.0.113.10,10.0.0.38,http,udp,"request rate 459/s, SYN-error rate 0.93, 164 connections",DoS
+ALERT-00283,2026-02-04 09:25:16,Medium,PortScan,1.0,0.6293,203.0.113.30,10.0.1.37,ssh,tcp,"303 different ports probed, reject rate 0.78",PortScan
+ALERT-00284,2026-02-04 09:31:43,High,DoS,1.0,0.5919,203.0.113.13,10.0.3.46,http,icmp,"request rate 508/s, SYN-error rate 0.80, 137 connections",DoS
+ALERT-00285,2026-02-04 09:37:33,High,BruteForce,1.0,0.6154,203.0.113.21,10.0.1.22,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00286,2026-02-04 09:37:52,High,BruteForce,1.0,0.5916,203.0.113.20,10.0.2.22,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00287,2026-02-04 09:52:25,Medium,PortScan,1.0,0.6448,203.0.113.30,10.0.1.34,telnet,tcp,"105 different ports probed, reject rate 0.68",PortScan
+ALERT-00288,2026-02-04 10:17:13,High,DoS,1.0,0.5553,203.0.113.10,10.0.2.18,dns,tcp,"request rate 698/s, SYN-error rate 0.96, 152 connections",DoS
+ALERT-00289,2026-02-04 10:18:29,Medium,PortScan,1.0,0.6162,203.0.113.32,10.0.0.33,other,tcp,"143 different ports probed, reject rate 0.82",PortScan
+ALERT-00290,2026-02-04 10:32:02,Medium,PortScan,1.0,0.5963,203.0.113.32,10.0.1.25,https,tcp,"328 different ports probed, reject rate 0.80",PortScan
+ALERT-00291,2026-02-04 10:35:56,Medium,PortScan,1.0,0.6091,203.0.113.31,10.0.3.44,http,tcp,"473 different ports probed, reject rate 0.72",PortScan
+ALERT-00292,2026-02-04 10:57:38,Medium,PortScan,1.0,0.6286,203.0.113.30,10.0.1.55,smtp,tcp,"471 different ports probed, reject rate 0.85",PortScan
+ALERT-00293,2026-02-04 11:09:00,Medium,PortScan,1.0,0.631,203.0.113.33,10.0.3.40,dns,tcp,"411 different ports probed, reject rate 0.80",PortScan
+ALERT-00294,2026-02-04 11:11:35,Critical,DataExfiltration,1.0,0.5818,203.0.113.43,10.0.0.7,https,tcp,0.79 MB sent out over 59s (hour 11),DataExfiltration
+ALERT-00295,2026-02-04 11:16:34,High,BruteForce,0.957,0.5928,203.0.113.21,10.0.3.18,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00296,2026-02-04 11:19:02,High,BruteForce,1.0,0.617,203.0.113.22,10.0.1.23,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00297,2026-02-04 11:24:01,Medium,PortScan,1.0,0.6204,203.0.113.32,10.0.0.10,other,tcp,"487 different ports probed, reject rate 0.82",PortScan
+ALERT-00298,2026-02-04 11:32:01,High,DoS,1.0,0.5949,203.0.113.13,10.0.3.46,dns,tcp,"request rate 668/s, SYN-error rate 0.82, 150 connections",DoS
+ALERT-00299,2026-02-04 11:42:13,Medium,PortScan,1.0,0.6373,203.0.113.30,10.0.2.54,ssh,tcp,"68 different ports probed, reject rate 0.85",PortScan
+ALERT-00300,2026-02-04 11:42:43,Medium,PortScan,1.0,0.6311,203.0.113.30,10.0.2.16,ssh,tcp,"114 different ports probed, reject rate 0.93",PortScan
+ALERT-00301,2026-02-04 11:59:36,High,DoS,1.0,0.5692,203.0.113.12,10.0.0.59,http,tcp,"request rate 439/s, SYN-error rate 0.87, 160 connections",DoS
+ALERT-00302,2026-02-04 12:21:56,High,DoS,1.0,0.6153,203.0.113.11,10.0.0.55,http,icmp,"request rate 269/s, SYN-error rate 0.95, 125 connections",DoS
+ALERT-00303,2026-02-04 12:29:50,High,DoS,1.0,0.5804,203.0.113.11,10.0.3.16,other,tcp,"request rate 303/s, SYN-error rate 0.84, 137 connections",DoS
+ALERT-00304,2026-02-04 12:31:15,High,DoS,1.0,0.5621,203.0.113.10,10.0.2.34,http,tcp,"request rate 499/s, SYN-error rate 0.96, 164 connections",DoS
+ALERT-00305,2026-02-04 12:34:17,High,DoS,0.988,0.5879,203.0.113.10,10.0.0.26,other,tcp,"request rate 643/s, SYN-error rate 0.82, 113 connections",DoS
+ALERT-00306,2026-02-04 13:06:02,Medium,PortScan,1.0,0.6149,203.0.113.33,10.0.1.37,smtp,tcp,"335 different ports probed, reject rate 0.59",PortScan
+ALERT-00307,2026-02-04 13:15:34,High,BruteForce,1.0,0.6138,203.0.113.20,10.0.2.59,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00308,2026-02-04 13:31:24,Medium,PortScan,1.0,0.6299,203.0.113.30,10.0.2.4,ftp,tcp,"114 different ports probed, reject rate 0.67",PortScan
+ALERT-00309,2026-02-04 13:39:39,High,BruteForce,1.0,0.624,203.0.113.23,10.0.1.54,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00310,2026-02-04 13:45:26,Medium,PortScan,1.0,0.6317,203.0.113.33,10.0.3.23,dns,tcp,"210 different ports probed, reject rate 0.84",PortScan
+ALERT-00311,2026-02-04 14:23:54,Medium,PortScan,1.0,0.6197,203.0.113.30,10.0.1.49,telnet,tcp,"462 different ports probed, reject rate 0.68",PortScan
+ALERT-00312,2026-02-04 14:34:36,High,DoS,1.0,0.5985,203.0.113.10,10.0.3.49,http,tcp,"request rate 270/s, SYN-error rate 0.98, 131 connections",DoS
+ALERT-00313,2026-02-04 14:46:10,High,BruteForce,1.0,0.6174,203.0.113.22,10.0.3.18,ssh,tcp,9 failed logins on ssh,BruteForce
+ALERT-00314,2026-02-04 14:51:45,Medium,PortScan,1.0,0.6063,203.0.113.33,10.0.1.21,ssh,tcp,"217 different ports probed, reject rate 0.88",PortScan
+ALERT-00315,2026-02-04 15:04:23,High,DoS,1.0,0.5657,203.0.113.11,10.0.0.32,http,tcp,"request rate 111/s, SYN-error rate 0.90, 147 connections",DoS
+ALERT-00316,2026-02-04 15:16:46,High,DoS,1.0,0.5873,203.0.113.11,10.0.2.53,other,tcp,"request rate 333/s, SYN-error rate 0.93, 143 connections",DoS
+ALERT-00317,2026-02-04 15:18:47,High,DoS,1.0,0.5859,203.0.113.13,10.0.3.31,https,tcp,"request rate 1215/s, SYN-error rate 0.88, 152 connections",DoS
+ALERT-00318,2026-02-04 15:49:16,High,DoS,1.0,0.5944,203.0.113.10,10.0.3.35,http,udp,"request rate 571/s, SYN-error rate 0.84, 151 connections",DoS
+ALERT-00319,2026-02-04 15:50:23,High,DoS,1.0,0.588,203.0.113.11,10.0.0.58,dns,tcp,"request rate 296/s, SYN-error rate 0.92, 134 connections",DoS
+ALERT-00320,2026-02-04 15:57:26,High,DoS,1.0,0.6124,203.0.113.13,10.0.1.7,http,udp,"request rate 308/s, SYN-error rate 0.70, 173 connections",DoS
+ALERT-00321,2026-02-04 16:28:54,High,DoS,1.0,0.5883,203.0.113.10,10.0.0.27,dns,udp,"request rate 653/s, SYN-error rate 0.94, 169 connections",DoS
+ALERT-00322,2026-02-04 16:45:03,Medium,PortScan,1.0,0.6453,203.0.113.33,10.0.1.43,telnet,udp,"356 different ports probed, reject rate 0.77",PortScan
+ALERT-00323,2026-02-04 17:07:37,Critical,DataExfiltration,1.0,0.6132,203.0.113.42,10.0.3.28,ftp,tcp,0.64 MB sent out over 43s (hour 17),DataExfiltration
+ALERT-00324,2026-02-04 17:56:09,Medium,PortScan,1.0,0.6012,203.0.113.33,10.0.2.35,https,tcp,"70 different ports probed, reject rate 0.78",PortScan
+ALERT-00325,2026-02-04 17:57:58,Low,UnknownAnomaly,0.599,0.5679,192.168.5.33,10.0.0.28,https,icmp,behaviour far from normal baseline (anomaly score 0.568),Normal
+ALERT-00326,2026-02-04 18:11:11,High,DoS,1.0,0.6297,203.0.113.11,10.0.1.43,dns,icmp,"request rate 564/s, SYN-error rate 0.83, 146 connections",DoS
+ALERT-00327,2026-02-04 18:28:52,Critical,DataExfiltration,1.0,0.5989,203.0.113.40,10.0.3.50,smtp,tcp,0.68 MB sent out over 27s (hour 18),DataExfiltration
+ALERT-00328,2026-02-04 18:49:29,Medium,UnknownAnomaly,0.664,0.5636,192.168.6.139,10.0.3.24,dns,udp,behaviour far from normal baseline (anomaly score 0.564),Normal
+ALERT-00329,2026-02-04 18:50:11,High,BruteForce,1.0,0.5972,203.0.113.23,10.0.2.7,http,tcp,11 failed logins on http,BruteForce
+ALERT-00330,2026-02-04 18:56:40,Medium,PortScan,1.0,0.6338,203.0.113.32,10.0.2.36,smtp,tcp,"117 different ports probed, reject rate 0.83",PortScan
+ALERT-00331,2026-02-04 19:16:28,High,BruteForce,1.0,0.5994,203.0.113.20,10.0.1.27,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00332,2026-02-04 19:22:40,High,DoS,1.0,0.5963,203.0.113.11,10.0.2.55,other,tcp,"request rate 397/s, SYN-error rate 0.84, 132 connections",DoS
+ALERT-00333,2026-02-04 19:23:10,Medium,PortScan,1.0,0.6132,203.0.113.31,10.0.0.46,ssh,tcp,"241 different ports probed, reject rate 0.53",PortScan
+ALERT-00334,2026-02-04 19:29:33,Critical,DataExfiltration,1.0,0.5708,203.0.113.42,10.0.3.21,https,tcp,0.18 MB sent out over 36s (hour 19),DataExfiltration
+ALERT-00335,2026-02-04 20:31:15,Medium,PortScan,1.0,0.6278,203.0.113.33,10.0.2.46,http,tcp,"55 different ports probed, reject rate 0.60",PortScan
+ALERT-00336,2026-02-04 22:50:16,High,BruteForce,1.0,0.6218,203.0.113.23,10.0.3.23,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00337,2026-02-04 23:02:36,High,DoS,1.0,0.5972,203.0.113.13,10.0.2.3,https,udp,"request rate 156/s, SYN-error rate 0.98, 157 connections",DoS
+ALERT-00338,2026-02-04 23:30:11,High,DoS,1.0,0.6051,203.0.113.11,10.0.1.13,http,tcp,"request rate 109/s, SYN-error rate 0.80, 161 connections",DoS
+ALERT-00339,2026-02-05 00:01:41,Critical,DataExfiltration,1.0,0.5952,203.0.113.40,10.0.0.37,https,tcp,0.14 MB sent out over 67s (hour 0),DataExfiltration
+ALERT-00340,2026-02-05 00:11:00,High,BruteForce,1.0,0.6359,203.0.113.20,10.0.0.3,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00341,2026-02-05 00:14:11,High,BruteForce,1.0,0.65,203.0.113.21,10.0.1.30,ssh,tcp,14 failed logins on ssh,BruteForce
+ALERT-00342,2026-02-05 00:30:38,Medium,PortScan,1.0,0.6552,203.0.113.31,10.0.3.24,ftp,tcp,"478 different ports probed, reject rate 0.88",PortScan
+ALERT-00343,2026-02-05 00:30:56,High,DoS,1.0,0.6234,203.0.113.10,10.0.1.54,https,tcp,"request rate 587/s, SYN-error rate 0.89, 154 connections",DoS
+ALERT-00344,2026-02-05 01:11:19,Medium,PortScan,1.0,0.6799,203.0.113.30,10.0.0.9,smtp,udp,"184 different ports probed, reject rate 0.95",PortScan
+ALERT-00345,2026-02-05 01:22:21,High,BruteForce,1.0,0.639,203.0.113.22,10.0.3.13,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00346,2026-02-05 01:32:20,High,BruteForce,1.0,0.6292,203.0.113.20,10.0.3.11,http,tcp,8 failed logins on http,BruteForce
+ALERT-00347,2026-02-05 01:45:25,High,BruteForce,1.0,0.6285,203.0.113.23,10.0.0.45,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00348,2026-02-05 02:02:04,High,BruteForce,1.0,0.6385,203.0.113.23,10.0.2.6,ssh,tcp,13 failed logins on ssh,BruteForce
+ALERT-00349,2026-02-05 02:25:56,Medium,UnknownAnomaly,0.7,0.5666,192.168.1.14,10.0.3.28,dns,tcp,behaviour far from normal baseline (anomaly score 0.567),Normal
+ALERT-00350,2026-02-05 02:36:30,Medium,PortScan,1.0,0.6686,203.0.113.30,10.0.0.26,ftp,tcp,"29 different ports probed, reject rate 0.58",PortScan
+ALERT-00351,2026-02-05 02:50:34,High,BruteForce,1.0,0.6242,203.0.113.23,10.0.2.35,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00352,2026-02-05 03:08:04,Critical,DataExfiltration,1.0,0.6194,203.0.113.41,10.0.1.39,smtp,tcp,0.65 MB sent out over 77s (hour 3),DataExfiltration
+ALERT-00353,2026-02-05 03:19:10,Medium,BruteForce,0.598,0.462,192.168.0.42,10.0.0.1,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00354,2026-02-05 03:56:42,High,BruteForce,1.0,0.6291,203.0.113.20,10.0.1.56,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00355,2026-02-05 04:30:43,High,BruteForce,1.0,0.6103,203.0.113.21,10.0.3.9,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00356,2026-02-05 04:46:50,Medium,PortScan,1.0,0.6383,203.0.113.31,10.0.2.28,http,tcp,"68 different ports probed, reject rate 0.74",PortScan
+ALERT-00357,2026-02-05 05:47:30,High,BruteForce,1.0,0.629,203.0.113.23,10.0.2.29,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00358,2026-02-05 05:53:47,Critical,DataExfiltration,0.99,0.5841,203.0.113.41,10.0.3.18,https,tcp,0.34 MB sent out over 21s (hour 5),DataExfiltration
+ALERT-00359,2026-02-05 05:57:48,High,BruteForce,1.0,0.6531,203.0.113.20,10.0.3.36,telnet,tcp,7 failed logins on telnet,BruteForce
+ALERT-00360,2026-02-05 06:31:19,Low,UnknownAnomaly,0.579,0.5708,192.168.0.249,10.0.0.54,smtp,udp,behaviour far from normal baseline (anomaly score 0.571),Normal
+ALERT-00361,2026-02-05 08:02:33,High,BruteForce,1.0,0.5989,203.0.113.23,10.0.1.59,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00362,2026-02-05 08:04:41,High,DoS,1.0,0.5876,203.0.113.12,10.0.2.29,dns,tcp,"request rate 351/s, SYN-error rate 0.90, 136 connections",DoS
+ALERT-00363,2026-02-05 08:19:24,High,DoS,1.0,0.5518,203.0.113.10,10.0.1.45,http,tcp,"request rate 378/s, SYN-error rate 0.87, 151 connections",DoS
+ALERT-00364,2026-02-05 08:25:11,High,DoS,1.0,0.5815,203.0.113.10,10.0.0.41,http,tcp,"request rate 369/s, SYN-error rate 0.93, 144 connections",DoS
+ALERT-00365,2026-02-05 08:33:17,High,DoS,1.0,0.5924,203.0.113.12,10.0.0.5,http,tcp,"request rate 603/s, SYN-error rate 0.91, 164 connections",DoS
+ALERT-00366,2026-02-05 08:57:38,High,DoS,1.0,0.5974,203.0.113.12,10.0.2.12,https,udp,"request rate 569/s, SYN-error rate 0.96, 136 connections",DoS
+ALERT-00367,2026-02-05 09:01:34,High,DoS,1.0,0.5577,203.0.113.11,10.0.2.46,http,tcp,"request rate 283/s, SYN-error rate 0.90, 141 connections",DoS
+ALERT-00368,2026-02-05 10:30:08,Critical,DataExfiltration,1.0,0.6219,203.0.113.42,10.0.0.5,ftp,tcp,2.09 MB sent out over 188s (hour 10),DataExfiltration
+ALERT-00369,2026-02-05 10:32:32,Medium,UnknownAnomaly,0.731,0.5562,192.168.6.171,10.0.2.43,dns,udp,behaviour far from normal baseline (anomaly score 0.556),Normal
+ALERT-00370,2026-02-05 10:35:42,Medium,PortScan,1.0,0.6213,203.0.113.32,10.0.2.55,http,tcp,"272 different ports probed, reject rate 0.82",PortScan
+ALERT-00371,2026-02-05 11:07:49,High,DoS,1.0,0.5763,203.0.113.12,10.0.3.55,other,tcp,"request rate 284/s, SYN-error rate 0.88, 163 connections",DoS
+ALERT-00372,2026-02-05 11:08:08,High,DoS,1.0,0.6265,203.0.113.13,10.0.1.43,http,icmp,"request rate 394/s, SYN-error rate 0.88, 154 connections",DoS
+ALERT-00373,2026-02-05 11:08:16,High,DoS,1.0,0.5823,203.0.113.11,10.0.1.31,http,tcp,"request rate 268/s, SYN-error rate 0.98, 146 connections",DoS
+ALERT-00374,2026-02-05 11:16:27,Medium,PortScan,1.0,0.6066,203.0.113.31,10.0.3.59,dns,tcp,"304 different ports probed, reject rate 0.92",PortScan
+ALERT-00375,2026-02-05 11:25:56,High,DoS,1.0,0.5651,203.0.113.11,10.0.3.26,https,tcp,"request rate 454/s, SYN-error rate 0.88, 157 connections",DoS
+ALERT-00376,2026-02-05 11:47:19,High,DoS,1.0,0.6152,203.0.113.12,10.0.2.11,http,udp,"request rate 496/s, SYN-error rate 0.91, 151 connections",DoS
+ALERT-00377,2026-02-05 11:56:56,High,BruteForce,1.0,0.6225,203.0.113.20,10.0.2.19,ftp,tcp,10 failed logins on ftp,BruteForce
+ALERT-00378,2026-02-05 12:02:53,Critical,DataExfiltration,0.998,0.5978,203.0.113.41,10.0.3.56,ftp,tcp,0.88 MB sent out over 23s (hour 12),DataExfiltration
+ALERT-00379,2026-02-05 12:33:44,High,BruteForce,1.0,0.6062,203.0.113.22,10.0.3.43,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00380,2026-02-05 12:44:41,Medium,PortScan,1.0,0.619,203.0.113.33,10.0.0.33,dns,tcp,"361 different ports probed, reject rate 0.76",PortScan
+ALERT-00381,2026-02-05 12:49:31,High,DoS,1.0,0.616,203.0.113.11,10.0.2.34,http,udp,"request rate 245/s, SYN-error rate 0.92, 142 connections",DoS
+ALERT-00382,2026-02-05 12:51:28,Medium,PortScan,1.0,0.626,203.0.113.30,10.0.2.44,ssh,tcp,"246 different ports probed, reject rate 0.96",PortScan
+ALERT-00383,2026-02-05 13:13:08,High,BruteForce,1.0,0.6073,203.0.113.21,10.0.3.8,ssh,tcp,13 failed logins on ssh,BruteForce
+ALERT-00384,2026-02-05 13:15:39,High,DoS,1.0,0.5968,203.0.113.12,10.0.3.2,https,udp,"request rate 387/s, SYN-error rate 0.83, 147 connections",DoS
+ALERT-00385,2026-02-05 13:27:05,High,DoS,1.0,0.5776,203.0.113.12,10.0.0.52,https,tcp,"request rate 462/s, SYN-error rate 0.96, 119 connections",DoS
+ALERT-00386,2026-02-05 13:30:25,High,DoS,1.0,0.6301,203.0.113.11,10.0.3.23,http,icmp,"request rate 196/s, SYN-error rate 0.99, 157 connections",DoS
+ALERT-00387,2026-02-05 13:36:30,High,DoS,1.0,0.6185,203.0.113.12,10.0.0.46,http,icmp,"request rate 590/s, SYN-error rate 0.73, 162 connections",DoS
+ALERT-00388,2026-02-05 13:42:45,High,BruteForce,1.0,0.6175,203.0.113.21,10.0.1.12,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00389,2026-02-05 13:47:48,High,DoS,1.0,0.616,203.0.113.12,10.0.0.47,http,icmp,"request rate 442/s, SYN-error rate 0.91, 154 connections",DoS
+ALERT-00390,2026-02-05 13:51:53,High,DoS,1.0,0.612,203.0.113.10,10.0.2.24,http,udp,"request rate 329/s, SYN-error rate 0.80, 145 connections",DoS
+ALERT-00391,2026-02-05 13:58:31,Critical,DataExfiltration,1.0,0.5718,203.0.113.41,10.0.1.2,https,tcp,0.61 MB sent out over 31s (hour 13),DataExfiltration
+ALERT-00392,2026-02-05 14:13:25,Medium,PortScan,1.0,0.6284,203.0.113.32,10.0.1.17,smtp,tcp,"51 different ports probed, reject rate 0.77",PortScan
+ALERT-00393,2026-02-05 14:20:04,High,BruteForce,1.0,0.6353,203.0.113.23,10.0.1.31,telnet,tcp,10 failed logins on telnet,BruteForce
+ALERT-00394,2026-02-05 14:28:24,High,DoS,1.0,0.5814,203.0.113.11,10.0.2.39,https,tcp,"request rate 347/s, SYN-error rate 0.90, 126 connections",DoS
+ALERT-00395,2026-02-05 14:44:48,Medium,PortScan,1.0,0.6065,203.0.113.30,10.0.1.42,https,tcp,"335 different ports probed, reject rate 0.56",PortScan
+ALERT-00396,2026-02-05 14:45:11,Medium,PortScan,1.0,0.5995,203.0.113.30,10.0.1.54,http,tcp,"294 different ports probed, reject rate 0.67",PortScan
+ALERT-00397,2026-02-05 14:52:03,High,BruteForce,1.0,0.5744,203.0.113.21,10.0.2.24,http,tcp,7 failed logins on http,BruteForce
+ALERT-00398,2026-02-05 14:58:20,Critical,DataExfiltration,1.0,0.568,203.0.113.40,10.0.1.37,https,tcp,0.22 MB sent out over 230s (hour 14),DataExfiltration
+ALERT-00399,2026-02-05 15:22:31,Critical,DataExfiltration,1.0,0.5476,203.0.113.40,10.0.3.9,https,tcp,0.07 MB sent out over 375s (hour 15),DataExfiltration
+ALERT-00400,2026-02-05 15:28:49,High,DoS,1.0,0.5783,203.0.113.10,10.0.3.44,dns,tcp,"request rate 380/s, SYN-error rate 0.68, 167 connections",DoS
+ALERT-00401,2026-02-05 15:29:44,High,DoS,1.0,0.5798,203.0.113.13,10.0.3.6,https,tcp,"request rate 240/s, SYN-error rate 0.95, 148 connections",DoS
+ALERT-00402,2026-02-05 15:37:40,Medium,PortScan,1.0,0.6223,203.0.113.30,10.0.1.4,dns,tcp,"332 different ports probed, reject rate 0.88",PortScan
+ALERT-00403,2026-02-05 16:00:10,High,DoS,1.0,0.6147,203.0.113.12,10.0.2.17,other,tcp,"request rate 294/s, SYN-error rate 0.86, 166 connections",DoS
+ALERT-00404,2026-02-05 16:17:35,High,DoS,1.0,0.5995,203.0.113.13,10.0.2.28,other,tcp,"request rate 253/s, SYN-error rate 0.85, 131 connections",DoS
+ALERT-00405,2026-02-05 16:22:23,High,DoS,1.0,0.6356,203.0.113.13,10.0.3.2,http,icmp,"request rate 203/s, SYN-error rate 0.80, 146 connections",DoS
+ALERT-00406,2026-02-05 16:32:26,High,DoS,1.0,0.6021,203.0.113.13,10.0.3.54,dns,icmp,"request rate 216/s, SYN-error rate 0.75, 148 connections",DoS
+ALERT-00407,2026-02-05 16:36:27,Critical,DataExfiltration,1.0,0.5961,203.0.113.43,10.0.3.38,https,tcp,1.42 MB sent out over 72s (hour 16),DataExfiltration
+ALERT-00408,2026-02-05 16:36:32,Critical,DataExfiltration,1.0,0.5832,203.0.113.40,10.0.0.54,https,tcp,1.07 MB sent out over 28s (hour 16),DataExfiltration
+ALERT-00409,2026-02-05 16:47:47,Medium,PortScan,1.0,0.6169,203.0.113.33,10.0.2.9,telnet,tcp,"317 different ports probed, reject rate 0.82",PortScan
+ALERT-00410,2026-02-05 17:24:42,Medium,PortScan,1.0,0.6137,203.0.113.31,10.0.0.30,ssh,tcp,"76 different ports probed, reject rate 0.79",PortScan
+ALERT-00411,2026-02-05 17:28:33,Critical,DataExfiltration,1.0,0.5924,203.0.113.43,10.0.2.7,other,tcp,0.52 MB sent out over 105s (hour 17),DataExfiltration
+ALERT-00412,2026-02-05 17:31:10,High,DoS,1.0,0.5537,203.0.113.11,10.0.0.53,http,tcp,"request rate 268/s, SYN-error rate 0.97, 143 connections",DoS
+ALERT-00413,2026-02-05 17:39:28,Critical,DataExfiltration,0.99,0.5575,203.0.113.41,10.0.0.30,https,tcp,0.05 MB sent out over 29s (hour 17),DataExfiltration
+ALERT-00414,2026-02-05 17:45:47,Medium,UnknownAnomaly,0.665,0.5462,192.168.8.170,10.0.0.40,smtp,tcp,behaviour far from normal baseline (anomaly score 0.546),Normal
+ALERT-00415,2026-02-05 18:09:05,Medium,PortScan,1.0,0.6302,203.0.113.33,10.0.2.26,ssh,tcp,"447 different ports probed, reject rate 0.63",PortScan
+ALERT-00416,2026-02-05 18:18:28,Critical,DataExfiltration,0.998,0.5934,203.0.113.42,10.0.0.2,https,tcp,1.28 MB sent out over 30s (hour 18),DataExfiltration
+ALERT-00417,2026-02-05 18:19:16,Critical,DataExfiltration,1.0,0.6159,203.0.113.43,10.0.0.14,smtp,tcp,0.84 MB sent out over 68s (hour 18),DataExfiltration
+ALERT-00418,2026-02-05 18:23:41,High,DoS,1.0,0.631,203.0.113.12,10.0.2.16,http,udp,"request rate 355/s, SYN-error rate 0.91, 153 connections",DoS
+ALERT-00419,2026-02-05 18:38:25,High,BruteForce,1.0,0.616,203.0.113.20,10.0.1.6,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00420,2026-02-05 18:42:03,High,DoS,1.0,0.5896,203.0.113.11,10.0.0.25,http,tcp,"request rate 120/s, SYN-error rate 0.87, 147 connections",DoS
+ALERT-00421,2026-02-05 18:45:30,High,DoS,1.0,0.5522,203.0.113.11,10.0.0.4,http,tcp,"request rate 498/s, SYN-error rate 0.96, 159 connections",DoS
+ALERT-00422,2026-02-05 19:25:18,Medium,PortScan,1.0,0.6046,203.0.113.32,10.0.1.43,http,tcp,"483 different ports probed, reject rate 0.82",PortScan
+ALERT-00423,2026-02-06 00:21:10,High,BruteForce,0.915,0.6458,203.0.113.22,10.0.2.10,ftp,tcp,11 failed logins on ftp,BruteForce
+ALERT-00424,2026-02-06 00:40:48,High,DoS,1.0,0.6191,203.0.113.13,10.0.1.7,other,tcp,"request rate 268/s, SYN-error rate 0.99, 184 connections",DoS
+ALERT-00425,2026-02-06 00:44:01,Medium,BruteForce,0.426,0.4616,192.168.2.188,10.0.1.8,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00426,2026-02-06 00:50:19,High,BruteForce,1.0,0.6343,203.0.113.23,10.0.0.17,ssh,tcp,12 failed logins on ssh,BruteForce
+ALERT-00427,2026-02-06 00:50:25,Critical,DataExfiltration,1.0,0.6284,203.0.113.41,10.0.1.48,smtp,tcp,1.19 MB sent out over 39s (hour 0),DataExfiltration
+ALERT-00428,2026-02-06 01:09:24,High,DoS,1.0,0.6169,203.0.113.13,10.0.3.10,http,tcp,"request rate 438/s, SYN-error rate 0.83, 146 connections",DoS
+ALERT-00429,2026-02-06 01:30:09,High,BruteForce,0.976,0.6366,203.0.113.23,10.0.1.57,ftp,tcp,7 failed logins on ftp,BruteForce
+ALERT-00430,2026-02-06 01:32:09,Critical,DataExfiltration,1.0,0.6178,203.0.113.40,10.0.3.43,ftp,tcp,0.31 MB sent out over 269s (hour 1),DataExfiltration
+ALERT-00431,2026-02-06 02:07:08,Medium,PortScan,1.0,0.638,203.0.113.32,10.0.2.43,smtp,tcp,"76 different ports probed, reject rate 0.82",PortScan
+ALERT-00432,2026-02-06 02:24:45,Critical,DataExfiltration,1.0,0.6242,203.0.113.40,10.0.2.56,ftp,tcp,0.51 MB sent out over 217s (hour 2),DataExfiltration
+ALERT-00433,2026-02-06 02:27:29,High,BruteForce,1.0,0.6514,203.0.113.21,10.0.2.47,ssh,tcp,13 failed logins on ssh,BruteForce
+ALERT-00434,2026-02-06 02:31:38,High,DoS,1.0,0.614,203.0.113.10,10.0.2.13,http,tcp,"request rate 812/s, SYN-error rate 0.93, 133 connections",DoS
+ALERT-00435,2026-02-06 03:07:01,High,BruteForce,1.0,0.6427,203.0.113.21,10.0.1.27,ssh,tcp,7 failed logins on ssh,BruteForce
+ALERT-00436,2026-02-06 03:27:16,Medium,PortScan,1.0,0.6197,203.0.113.33,10.0.3.51,ssh,tcp,"297 different ports probed, reject rate 0.73",PortScan
+ALERT-00437,2026-02-06 04:13:26,High,DoS,1.0,0.5999,203.0.113.12,10.0.0.31,other,tcp,"request rate 525/s, SYN-error rate 0.90, 179 connections",DoS
+ALERT-00438,2026-02-06 04:15:31,Critical,DataExfiltration,1.0,0.6124,203.0.113.43,10.0.3.10,other,tcp,0.17 MB sent out over 42s (hour 4),DataExfiltration
+ALERT-00439,2026-02-06 04:16:45,High,BruteForce,1.0,0.6413,203.0.113.22,10.0.0.28,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00440,2026-02-06 04:17:27,High,BruteForce,1.0,0.6185,203.0.113.20,10.0.0.35,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00441,2026-02-06 04:19:28,Critical,DataExfiltration,1.0,0.6329,203.0.113.43,10.0.1.49,smtp,tcp,1.59 MB sent out over 154s (hour 4),DataExfiltration
+ALERT-00442,2026-02-06 04:31:19,High,BruteForce,1.0,0.6216,203.0.113.20,10.0.0.32,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00443,2026-02-06 04:54:51,Medium,BruteForce,0.47,0.463,192.168.5.68,10.0.0.10,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00444,2026-02-06 04:58:29,High,DoS,1.0,0.6245,203.0.113.10,10.0.0.15,http,icmp,"request rate 424/s, SYN-error rate 0.90, 162 connections",DoS
+ALERT-00445,2026-02-06 05:35:18,Critical,DataExfiltration,1.0,0.608,203.0.113.41,10.0.2.3,https,tcp,1.39 MB sent out over 224s (hour 5),DataExfiltration
+ALERT-00446,2026-02-06 05:48:44,Low,UnknownAnomaly,0.475,0.5642,192.168.4.232,10.0.1.36,smtp,tcp,behaviour far from normal baseline (anomaly score 0.564),Normal
+ALERT-00447,2026-02-06 05:59:32,Medium,PortScan,1.0,0.6489,203.0.113.31,10.0.0.13,ftp,tcp,"145 different ports probed, reject rate 0.69",PortScan
+ALERT-00448,2026-02-06 08:17:30,Medium,PortScan,1.0,0.6216,203.0.113.30,10.0.1.29,ssh,tcp,"498 different ports probed, reject rate 0.85",PortScan
+ALERT-00449,2026-02-06 08:38:03,High,DoS,1.0,0.5958,203.0.113.11,10.0.2.56,other,tcp,"request rate 404/s, SYN-error rate 0.97, 146 connections",DoS
+ALERT-00450,2026-02-06 08:57:10,Low,UnknownAnomaly,0.528,0.5916,192.168.0.51,10.0.1.49,other,tcp,behaviour far from normal baseline (anomaly score 0.592),Normal
+ALERT-00451,2026-02-06 09:27:58,High,DoS,1.0,0.6011,203.0.113.10,10.0.0.28,http,icmp,"request rate 293/s, SYN-error rate 0.98, 143 connections",DoS
+ALERT-00452,2026-02-06 09:30:08,Medium,PortScan,1.0,0.6235,203.0.113.33,10.0.1.33,http,tcp,"407 different ports probed, reject rate 0.67",PortScan
+ALERT-00453,2026-02-06 09:52:51,High,DoS,1.0,0.5838,203.0.113.10,10.0.1.28,https,tcp,"request rate 276/s, SYN-error rate 0.92, 153 connections",DoS
+ALERT-00454,2026-02-06 10:04:59,High,DoS,1.0,0.6196,203.0.113.13,10.0.1.46,http,udp,"request rate 520/s, SYN-error rate 0.91, 171 connections",DoS
+ALERT-00455,2026-02-06 10:16:07,High,DoS,1.0,0.6234,203.0.113.10,10.0.1.25,http,icmp,"request rate 295/s, SYN-error rate 0.87, 163 connections",DoS
+ALERT-00456,2026-02-06 10:16:33,Medium,PortScan,1.0,0.6065,203.0.113.33,10.0.0.24,smtp,tcp,"52 different ports probed, reject rate 0.80",PortScan
+ALERT-00457,2026-02-06 10:38:14,Medium,PortScan,1.0,0.6218,203.0.113.33,10.0.0.12,dns,tcp,"153 different ports probed, reject rate 0.88",PortScan
+ALERT-00458,2026-02-06 10:48:57,High,DoS,1.0,0.5831,203.0.113.12,10.0.1.39,https,tcp,"request rate 308/s, SYN-error rate 0.85, 180 connections",DoS
+ALERT-00459,2026-02-06 10:58:42,High,DoS,1.0,0.5578,203.0.113.12,10.0.2.48,http,tcp,"request rate 320/s, SYN-error rate 0.91, 153 connections",DoS
+ALERT-00460,2026-02-06 11:00:03,High,DoS,1.0,0.5412,203.0.113.12,10.0.2.13,http,tcp,"request rate 702/s, SYN-error rate 0.76, 129 connections",DoS
+ALERT-00461,2026-02-06 11:15:58,High,DoS,1.0,0.6107,203.0.113.11,10.0.1.3,https,udp,"request rate 573/s, SYN-error rate 0.93, 134 connections",DoS
+ALERT-00462,2026-02-06 11:33:58,High,DoS,1.0,0.5764,203.0.113.12,10.0.3.48,dns,tcp,"request rate 384/s, SYN-error rate 0.88, 136 connections",DoS
+ALERT-00463,2026-02-06 11:45:39,High,DoS,1.0,0.5809,203.0.113.11,10.0.3.15,other,tcp,"request rate 210/s, SYN-error rate 0.87, 134 connections",DoS
+ALERT-00464,2026-02-06 11:48:52,High,DoS,1.0,0.6222,203.0.113.10,10.0.2.58,dns,udp,"request rate 363/s, SYN-error rate 0.90, 160 connections",DoS
+ALERT-00465,2026-02-06 12:16:16,High,BruteForce,0.995,0.5958,203.0.113.21,10.0.1.53,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00466,2026-02-06 12:20:19,High,DoS,1.0,0.5861,203.0.113.12,10.0.2.19,http,tcp,"request rate 664/s, SYN-error rate 0.94, 159 connections",DoS
+ALERT-00467,2026-02-06 12:35:04,Medium,PortScan,1.0,0.6227,203.0.113.33,10.0.1.34,ssh,tcp,"81 different ports probed, reject rate 0.89",PortScan
+ALERT-00468,2026-02-06 12:46:52,High,DoS,1.0,0.576,203.0.113.11,10.0.3.44,http,tcp,"request rate 568/s, SYN-error rate 0.86, 127 connections",DoS
+ALERT-00469,2026-02-06 13:06:49,High,DoS,1.0,0.6191,203.0.113.11,10.0.3.30,https,icmp,"request rate 401/s, SYN-error rate 0.71, 136 connections",DoS
+ALERT-00470,2026-02-06 13:23:04,Medium,PortScan,1.0,0.6351,203.0.113.32,10.0.3.16,telnet,udp,"55 different ports probed, reject rate 0.82",PortScan
+ALERT-00471,2026-02-06 13:31:07,High,DoS,1.0,0.5629,203.0.113.12,10.0.1.40,http,tcp,"request rate 475/s, SYN-error rate 0.98, 164 connections",DoS
+ALERT-00472,2026-02-06 13:33:02,High,DoS,1.0,0.5875,203.0.113.11,10.0.0.52,other,tcp,"request rate 223/s, SYN-error rate 0.82, 148 connections",DoS
+ALERT-00473,2026-02-06 13:40:05,High,DoS,1.0,0.5877,203.0.113.10,10.0.2.37,dns,tcp,"request rate 280/s, SYN-error rate 0.96, 150 connections",DoS
+ALERT-00474,2026-02-06 13:45:20,Critical,DataExfiltration,1.0,0.6046,203.0.113.41,10.0.2.34,ftp,tcp,1.25 MB sent out over 30s (hour 13),DataExfiltration
+ALERT-00475,2026-02-06 13:54:38,High,BruteForce,1.0,0.61,203.0.113.20,10.0.0.43,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00476,2026-02-06 14:00:23,Critical,DataExfiltration,1.0,0.5598,203.0.113.43,10.0.1.43,https,tcp,0.30 MB sent out over 27s (hour 14),DataExfiltration
+ALERT-00477,2026-02-06 14:03:58,High,DoS,1.0,0.5914,203.0.113.12,10.0.2.9,http,udp,"request rate 599/s, SYN-error rate 0.76, 140 connections",DoS
+ALERT-00478,2026-02-06 14:05:59,High,DoS,0.997,0.5947,203.0.113.10,10.0.3.14,other,tcp,"request rate 308/s, SYN-error rate 0.68, 156 connections",DoS
+ALERT-00479,2026-02-06 14:22:55,Medium,PortScan,1.0,0.6337,203.0.113.31,10.0.3.51,ftp,tcp,"200 different ports probed, reject rate 0.71",PortScan
+ALERT-00480,2026-02-06 14:26:59,High,DoS,1.0,0.624,203.0.113.12,10.0.1.44,other,udp,"request rate 731/s, SYN-error rate 0.90, 152 connections",DoS
+ALERT-00481,2026-02-06 14:27:04,Medium,PortScan,1.0,0.5769,203.0.113.31,10.0.3.1,https,tcp,"43 different ports probed, reject rate 0.55",PortScan
+ALERT-00482,2026-02-06 14:29:59,Critical,DataExfiltration,1.0,0.5981,203.0.113.43,10.0.3.28,ftp,tcp,0.69 MB sent out over 78s (hour 14),DataExfiltration
+ALERT-00483,2026-02-06 14:33:27,High,DoS,1.0,0.5914,203.0.113.12,10.0.1.42,http,tcp,"request rate 347/s, SYN-error rate 0.94, 156 connections",DoS
+ALERT-00484,2026-02-06 14:38:04,High,DoS,1.0,0.5927,203.0.113.10,10.0.0.34,http,tcp,"request rate 175/s, SYN-error rate 0.90, 149 connections",DoS
+ALERT-00485,2026-02-06 14:42:29,Critical,DataExfiltration,0.99,0.579,203.0.113.42,10.0.0.33,other,tcp,0.21 MB sent out over 130s (hour 14),DataExfiltration
+ALERT-00486,2026-02-06 14:48:01,Medium,PortScan,0.99,0.5927,203.0.113.30,10.0.3.53,https,tcp,"139 different ports probed, reject rate 0.87",PortScan
+ALERT-00487,2026-02-06 14:53:25,Medium,BruteForce,0.511,0.4233,192.168.1.190,10.0.2.4,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00488,2026-02-06 14:55:44,High,DoS,1.0,0.5896,203.0.113.11,10.0.2.17,other,tcp,"request rate 287/s, SYN-error rate 0.84, 168 connections",DoS
+ALERT-00489,2026-02-06 16:03:41,High,DoS,1.0,0.5729,203.0.113.12,10.0.3.42,other,tcp,"request rate 107/s, SYN-error rate 0.83, 151 connections",DoS
+ALERT-00490,2026-02-06 16:04:33,High,DoS,1.0,0.5777,203.0.113.11,10.0.1.11,http,tcp,"request rate 337/s, SYN-error rate 0.82, 140 connections",DoS
+ALERT-00491,2026-02-06 16:16:43,High,BruteForce,1.0,0.5699,203.0.113.21,10.0.3.58,http,tcp,6 failed logins on http,BruteForce
+ALERT-00492,2026-02-06 16:37:15,High,DoS,1.0,0.5858,203.0.113.13,10.0.2.2,http,tcp,"request rate 249/s, SYN-error rate 0.83, 145 connections",DoS
+ALERT-00493,2026-02-06 16:45:03,High,BruteForce,1.0,0.6217,203.0.113.23,10.0.0.58,ssh,tcp,12 failed logins on ssh,BruteForce
+ALERT-00494,2026-02-06 16:46:37,Medium,PortScan,1.0,0.5943,203.0.113.33,10.0.0.9,https,tcp,"283 different ports probed, reject rate 0.99",PortScan
+ALERT-00495,2026-02-06 16:50:52,High,DoS,1.0,0.5695,203.0.113.11,10.0.1.10,http,tcp,"request rate 316/s, SYN-error rate 0.93, 146 connections",DoS
+ALERT-00496,2026-02-06 17:19:44,High,DoS,1.0,0.6052,203.0.113.10,10.0.1.8,http,udp,"request rate 377/s, SYN-error rate 0.97, 144 connections",DoS
+ALERT-00497,2026-02-06 18:08:19,High,BruteForce,1.0,0.6258,203.0.113.23,10.0.0.18,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00498,2026-02-06 18:39:19,Medium,PortScan,1.0,0.6354,203.0.113.31,10.0.2.5,http,tcp,"121 different ports probed, reject rate 0.69",PortScan
+ALERT-00499,2026-02-06 19:07:35,High,BruteForce,1.0,0.6019,203.0.113.23,10.0.2.29,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00500,2026-02-06 19:17:29,High,DoS,1.0,0.5823,203.0.113.13,10.0.3.38,dns,tcp,"request rate 692/s, SYN-error rate 0.90, 147 connections",DoS
+ALERT-00501,2026-02-06 20:55:58,Medium,PortScan,1.0,0.6371,203.0.113.32,10.0.0.14,ftp,tcp,"365 different ports probed, reject rate 0.71",PortScan
+ALERT-00502,2026-02-06 21:00:40,High,BruteForce,0.99,0.6341,203.0.113.23,10.0.3.29,telnet,tcp,6 failed logins on telnet,BruteForce
+ALERT-00503,2026-02-06 21:20:08,Medium,PortScan,1.0,0.6092,203.0.113.30,10.0.1.45,https,tcp,"498 different ports probed, reject rate 0.83",PortScan
+ALERT-00504,2026-02-06 22:16:33,Medium,BruteForce,0.469,0.4545,192.168.2.142,10.0.2.18,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00505,2026-02-06 23:50:03,High,DoS,1.0,0.5956,203.0.113.13,10.0.2.42,http,tcp,"request rate 310/s, SYN-error rate 0.94, 144 connections",DoS
+ALERT-00506,2026-02-07 00:14:16,Medium,PortScan,1.0,0.6418,203.0.113.30,10.0.0.43,http,tcp,"435 different ports probed, reject rate 0.82",PortScan
+ALERT-00507,2026-02-07 00:17:32,High,DoS,1.0,0.6335,203.0.113.10,10.0.3.37,http,udp,"request rate 335/s, SYN-error rate 0.87, 140 connections",DoS
+ALERT-00508,2026-02-07 00:21:40,High,BruteForce,1.0,0.647,203.0.113.23,10.0.2.58,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00509,2026-02-07 00:29:51,High,DoS,1.0,0.6051,203.0.113.12,10.0.0.43,http,tcp,"request rate 485/s, SYN-error rate 0.95, 158 connections",DoS
+ALERT-00510,2026-02-07 00:37:57,High,DataExfiltration,0.589,0.5607,203.0.113.41,10.0.2.30,https,tcp,0.01 MB sent out over 76s (hour 0),DataExfiltration
+ALERT-00511,2026-02-07 00:44:18,High,DoS,1.0,0.5874,203.0.113.12,10.0.3.5,http,tcp,"request rate 284/s, SYN-error rate 0.74, 150 connections",DoS
+ALERT-00512,2026-02-07 00:46:52,Critical,DataExfiltration,1.0,0.5907,203.0.113.40,10.0.2.35,https,tcp,0.18 MB sent out over 161s (hour 0),DataExfiltration
+ALERT-00513,2026-02-07 01:31:01,High,BruteForce,1.0,0.6201,203.0.113.20,10.0.2.29,ssh,tcp,8 failed logins on ssh,BruteForce
+ALERT-00514,2026-02-07 01:45:48,High,DoS,1.0,0.6158,203.0.113.11,10.0.3.10,https,tcp,"request rate 123/s, SYN-error rate 0.97, 162 connections",DoS
+ALERT-00515,2026-02-07 01:46:23,High,BruteForce,1.0,0.643,203.0.113.20,10.0.1.42,http,tcp,15 failed logins on http,BruteForce
+ALERT-00516,2026-02-07 02:14:01,Medium,BruteForce,0.472,0.4552,192.168.7.49,10.0.1.30,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00517,2026-02-07 02:14:15,High,BruteForce,1.0,0.6143,203.0.113.22,10.0.3.24,ssh,tcp,6 failed logins on ssh,BruteForce
+ALERT-00518,2026-02-07 02:14:41,High,DoS,1.0,0.6266,203.0.113.11,10.0.3.41,http,icmp,"request rate 454/s, SYN-error rate 0.98, 152 connections",DoS
+ALERT-00519,2026-02-07 02:17:02,High,BruteForce,1.0,0.6235,203.0.113.21,10.0.0.57,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00520,2026-02-07 02:23:59,High,DoS,1.0,0.6002,203.0.113.13,10.0.0.49,http,tcp,"request rate 397/s, SYN-error rate 0.95, 130 connections",DoS
+ALERT-00521,2026-02-07 02:24:09,Medium,UnknownAnomaly,0.781,0.5685,192.168.9.87,10.0.1.27,dns,udp,behaviour far from normal baseline (anomaly score 0.569),Normal
+ALERT-00522,2026-02-07 02:56:53,High,BruteForce,0.917,0.6161,203.0.113.20,10.0.3.51,ftp,tcp,12 failed logins on ftp,BruteForce
+ALERT-00523,2026-02-07 03:08:00,Low,UnknownAnomaly,0.535,0.5576,192.168.1.137,10.0.2.4,http,tcp,behaviour far from normal baseline (anomaly score 0.558),Normal
+ALERT-00524,2026-02-07 03:10:40,High,BruteForce,1.0,0.6356,203.0.113.20,10.0.2.13,ftp,tcp,6 failed logins on ftp,BruteForce
+ALERT-00525,2026-02-07 03:19:12,Critical,DataExfiltration,1.0,0.6138,203.0.113.42,10.0.0.58,ftp,tcp,0.23 MB sent out over 49s (hour 3),DataExfiltration
+ALERT-00526,2026-02-07 03:21:40,High,BruteForce,1.0,0.651,203.0.113.21,10.0.1.53,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00527,2026-02-07 03:26:39,High,BruteForce,0.951,0.6156,203.0.113.23,10.0.2.18,ftp,tcp,7 failed logins on ftp,BruteForce
+ALERT-00528,2026-02-07 03:32:29,Medium,PortScan,1.0,0.6339,203.0.113.33,10.0.1.59,dns,tcp,"64 different ports probed, reject rate 0.77",PortScan
+ALERT-00529,2026-02-07 03:44:46,High,BruteForce,1.0,0.6442,203.0.113.21,10.0.0.47,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00530,2026-02-07 03:46:53,Medium,BruteForce,0.384,0.5181,192.168.7.29,10.0.2.25,telnet,tcp,0 failed logins on telnet,Normal
+ALERT-00531,2026-02-07 03:51:39,Critical,DataExfiltration,1.0,0.6265,203.0.113.41,10.0.2.13,other,tcp,2.21 MB sent out over 262s (hour 3),DataExfiltration
+ALERT-00532,2026-02-07 04:04:26,High,DoS,1.0,0.605,203.0.113.12,10.0.1.22,other,tcp,"request rate 270/s, SYN-error rate 0.95, 161 connections",DoS
+ALERT-00533,2026-02-07 04:04:58,High,BruteForce,1.0,0.6359,203.0.113.21,10.0.3.10,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00534,2026-02-07 04:22:22,High,BruteForce,1.0,0.6162,203.0.113.20,10.0.2.28,ssh,tcp,11 failed logins on ssh,BruteForce
+ALERT-00535,2026-02-07 05:07:23,High,DoS,1.0,0.6077,203.0.113.10,10.0.3.48,http,tcp,"request rate 100/s, SYN-error rate 0.83, 154 connections",DoS
+ALERT-00536,2026-02-07 05:10:30,Critical,DataExfiltration,1.0,0.6068,203.0.113.41,10.0.1.39,ftp,tcp,0.09 MB sent out over 37s (hour 5),DataExfiltration
+ALERT-00537,2026-02-07 05:22:50,High,BruteForce,1.0,0.6268,203.0.113.22,10.0.3.47,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00538,2026-02-07 05:50:02,Medium,PortScan,1.0,0.6609,203.0.113.31,10.0.1.48,telnet,udp,"346 different ports probed, reject rate 0.68",PortScan
+ALERT-00539,2026-02-07 05:54:11,High,BruteForce,1.0,0.6368,203.0.113.21,10.0.1.56,http,tcp,12 failed logins on http,BruteForce
+ALERT-00540,2026-02-07 05:58:28,Medium,BruteForce,0.418,0.4897,203.0.113.23,10.0.2.14,telnet,tcp,0 failed logins on telnet,BruteForce
+ALERT-00541,2026-02-07 08:20:58,High,DoS,1.0,0.5551,203.0.113.10,10.0.1.12,http,tcp,"request rate 379/s, SYN-error rate 0.88, 128 connections",DoS
+ALERT-00542,2026-02-07 08:27:49,Medium,PortScan,1.0,0.6336,203.0.113.31,10.0.3.56,other,tcp,"257 different ports probed, reject rate 0.63",PortScan
+ALERT-00543,2026-02-07 08:42:35,High,DoS,1.0,0.5903,203.0.113.12,10.0.3.8,http,icmp,"request rate 480/s, SYN-error rate 0.89, 148 connections",DoS
+ALERT-00544,2026-02-07 09:05:13,High,DoS,1.0,0.5833,203.0.113.13,10.0.1.14,http,tcp,"request rate 372/s, SYN-error rate 0.90, 171 connections",DoS
+ALERT-00545,2026-02-07 09:28:36,Medium,BruteForce,0.478,0.4493,192.168.6.203,10.0.1.50,ssh,tcp,0 failed logins on ssh,Normal
+ALERT-00546,2026-02-07 09:30:50,High,BruteForce,0.99,0.6227,203.0.113.22,10.0.0.11,telnet,tcp,13 failed logins on telnet,BruteForce
+ALERT-00547,2026-02-07 09:49:55,High,BruteForce,0.975,0.6237,203.0.113.23,10.0.0.50,ftp,tcp,7 failed logins on ftp,BruteForce
+ALERT-00548,2026-02-07 09:55:14,High,DoS,1.0,0.5938,203.0.113.13,10.0.1.10,other,tcp,"request rate 476/s, SYN-error rate 0.91, 136 connections",DoS
+ALERT-00549,2026-02-07 10:01:34,Medium,PortScan,1.0,0.6127,203.0.113.32,10.0.0.52,https,tcp,"151 different ports probed, reject rate 0.86",PortScan
+ALERT-00550,2026-02-07 10:15:35,High,DoS,1.0,0.5832,203.0.113.11,10.0.3.39,http,tcp,"request rate 517/s, SYN-error rate 0.99, 150 connections",DoS
+ALERT-00551,2026-02-07 10:35:26,Critical,DataExfiltration,1.0,0.5842,203.0.113.40,10.0.1.54,https,tcp,0.73 MB sent out over 33s (hour 10),DataExfiltration
+ALERT-00552,2026-02-07 10:39:50,High,DoS,1.0,0.6034,203.0.113.11,10.0.0.26,http,udp,"request rate 468/s, SYN-error rate 0.86, 137 connections",DoS
+ALERT-00553,2026-02-07 10:54:04,High,DoS,1.0,0.5604,203.0.113.11,10.0.0.47,dns,tcp,"request rate 136/s, SYN-error rate 0.91, 148 connections",DoS
+ALERT-00554,2026-02-07 11:07:07,High,DoS,1.0,0.6052,203.0.113.12,10.0.1.18,http,icmp,"request rate 407/s, SYN-error rate 0.92, 144 connections",DoS
+ALERT-00555,2026-02-07 11:17:36,High,DoS,1.0,0.5584,203.0.113.10,10.0.2.31,https,tcp,"request rate 432/s, SYN-error rate 0.95, 135 connections",DoS
+ALERT-00556,2026-02-07 11:41:33,Medium,PortScan,1.0,0.6172,203.0.113.30,10.0.3.30,other,tcp,"309 different ports probed, reject rate 0.82",PortScan
+ALERT-00557,2026-02-07 11:44:34,High,DoS,1.0,0.6159,203.0.113.12,10.0.0.33,http,icmp,"request rate 545/s, SYN-error rate 0.84, 161 connections",DoS
+ALERT-00558,2026-02-07 12:10:53,High,DoS,1.0,0.604,203.0.113.11,10.0.1.21,http,udp,"request rate 342/s, SYN-error rate 0.95, 138 connections",DoS
+ALERT-00559,2026-02-07 12:19:34,High,DoS,1.0,0.6111,203.0.113.10,10.0.3.50,http,udp,"request rate 647/s, SYN-error rate 0.97, 143 connections",DoS
+ALERT-00560,2026-02-07 12:33:54,High,DoS,1.0,0.5718,203.0.113.13,10.0.0.33,http,tcp,"request rate 159/s, SYN-error rate 0.93, 146 connections",DoS
+ALERT-00561,2026-02-07 12:42:23,Critical,DataExfiltration,1.0,0.5884,203.0.113.40,10.0.1.51,https,tcp,1.72 MB sent out over 102s (hour 12),DataExfiltration
+ALERT-00562,2026-02-07 13:01:07,High,DoS,1.0,0.6052,203.0.113.13,10.0.1.45,other,tcp,"request rate 587/s, SYN-error rate 0.85, 151 connections",DoS
+ALERT-00563,2026-02-07 13:13:43,High,DoS,1.0,0.6257,203.0.113.10,10.0.2.25,dns,icmp,"request rate 401/s, SYN-error rate 0.94, 147 connections",DoS
+ALERT-00564,2026-02-07 13:28:20,Medium,PortScan,1.0,0.6115,203.0.113.31,10.0.3.12,ssh,tcp,"406 different ports probed, reject rate 0.77",PortScan
+ALERT-00565,2026-02-07 13:38:48,High,DoS,1.0,0.6012,203.0.113.13,10.0.0.1,other,tcp,"request rate 458/s, SYN-error rate 0.95, 148 connections",DoS
+ALERT-00566,2026-02-07 13:47:04,High,DoS,1.0,0.5794,203.0.113.10,10.0.0.13,http,tcp,"request rate 519/s, SYN-error rate 0.88, 152 connections",DoS
+ALERT-00567,2026-02-07 14:26:39,High,BruteForce,1.0,0.6319,203.0.113.23,10.0.1.57,ftp,tcp,9 failed logins on ftp,BruteForce
+ALERT-00568,2026-02-07 14:29:11,Critical,DataExfiltration,1.0,0.6022,203.0.113.42,10.0.1.25,ftp,tcp,0.42 MB sent out over 63s (hour 14),DataExfiltration
+ALERT-00569,2026-02-07 14:44:39,High,DoS,1.0,0.5947,203.0.113.12,10.0.2.22,http,tcp,"request rate 84/s, SYN-error rate 0.85, 157 connections",DoS
+ALERT-00570,2026-02-07 14:55:17,Medium,PortScan,1.0,0.6354,203.0.113.32,10.0.0.2,dns,tcp,"358 different ports probed, reject rate 0.70",PortScan
+ALERT-00571,2026-02-07 15:09:42,High,DoS,1.0,0.5777,203.0.113.12,10.0.2.46,http,tcp,"request rate 583/s, SYN-error rate 0.98, 156 connections",DoS
+ALERT-00572,2026-02-07 15:14:06,High,DoS,1.0,0.5597,203.0.113.12,10.0.3.43,https,tcp,"request rate 372/s, SYN-error rate 0.98, 152 connections",DoS
+ALERT-00573,2026-02-07 15:16:11,Critical,DataExfiltration,1.0,0.5813,203.0.113.43,10.0.1.56,https,tcp,0.81 MB sent out over 28s (hour 15),DataExfiltration
+ALERT-00574,2026-02-07 15:26:15,High,DoS,1.0,0.5738,203.0.113.10,10.0.3.29,http,tcp,"request rate 528/s, SYN-error rate 0.98, 141 connections",DoS
+ALERT-00575,2026-02-07 15:31:39,High,DoS,1.0,0.5933,203.0.113.12,10.0.1.51,http,icmp,"request rate 323/s, SYN-error rate 0.93, 155 connections",DoS
+ALERT-00576,2026-02-07 15:41:01,High,DoS,1.0,0.6081,203.0.113.13,10.0.1.59,https,udp,"request rate 340/s, SYN-error rate 0.96, 142 connections",DoS
+ALERT-00577,2026-02-07 15:42:12,High,DoS,1.0,0.6024,203.0.113.12,10.0.3.56,http,tcp,"request rate 478/s, SYN-error rate 0.82, 150 connections",DoS
+ALERT-00578,2026-02-07 15:44:19,High,DoS,1.0,0.5961,203.0.113.12,10.0.3.9,https,icmp,"request rate 516/s, SYN-error rate 0.87, 161 connections",DoS
+ALERT-00579,2026-02-07 15:46:51,Medium,UnknownAnomaly,0.746,0.5517,192.168.4.41,10.0.3.52,http,tcp,behaviour far from normal baseline (anomaly score 0.552),Normal
+ALERT-00580,2026-02-07 16:15:32,Medium,PortScan,1.0,0.6242,203.0.113.31,10.0.2.14,ftp,tcp,"219 different ports probed, reject rate 0.89",PortScan
+ALERT-00581,2026-02-07 16:17:33,Medium,UnknownAnomaly,0.633,0.5513,192.168.3.31,10.0.2.16,smtp,udp,behaviour far from normal baseline (anomaly score 0.551),Normal
+ALERT-00582,2026-02-07 16:32:10,High,DoS,1.0,0.567,203.0.113.12,10.0.0.55,https,tcp,"request rate 393/s, SYN-error rate 0.89, 140 connections",DoS
+ALERT-00583,2026-02-07 16:50:24,High,DoS,1.0,0.5745,203.0.113.11,10.0.3.29,dns,tcp,"request rate 206/s, SYN-error rate 0.94, 145 connections",DoS
+ALERT-00584,2026-02-07 16:57:52,High,BruteForce,1.0,0.5938,203.0.113.23,10.0.2.8,ssh,tcp,5 failed logins on ssh,BruteForce
+ALERT-00585,2026-02-07 17:00:21,Medium,PortScan,1.0,0.6485,203.0.113.31,10.0.2.45,other,tcp,"92 different ports probed, reject rate 0.86",PortScan
+ALERT-00586,2026-02-07 17:22:39,Medium,PortScan,1.0,0.6203,203.0.113.33,10.0.0.47,https,tcp,"210 different ports probed, reject rate 0.77",PortScan
+ALERT-00587,2026-02-07 17:30:21,High,BruteForce,1.0,0.5979,203.0.113.22,10.0.1.1,telnet,tcp,6 failed logins on telnet,BruteForce
+ALERT-00588,2026-02-07 17:45:37,High,DoS,1.0,0.5905,203.0.113.12,10.0.3.46,https,tcp,"request rate 220/s, SYN-error rate 0.93, 141 connections",DoS
+ALERT-00589,2026-02-07 17:54:00,Medium,PortScan,1.0,0.5895,203.0.113.30,10.0.2.53,ssh,tcp,"22 different ports probed, reject rate 0.73",PortScan
+ALERT-00590,2026-02-07 18:21:58,Medium,PortScan,1.0,0.6102,203.0.113.32,10.0.2.47,https,udp,"217 different ports probed, reject rate 0.81",PortScan
+ALERT-00591,2026-02-07 18:30:36,High,DoS,1.0,0.5759,203.0.113.12,10.0.2.1,http,tcp,"request rate 356/s, SYN-error rate 0.80, 173 connections",DoS
+ALERT-00592,2026-02-07 18:54:29,High,DoS,1.0,0.5909,203.0.113.13,10.0.3.16,other,tcp,"request rate 499/s, SYN-error rate 0.77, 154 connections",DoS
+ALERT-00593,2026-02-07 19:27:53,High,BruteForce,1.0,0.5957,203.0.113.22,10.0.1.4,ssh,tcp,10 failed logins on ssh,BruteForce
+ALERT-00594,2026-02-07 19:35:56,High,BruteForce,1.0,0.5998,203.0.113.23,10.0.1.16,http,tcp,5 failed logins on http,BruteForce
+ALERT-00595,2026-02-07 19:39:31,Medium,PortScan,1.0,0.633,203.0.113.32,10.0.3.11,http,udp,"301 different ports probed, reject rate 0.86",PortScan
+ALERT-00596,2026-02-07 21:35:02,High,BruteForce,1.0,0.6182,203.0.113.21,10.0.3.44,http,tcp,11 failed logins on http,BruteForce
+ALERT-00597,2026-02-07 21:37:09,High,BruteForce,0.998,0.6221,203.0.113.20,10.0.1.6,ftp,tcp,6 failed logins on ftp,BruteForce
+ALERT-00598,2026-02-07 22:22:08,High,DoS,1.0,0.5689,203.0.113.12,10.0.2.16,http,tcp,"request rate 378/s, SYN-error rate 0.82, 142 connections",DoS
+ALERT-00599,2026-02-07 22:37:12,Critical,DataExfiltration,1.0,0.584,203.0.113.41,10.0.1.23,smtp,tcp,0.21 MB sent out over 166s (hour 22),DataExfiltration
+ALERT-00600,2026-02-07 22:41:49,Critical,DataExfiltration,0.998,0.5848,203.0.113.42,10.0.3.59,https,tcp,0.31 MB sent out over 207s (hour 22),DataExfiltration
+ALERT-00601,2026-02-07 22:47:42,Medium,UnknownAnomaly,0.691,0.587,192.168.9.55,10.0.3.31,dns,udp,behaviour far from normal baseline (anomaly score 0.587),Normal
+ALERT-00602,2026-02-07 22:56:00,Medium,PortScan,1.0,0.6543,203.0.113.30,10.0.1.2,telnet,udp,"477 different ports probed, reject rate 0.63",PortScan
+ALERT-00603,2026-02-07 23:23:54,High,DoS,1.0,0.6089,203.0.113.13,10.0.0.28,http,udp,"request rate 371/s, SYN-error rate 0.96, 153 connections",DoS
+ALERT-00604,2026-02-07 23:46:01,High,BruteForce,1.0,0.6219,203.0.113.22,10.0.3.40,ssh,tcp,6 failed logins on ssh,BruteForce
