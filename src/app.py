@@ -9,6 +9,20 @@ from flask import Flask, jsonify, request
 from .detect import load_models, score_traffic, severity
 
 app = Flask(__name__)
+
+@app.get("/")
+def home():
+    return {
+        "project": "AI Cybersecurity Threat Detection",
+        "status": "running",
+        "message": "Cybersecurity threat detection API is online.",
+        "available_endpoints": [
+            "/",
+            "/health",
+            "/predict"
+        ]
+    }
+
 _models = {}
 
 
